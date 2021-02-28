@@ -1,0 +1,59 @@
+1. Which keyword is used to monitor statement for exception ?
+[A] try		X
+[B] ctach
+[C] throw
+[D] throws
+
+2. To explicitly throw an exception , ______ keyword is used ?
+[A] try
+[B] throw	X
+[C] ctach
+[D] throwing
+
+3. Exception is subclass of ____ class ?
+[A] Exception
+[B] RuntimeException
+[C] Throwable		X
+[D] IOException
+
+4. An Object Relational Mapping tool simplifies which of these ?
+[A] Data creation
+[B] Data manipulation
+[C] Data access
+[D] All mentioned above		X
+
+5. What is checked exception ?
+[A] SQL Exception	X
+[B] Runtime Erroe
+[C] Error
+[D] All of these
+
+6. Which of the following methods is overridden by Action class ?
+[A] service()
+[B] execute()		X
+[C] run()
+[D] destroy()
+
+7. Which of the java bean tags is used to show the bean value on the web page ?
+[A] < bean:define>
+[B] < bean:message>
+[C] < bean:write>	X
+[D] < bean:show>
+
+8. Hibernate is an ?
+[A] Open Source
+[B] Lightweight
+[C] ORM
+[D] All mentioned above		X
+
+9. Which block gets executed compulsory whether exception is caught or not ?
+[A] catch
+[B] finally	X
+[C] throws
+[D] throw
+
+10. How many layers are available in Hibernate architecture ?
+[A] 5
+[B] 4
+[C] 3		X
+[D] 2

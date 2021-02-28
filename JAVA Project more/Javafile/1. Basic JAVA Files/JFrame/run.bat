@@ -1,0 +1,3 @@
+javac SwingContainerDemo.java 
+java SwingContainerDemo
+pause...

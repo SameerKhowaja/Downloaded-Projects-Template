@@ -1,0 +1,10 @@
+c:\users\ahmed\documents\visual studio 2013\Projects\ScreenShot\ScreenShot\bin\Debug\ScreenShot.exe.config
+c:\users\ahmed\documents\visual studio 2013\Projects\ScreenShot\ScreenShot\bin\Debug\ScreenShot.exe
+c:\users\ahmed\documents\visual studio 2013\Projects\ScreenShot\ScreenShot\bin\Debug\ScreenShot.pdb
+c:\users\ahmed\documents\visual studio 2013\Projects\ScreenShot\ScreenShot\obj\Debug\ScreenShot.csprojResolveAssemblyReference.cache
+c:\users\ahmed\documents\visual studio 2013\Projects\ScreenShot\ScreenShot\obj\Debug\ScreenShot.Form1.resources
+c:\users\ahmed\documents\visual studio 2013\Projects\ScreenShot\ScreenShot\obj\Debug\ScreenShot.Properties.Resources.resources
+c:\users\ahmed\documents\visual studio 2013\Projects\ScreenShot\ScreenShot\obj\Debug\ScreenShot.ScreenShot_image.resources
+c:\users\ahmed\documents\visual studio 2013\Projects\ScreenShot\ScreenShot\obj\Debug\ScreenShot.csproj.GenerateResource.Cache
+c:\users\ahmed\documents\visual studio 2013\Projects\ScreenShot\ScreenShot\obj\Debug\ScreenShot.exe
+c:\users\ahmed\documents\visual studio 2013\Projects\ScreenShot\ScreenShot\obj\Debug\ScreenShot.pdb

@@ -1,0 +1,3 @@
+javac Primes.java 
+java Primes
+pause...

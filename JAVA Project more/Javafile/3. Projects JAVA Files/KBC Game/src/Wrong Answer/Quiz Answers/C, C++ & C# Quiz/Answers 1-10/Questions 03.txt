@@ -1,0 +1,59 @@
+1. Identify the scalar data type in C ?
+[A] double	X
+[B] function
+[C] union
+[D] array
+
+2. Which is an invalid variable name ?
+[A] integer
+[B] net-total		X
+[C] Xx
+[D] sum
+
+3. The value of automatic variable that is declared but not initialized will be ?
+[A] 0
+[B] 1
+[C] Unpredictable	X
+[D] None of above
+
+4. The const feature can be applied to ?
+[A] An identifier
+[B] An array
+[C] An array argument
+[D] All of above	X
+
+5. The wrapping up of data and functions into a single unit is called ?
+[A] Encapsulation	X
+[B] Polymorphism
+[C] Inheritance
+[D] Overloading
+
+6. The process by which objects of one class acquire the attributes of another class is known as ____________ ?
+[A] Polymorphism
+[B] Inheritance		X
+[C] Data Abstraction
+[D] Binding
+
+7. ___________means the ability that one thing can take several distinct forms ?
+[A] Dynamic Binding
+[B] Early Binding
+[C] Polymorphism		X
+[D] None of above
+
+8. Which of the following preprocessor directive defines a sequence of characters as symbol in C# ?
+A - endregion
+B - undef
+C - region
+D - define	X
+
+9. Which of the following converts a type to a 32-bit integer in C# ?
+A - ToDouble
+B - ToInt32	X
+C - ToInt16
+D - ToDecimal
+
+10. Which of the following converts a type to a single Unicode character, where possible in C# ?
+A - ToSingle
+B - ToByte
+C - ToChar	X
+D - ToDateTime

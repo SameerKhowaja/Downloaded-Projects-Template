@@ -1,0 +1,59 @@
+1. Pick the operator that not associates from the left ?
+[A] =		X
+[B] -
+[C] +
+[D] <
+
+2. Pick the operator that not associates from the right ?
+[A] ?:
+[B] !=		X
+[C] =\
+[D] +=
+
+3. The operators .,!!,<,= if arranged in ascending order of precedence reads ?
+[A] .,!!,<,=
+[B] =,<,!!,.
+[C] =,!!,<,.		X
+[D] <,!!,=,.
+
+4. Choose the correct unary operators in C – a) !, b) ~, c) ^ &, d) ++  ?
+A - c, d, a
+B - a, b, c
+C - b, c, d
+D - a, b, d	X
+
+5.  C is the successor of ____ programming language ?
+A - B		X
+B - B++
+C - C++
+D - Mini C
+
+6. Which statement can print \n on the screen ?
+A - printf("n\");
+B - printf("\\n");	X
+C - printf("n");
+D - printf('\n');
+
+7. To print a double value which format specifier can be used ?
+A - %L
+B - %Lf
+C - %lf		X
+D - None of theme
+
+8. Which of the following is the default access specifier of a class member function ?
+A - Internal
+B - Public
+C - Protected
+D - Private		X
+
+9. Which of the following converts a type to an unsigned int type in C# ?
+A - ToType
+B - ToUInt16		X
+C - ToSingle
+D - ToString
+ 
+10. Which of the following converts a type to a single Unicode character, where possible in C# ?
+A - ToSingle
+B - ToByte
+C - ToChar		X
+D - ToDateTime

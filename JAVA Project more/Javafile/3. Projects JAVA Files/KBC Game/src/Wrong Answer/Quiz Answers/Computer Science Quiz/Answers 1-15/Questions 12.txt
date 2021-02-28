@@ -1,0 +1,47 @@
+1. FPI stand for ______________ ?
+[A] Frames per inch	X
+[B] Film per inch
+[C] Faults Per inch
+[D] Figure per inch
+
+2. A computer checks the ______ of user names and password for a match before granting access ?
+[A] website
+[B] database		X
+[C] network
+[D] backup file
+
+3. Which is not the state of the process ?
+[A] Blocked
+[B] Running
+[C] Privileged		X
+[D] Ready
+
+4. What is the memory from 1K - 640K called ?
+[A] Extended Memory
+[B] Normal Memory
+[C] Low Memory
+[D] Conventional Memory		X
+
+5. Round robin scheduling is essentially the preemptive version of ________ ?
+[A] FIFO	X
+[B] Shortest job first
+[C] Shortest remaining
+[D] Longest time first
+
+6. The number of processes completed per unit time is known as ________?
+[A] Output
+[B] Throughput		X
+[C] Efficiency
+[D] Capacity
+
+7. Size of the virtual memory depends upon ?
+[A] Data Bus
+[B] Size of main memory
+[C] Address Bus		X
+[D] Memory buffer register
+
+8. Correcting errors in a program is referred to as ?
+[A] modifying
+[B] bugging
+[C] Rectifying
+[D] Debugging		X

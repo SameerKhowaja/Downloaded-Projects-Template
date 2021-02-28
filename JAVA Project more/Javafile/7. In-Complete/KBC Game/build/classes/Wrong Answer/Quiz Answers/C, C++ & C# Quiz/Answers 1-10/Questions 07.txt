@@ -1,0 +1,59 @@
+1. Which of the following is a collection of different data types ?
+[A] Structure		X
+[B] Array
+[C] String
+[D] Files
+
+2. For accessing a structure element using a pointer,you must use ?
+[A] Pointer operator (&)
+[B] Arrow operator(->)		X
+[C] Pointer operator(*)
+[D] Dot operators(.)
+
+3. Which operator is used to connect structure name to its member name ?
+[A] pointer operator(&)
+[B] logical operator(&&)
+[C] dot operator(.)		X
+[D] Arrow operator(->)
+
+4. The signature of a function is its __________?
+[A] Function code
+[B] Parameter list
+[C] Call
+[D] Prototype		X
+
+5. Which member function of class cannot modify its objects attributes ?
+[A] Constant member functions		X
+[B] Private member functions
+[C] friend functions
+[D] Static member functions
+
+6. Which of the following parameter passing mechanism is/are supported by C++ but not in C ?
+[A] Pass by value
+[B] Pass by reference		X
+[C] Pass by value result
+[D] All of the above
+
+7. Which of the following property of Array class in C# checks whether the Array has a fixed size ?
+A - Length
+B - IsStatic
+C - IsFixedSize		X
+D - None of them
+
+8. Which of the following is a contextual keyword in C# ?
+A - get
+B - set
+C - add
+D - All of them		X
+
+9. Which of the following operator returns the type of a class in C# ?
+A - sizeof
+B - typeof	X
+C - &
+D - *
+
+10. Which of the following preprocessor directive allows you to undefine a symbol in C# ?
+A - define
+B - region
+C - undef	X
+D - endregion

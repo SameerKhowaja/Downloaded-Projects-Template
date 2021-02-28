@@ -1,0 +1,59 @@
+1. Which of the following is the smallest integer data type ?
+[A] byte	X
+[B] long
+[C] int
+[D] short
+
+2. Which of the following is not a primitive data type ?
+[A] byte
+[B] enum	X
+[C] short
+[D] int
+
+3. Which value can not store character data type ?
+[A] Digit
+[B] Special character
+[C] Letter		X
+[D] String
+
+4. Which of the following data types comes under floating data types ?
+[A] byte
+[B] int
+[C] long
+[D] float	X
+
+5. In order to fetch stream of data from network or file, following data type used ?
+[A] byte	X
+[B] char
+[C] int
+[D] double
+
+6. What is size of integer in java programming ?
+[A] 5 bytes
+[B] 4 bytes	X
+[C] 2 bytes
+[D] 8 bytes
+
+7. Which data type can store  64 bit value ?
+[A] long
+[B] int
+[C] double	X
+[D] float
+
+8. Short data type has a minimum value of ________ ?
+[A] -32767
+[B] -2,147,483,648
+[C] -127
+[D] -32768		X
+
+9. How many byte will byte data type take in java ?
+[A] 2
+[B] 1		X
+[C] 4
+[D] 3
+
+10. Default value of “double” data type is ?
+[A] 0
+[B] 0.0
+[C] 0.0d	X
+[D] null

@@ -1,0 +1,33 @@
+C:\Users\SHADAB ALI\documents\visual studio 2012\Projects\test\test\bin\Debug\test.exe.config
+C:\Users\SHADAB ALI\documents\visual studio 2012\Projects\test\test\obj\Debug\test.exe
+C:\Users\SHADAB ALI\documents\visual studio 2012\Projects\test\test\obj\Debug\test.pdb
+C:\Users\SHADAB ALI\documents\visual studio 2012\Projects\test\test\bin\Debug\test.exe
+C:\Users\SHADAB ALI\documents\visual studio 2012\Projects\test\test\bin\Debug\test.pdb
+C:\Users\SHADAB ALI\documents\visual studio 2012\Projects\test\test\obj\Debug\Marks sheet.csprojResolveAssemblyReference.cache
+C:\Users\SHADAB ALI\documents\visual studio 2012\Projects\test\test\obj\Debug\test.Form1.resources
+C:\Users\SHADAB ALI\documents\visual studio 2012\Projects\test\test\obj\Debug\test.Properties.Resources.resources
+C:\Users\SHADAB ALI\documents\visual studio 2012\Projects\test\test\obj\Debug\Marks sheet.csproj.GenerateResource.Cache
+C:\Users\SHADAB ALI\Documents\Visual Studio 2012\Projects\Marks Sheet\test\bin\Debug\test.exe.config
+C:\Users\SHADAB ALI\Documents\Visual Studio 2012\Projects\Marks Sheet\test\obj\Debug\test.exe
+C:\Users\SHADAB ALI\Documents\Visual Studio 2012\Projects\Marks Sheet\test\obj\Debug\test.pdb
+D:\Assignment\C# Assignment\test\test\bin\Debug\test.exe.config
+D:\Assignment\C# Assignment\test\test\obj\Debug\test.exe
+D:\Assignment\C# Assignment\test\test\obj\Debug\test.pdb
+D:\Assignment\C# Assignment\Marks Sheet\test\test\bin\Debug\test.exe.config
+D:\Assignment\C# Assignment\Marks Sheet\test\test\obj\Debug\test.exe
+D:\Assignment\C# Assignment\Marks Sheet\test\test\obj\Debug\test.pdb
+D:\Assignment\C# Assignment\Marks Sheet\test\test\bin\Debug\test.exe
+D:\Assignment\C# Assignment\Marks Sheet\test\test\bin\Debug\test.pdb
+D:\Assignment\C# Assignment\Marks Sheet\test\test\obj\Debug\Marks sheet.csprojResolveAssemblyReference.cache
+D:\Assignment\C# Assignment\Marks Sheet\test\test\obj\Debug\test.Form1.resources
+D:\Assignment\C# Assignment\Marks Sheet\test\test\obj\Debug\test.Properties.Resources.resources
+D:\Assignment\C# Assignment\Marks Sheet\test\test\obj\Debug\Marks sheet.csproj.GenerateResource.Cache
+E:\C# Projests\Marks Sheet\test\test\bin\Debug\test.exe.config
+E:\C# Projests\Marks Sheet\test\test\obj\Debug\test.exe
+E:\C# Projests\Marks Sheet\test\test\obj\Debug\test.pdb
+E:\C# Projests\Marks Sheet\test\test\bin\Debug\test.exe
+E:\C# Projests\Marks Sheet\test\test\bin\Debug\test.pdb
+E:\C# Projests\Marks Sheet\test\test\obj\Debug\Marks sheet.csprojResolveAssemblyReference.cache
+E:\C# Projests\Marks Sheet\test\test\obj\Debug\test.Form1.resources
+E:\C# Projests\Marks Sheet\test\test\obj\Debug\test.Properties.Resources.resources
+E:\C# Projests\Marks Sheet\test\test\obj\Debug\Marks sheet.csproj.GenerateResource.Cache

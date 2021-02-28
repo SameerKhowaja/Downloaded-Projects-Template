@@ -1,0 +1,3 @@
+javac Capitals.java 
+java Capitals
+pause...

@@ -1,0 +1,47 @@
+.cell {
+	text-align: center;
+	border: 3px gray ridge;
+	font: bold 24px Times New Roman,Georgia,Serif;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	color: black;
+	cursor: default;
+}
+
+.tableCell {
+	text-align: center;
+	border: 3px gray ridge;
+	font: bold 24px Times New Roman,Georgia,Serif;
+	width: 25px;
+	height: 25px;
+	color: black;
+}
+
+.board {
+	border: 10px brown ridge;
+	background-image: url("board_back.gif");
+	background-repeat: repeat;
+	position: absolute;
+	width: 1046px;
+	height: 495px;
+	left: 200px;
+		
+}
+
+.gamePoints {
+	text-align: center;
+	background-color: black;
+	color:lime;
+	border: 2px gray ridge;
+	width: 180px;
+	height: 60px;
+	font: bold 50px Score Board,Times New Roman,Georgia,Serif;
+}
+
+.button{
+	background-color: PaleTurquoise;
+	outline: lightskyblue inset 1px;
+	width: 180px;
+	height: 35px;
+}

@@ -1,0 +1,59 @@
+1. C language has been developed by ?
+[A] Dennis Ritchie	X
+[B] Peter Norton
+[C] Ken Thompson
+[D] Martin Richards
+
+2. Smallest element of Array Index is called ?
+[A] Upper Bond
+[B] Lower Bond		X
+[C] Extraction
+[D] Rang
+
+3. Cons feature can be applied on ?
+[A] identifier
+[B] array
+[C] Array Argument	X
+[D] Function
+
+4. The technique by which objects communicate with each other is called ?
+[A] information passing
+[B] Classes passing
+[C] message passing
+[D] function passing		X
+
+5. For a method to be an interface between the outside world and a class, it has to be declared ?
+[A] public		X
+[B] protected
+[C] private
+[D] external
+
+6. In C++, a function contained within the class is called ?
+[A] a class function
+[B] member function		X
+[C] a method
+[D] none of above
+
+7. The public files in a class library usually contain ?
+[A] Constant definitions
+[B] function definitions
+[C] class declarations		X
+[D] variable definition
+
+8. Which of the following is the default access specifier of a class member function ?
+A - Internal
+B - Public
+C - Protected
+D - Private		X
+
+9. Which of the following preprocessor directive allows creating a compound conditional directive in C# ?
+A - define
+B - elif	X
+C - if
+D - endif
+
+10. Which of the following converts a floating point or integer type to a decimal type in C# ?
+A - ToInt16
+B - ToDouble
+C - ToDecimal		X
+D - ToInt32

@@ -1,0 +1,3 @@
+javac CollisionEx.java
+java CollisionEx
+pause...

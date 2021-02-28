@@ -1,0 +1,59 @@
+1. Which bar is usually located below that Title Bar that provides categorized options ?
+[A] Menu bar		X
+[B] Status Bar
+[C] Tool bar
+[D] Scroll bar
+
+2. What is the extenslon of files created in Ms-Word 97- 2003 ?
+[A] dot
+[B] doc		X
+[C] dom
+[D] txt
+
+3. Which shortcut key is used to spell check in MS-Word ?
+[A] F1
+[B] F2
+[C] F7		X
+[D] F9
+
+4. What do you mean by vertical separation between columns ?
+[A] Orientation
+[B] Gutter
+[C] Index
+[D] Margin	X
+
+5. What is the default number of lines to drop for drop cap ?
+[A] 3		X
+[B] 10
+[C] 15
+[D] 20
+
+6.Pressing F8 key for three times selects ?
+[A] A paragraph
+[B] A sentence		X
+[C] A word
+[D] Entire document
+
+7. What is place to the left of horizontal scroll bar ?
+[A] Indicators
+[B] Tab stop buttons
+[C] View buttons	X
+[D] Split buttons
+
+8. Which file starts MS Word ?
+[A] Word.exe
+[B] Msword.exe
+[C] Word2003.exe
+[D] Winword.exe		X
+
+9. If you want to keep track of different editions of a document which features will you use ?
+[A] Editions
+[B] Versions		X
+[C] Track Change
+[D] All of above
+
+10. Background color or effects applied on a document is not visible in ?
+[A] Reading View
+[B] Print Layout view
+[C] Print Preview	X
+[D] Web layout view

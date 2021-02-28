@@ -1,0 +1,152 @@
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\bin\Debug\FazalConstructions.exe.config
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\bin\Debug\FazalConstructions.exe
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\bin\Debug\FazalConstructions.pdb
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\bin\Debug\System.Windows.Forms.Ribbon35.dll
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\bin\Debug\System.Windows.Forms.Ribbon35.pdb
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.csprojResolveAssemblyReference.cache
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmCreateSystemUser.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmExpDetails.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmRcvPmtDetails.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmStock.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmStockMoving.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmUploadImages.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmViewExpense.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmViewPersonalExp.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmViewRcvPmt.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.MainForm.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmCategory.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmCreateOrManageClients.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmCreatePersonalExpense.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmDateEntry.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmMain.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmPendingPayments.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmRcvPmt.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmSalary.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmUpdateExp.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.PrintOptions.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.Properties.Resources.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.csproj.GenerateResource.Cache
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.exe
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.pdb
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmUserDetails.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmReports.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.viewRptCatVise.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\RdlCompile.cache
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\RdlCompile.compiled
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.rptViewRcvPmt.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.rptPendingPayments.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.rptViewPersonalExp.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmCompanySetup.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.MDIParentForm.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.rptViewFolding.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmServices.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmCreatePerson.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmSalaryPerson.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmCreateExtraExpense.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmExtraExpense.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmUpdateRcvPmt.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmLogin.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmViewExtraExpense.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.rptViewSalaryReport.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.rptViewServicesReport.resources
+E:\Waqas Folder\FazalConstruction\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.rptViewSummary.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\bin\Debug\FazalConstructions.exe.config
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.exe
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.pdb
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.csprojResolveAssemblyReference.cache
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmCompanySetup.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmCreateExtraExpense.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmCreatePerson.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmCreateSystemUser.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmExpDetails.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmExtraExpense.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmLogin.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmRcvPmtDetails.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmReports.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmSalary.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmSalaryPerson.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmServices.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmStock.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmStockMoving.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmUpdateRcvPmt.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmUploadImages.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmUserDetails.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmViewExpense.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmViewExtraExpense.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmViewPersonalExp.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmViewRcvPmt.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.MainForm.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.MDIParentForm.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmCategory.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmCreateOrManageClients.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmCreatePersonalExpense.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmDateEntry.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmMain.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmPendingPayments.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmRcvPmt.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.frmUpdateExp.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.PrintOptions.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.Properties.Resources.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.rptPendingPayments.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.rptViewFolding.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.rptViewPersonalExp.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.rptViewRcvPmt.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.rptViewSalaryReport.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.rptViewServicesReport.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.rptViewSummary.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.viewRptCatVise.resources
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\obj\Debug\FazalConstructions.csproj.GenerateResource.Cache
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\bin\Debug\FazalConstructions.exe
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\bin\Debug\FazalConstructions.pdb
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\bin\Debug\System.Windows.Forms.Ribbon35.dll
+E:\Waqas Folder\Upload\FazalConstructions\FazalConstructions\bin\Debug\System.Windows.Forms.Ribbon35.pdb
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\bin\Debug\FazalConstructions.exe.config
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.exe
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.pdb
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\bin\Debug\FazalConstructions.exe
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\bin\Debug\FazalConstructions.pdb
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\bin\Debug\System.Windows.Forms.Ribbon35.dll
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\bin\Debug\System.Windows.Forms.Ribbon35.pdb
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.csprojResolveAssemblyReference.cache
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmCompanySetup.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmCreateExtraExpense.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmCreatePerson.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmCreateSystemUser.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmExpDetails.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmExtraExpense.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmLogin.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmRcvPmtDetails.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmReports.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmSalary.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmSalaryPerson.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmServices.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmStock.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmStockMoving.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmUpdateRcvPmt.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmUploadImages.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmUserDetails.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmViewExpense.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmViewExtraExpense.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmViewPersonalExp.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmViewRcvPmt.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.MainForm.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.MDIParentForm.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmCategory.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmCreateOrManageClients.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmCreatePersonalExpense.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmDateEntry.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmMain.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmPendingPayments.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmRcvPmt.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.frmUpdateExp.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.PrintOptions.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.Properties.Resources.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.rptPendingPayments.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.rptViewFolding.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.rptViewPersonalExp.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.rptViewRcvPmt.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.rptViewSalaryReport.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.rptViewServicesReport.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.rptViewSummary.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.viewRptCatVise.resources
+E:\Waqas Folder\EXP Management\EXP management\FazalConstructions\obj\Debug\FazalConstructions.csproj.GenerateResource.Cache

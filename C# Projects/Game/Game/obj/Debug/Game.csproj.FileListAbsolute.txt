@@ -1,0 +1,30 @@
+c:\users\shadab ali\documents\visual studio 2013\Projects\Game\Game\bin\Debug\Game.exe.config
+c:\users\shadab ali\documents\visual studio 2013\Projects\Game\Game\bin\Debug\Game.exe
+c:\users\shadab ali\documents\visual studio 2013\Projects\Game\Game\bin\Debug\Game.pdb
+c:\users\shadab ali\documents\visual studio 2013\Projects\Game\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
+c:\users\shadab ali\documents\visual studio 2013\Projects\Game\Game\obj\Debug\Game.Form1.resources
+c:\users\shadab ali\documents\visual studio 2013\Projects\Game\Game\obj\Debug\Game.Properties.Resources.resources
+c:\users\shadab ali\documents\visual studio 2013\Projects\Game\Game\obj\Debug\Game.csproj.GenerateResource.Cache
+c:\users\shadab ali\documents\visual studio 2013\Projects\Game\Game\obj\Debug\Game.exe
+c:\users\shadab ali\documents\visual studio 2013\Projects\Game\Game\obj\Debug\Game.pdb
+D:\Assignment\C# Assignment\Game\Game\bin\Debug\Game.exe.config
+D:\Assignment\C# Assignment\Game\Game\obj\Debug\Game.exe
+D:\Assignment\C# Assignment\Game\Game\obj\Debug\Game.pdb
+D:\Assignment\C# Assignment\Game\Game\bin\Debug\Game.exe
+D:\Assignment\C# Assignment\Game\Game\bin\Debug\Game.pdb
+D:\Assignment\C# Assignment\Game\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
+D:\Assignment\C# Assignment\Game\Game\obj\Debug\Game.Form1.resources
+D:\Assignment\C# Assignment\Game\Game\obj\Debug\Game.Properties.Resources.resources
+D:\Assignment\C# Assignment\Game\Game\obj\Debug\Game.csproj.GenerateResource.Cache
+E:\C# Projests\Game\Game\bin\Debug\Game.exe.config
+E:\C# Projests\Game\Game\obj\Debug\Game.exe
+E:\C# Projests\Game\Game\obj\Debug\Game.pdb
+E:\C# Projests\Game\Game\bin\Debug\Game.exe
+E:\C# Projests\Game\Game\bin\Debug\Game.pdb
+E:\C# Projests\Game\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
+E:\C# Projests\Game\Game\obj\Debug\Game.Form1.resources
+E:\C# Projests\Game\Game\obj\Debug\Game.Properties.Resources.resources
+E:\C# Projests\Game\Game\obj\Debug\Game.csproj.GenerateResource.Cache
+E:\My Projects\C# Projects\Game\Game\bin\Debug\Game.exe.config
+E:\My Projects\C# Projects\Game\Game\obj\Debug\Game.exe
+E:\My Projects\C# Projects\Game\Game\obj\Debug\Game.pdb

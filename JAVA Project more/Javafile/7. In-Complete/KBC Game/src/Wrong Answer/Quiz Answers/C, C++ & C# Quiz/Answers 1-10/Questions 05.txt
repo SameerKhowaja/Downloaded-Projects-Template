@@ -1,0 +1,59 @@
+1. How would you round off a value from 1.66 to 2.0 ?
+[A] ceil(1.66)		X
+[B] floor(1.66)
+[C] roundup(1.66)
+[D] roundto(1.66)
+
+2. By default a real number is treated as a ?
+[A] float
+[B] double	X
+[C] long double
+[D] far double
+
+3. Is the following statement a declaration or definition ? extern int i;
+[A] Function
+[B] Definition
+[C] Declaration		X
+[D] Error
+
+4. A class cannot be ?
+[A] Virtual
+[B] Generic
+[C] Friend
+[D] Inline	X
+
+5. Which of the following keywords cannot appear inside a class definition ?
+[A] template	X
+[B] static
+[C] friend
+[D] virtual
+
+6. Which of the following operator returns the size of a data type in C# ?
+A - typeof
+B - sizeof	X
+C - &
+D - *
+
+7. Which of the following converts a type to a Boolean value, where possible in C# ?
+A - ToChar
+B - ToSingle
+C - ToBoolean		X
+D - ToDateTime
+
+8. Which of the following converts a type to a string in C# ?
+A - ToInt64
+B - ToSbyte
+C - ToSingle
+D - ToString		X
+
+9. The conversion from basic data to class type can be done by ____________ ?
+[A] Is not possible
+[B] Writing constructor		X
+[C] overloaded casting 
+[D] object of a class
+
+10. Which of the following converts a type to an unsigned long type in C# ?
+A - ToType
+B - ToUInt16
+C - ToUInt32		X
+D - ToString

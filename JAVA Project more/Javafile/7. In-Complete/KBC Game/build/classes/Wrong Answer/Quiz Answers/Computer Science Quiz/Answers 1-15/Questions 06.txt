@@ -1,0 +1,59 @@
+1. The minimum number of rows and columns in MS Word document is ?
+[A] 1 and 1	X
+[B] 2 and 1
+[C] 1 and 2
+[D] 2 and 2
+
+2. How many columns can you insert in a word document in maximum ?
+[A] 40
+[B] 45		X
+[C] 50
+[D] 55
+
+3. Which menu in MSWord can be used to change character size and typeface?
+[A] View
+[B] Tools
+[C] Format	X
+[D] Data
+
+4. A character that is raised and smaller above the baseline is known as ?
+[A] Raised
+[B] Outlined
+[C] Capscript
+[D] Superscript		X
+
+5. What is the smallest and largest font size available in Font Size tool on formatting toolbar ?
+[A] 8 and 72		X
+[B] 8 and 68
+[C] 6 and 72
+[D] 6 and 68
+
+6. Which key should be pressed to start a new paragraph in MS-Word ?
+[A] Down Cursor Key
+[B] Enter Key		X
+[C] Shift + Enter
+[D] Ctrl + Enter
+
+7. Which of these toolbars allows changing of Fonts and their sizes ?
+[A] Standard
+[B] Print Preview
+[C] Formatting		X
+[D] None of these
+
+8. Using Find command in Word, we can search ?
+[A] characters
+[B] formats
+[C] symbols
+[D] All of the above	X
+
+9. Graphics for word processor ?
+[A] Peripheral
+[B] Clip art	X
+[C] Highlight
+[D] Execute
+
+10. Which option in File pull-down menu is used to close a file in MSWord ?
+[A] New
+[B] Quit
+[C] Close	X
+[D] Exit

@@ -1,0 +1,747 @@
+﻿Version=2.52
+IconFile=
+NumberOfModules=0
+Package=b4a.example
+DoNotOverwriteManifest=False
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: http://www.basic4ppc.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="4" android:targetSdkVersion="14"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~'End of default text.~\n~
+UserTypesHint=
+NumberOfFiles=9
+File1=Banquet.bal
+File2=frmBM.bal
+File3=frmInquiry.bal
+File4=frmlogin.bal
+File5=Guest.bal
+File6=Loading.bal
+File7=Main.bal
+File8=Reservation.bal
+File9=SearchGuest.bal
+NumberOfLibraries=4
+Library1=core
+Library2=dialogs
+Library3=phone
+Library4=sql
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: Mobile Reservation
+	#VersionCode: 1
+	#VersionName: 
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: portrait
+	#CanInstallToExternalStorage: False
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: True
+#End Region
+
+Sub Process_Globals
+	'These global variables will be declared once when the application starts.
+	'These variables can be accessed from all modules.
+	Dim sql1 As SQL
+	Dim cursor1 As Cursor
+End Sub
+
+Sub Globals
+	'These global variables will be redeclared each time the activity is created.
+	'These variables can only be accessed from this module.
+	Dim timer1 As Timer
+	Dim pgb1 As ProgressBar
+	Dim num As Int
+	Dim lblPercent As Label
+	Dim Label1 As Label
+	Dim spnGender As Spinner
+	Dim btnSearch As Button
+	Dim txtGuestName As EditText
+	Dim txtAddress As EditText
+	Dim btnAddGuest As Button
+	Dim btnEdit As Button
+	Dim btnSearch As Button
+	Dim btnDelete As Button
+	Dim Listview1 As ListView
+	Dim txtGender As EditText
+	Dim list1 As List
+	Dim btnGuest As Button
+	Dim btnBanquet As Button
+	Dim btnMonitoring As Button
+	Dim btnReservation As Button
+	Dim btnExit As Button
+	Dim btnInquiry As Button
+	Dim myArray(2) As String
+'	Dim tts As ICOSTextToSpeech
+'	Dim tta As ICOSTitleBarAnimation
+	Dim txtSearchGuest As AutoCompleteEditText
+	Dim btnSearchGuest As Button
+	Dim btnBackGuest As Button
+	Dim lstBanquet As ListView
+	Dim btnAddB As Button
+	Dim btnEditB As Button
+	Dim btnBackB As Button
+	Dim EditText1 As EditText
+	Dim txtLocation As EditText
+	Dim spnStat As Spinner
+	Dim txtPersons As EditText
+	Dim txtStatus As EditText
+	
+	Dim txtSearchBanquet As AutoCompleteEditText
+	Dim btnDeleteB As Button
+	Dim btnSearchB As Button
+	Dim txtGnameR As AutoCompleteEditText
+	Dim txtGenderR As EditText
+	Dim txtAddressR As EditText
+	Dim btnGBack As Button
+	Dim txtBIDR As AutoCompleteEditText
+	Dim txtBLocationR As EditText
+	Dim txtPersonsR As EditText
+	Dim btnReserve As Button
+	Dim btnBackRR As Button
+	Dim lstReservation As ListView
+	Dim txtIDIn As EditText
+	Dim txtBIDIn As EditText
+	Dim btnCancel As Button
+	Dim txtNameIn As AutoCompleteEditText
+	Dim lvBM As ListView
+	Dim btnbackBM As Button
+	Dim btnwowowee As Button
+	Dim txtoccupants As EditText
+	Dim txtDate As EditText
+	Dim btnLogin As Button
+	Dim txtUser As EditText
+	Dim txtPass As EditText
+	Dim txtFilterBM As EditText
+	Dim btnExitLog As Button
+	Dim txtValid As EditText
+	Dim txtContact As EditText
+	Dim btnDate As Button
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	'Do not forget to load the layout file created with the visual designer. For example:
+	Activity.LoadLayout("loading")
+	timer1.Initialize("timer1",50)
+	timer1.Enabled=True
+	Listview1.Initialize("Listview1")
+	lstReservation.Initialize("lstReservation")
+	spnGender.Initialize("spnGender")
+	If File.Exists(File.DirInternal,"ff6_2.sqlite") = False Then
+		File.Copy(File.DirAssets,"ff6_2.sqlite",File.DirInternal,"ff6_2.sqlite")
+	End If
+	
+	If sql1.IsInitialized = False Then
+		sql1.Initialize(File.DirInternal, "ff6_2.sqlite", False)
+	End If
+	DBload
+  ' tts.InitializeTTs("tts","en")
+	 myArray(0)="Male"
+ myArray(1)="Female"
+spnGender.Prompt="Select Gender"
+spnGender.AddAll(myArray)
+txtSearchBanquet.Initialize("txtSearchBanquet")
+
+End Sub
+Sub timer1_Tick
+	num = num + 1
+	pgb1.Progress = num
+	lblPercent.Text = num
+	If num > 100 Then
+	timer1.Enabled=False
+	RemoveView
+	
+	Activity.LoadLayout("frmlogin")
+	'tts.Speaking("Welcome to our Mobile Reservation for Banquet Halls!")
+	DBload
+	'pgb1.Visible=False
+	
+	End If
+End Sub
+Sub Activity_Resume
+Activity.LoadLayout("loading")
+DBload
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+
+Public Sub RemoveView
+	Dim i As Int
+	
+		For i = Activity.NumberOfViews-1 To 0 Step-1
+			Activity.RemoveViewAt (i)
+		Next
+End Sub
+
+Sub DBload
+Listview1.Clear'need to clear the list
+cursor1 = sql1.ExecQuery("SELECT * FROM tblGuest")
+For i = 0 To cursor1.RowCount - 1
+cursor1.Position = i
+Listview1.AddSingleLine(cursor1.GetString("ID")& "-" &cursor1.GetString("Gname")& " - " & cursor1.GetString("Gender") & " - " & cursor1.GetString("Address") & " - " & cursor1.GetString("Cnum") & " - " & cursor1.GetString("ValID"))
+Listview1.SingleLineLayout.ItemHeight = 23
+Listview1.SingleLineLayout.Label.TextSize = 12
+Listview1.SingleLineLayout.Label.TextColor = Colors.Black
+Listview1.SingleLineLayout.Label.Color = Colors.White
+Next
+End Sub
+
+Sub dbloadbanquet
+lstBanquet.Clear'need to clear the list
+cursor1 = sql1.ExecQuery("SELECT * FROM tblBanquet")
+For i = 0 To cursor1.RowCount - 1
+cursor1.Position = i
+lstBanquet.AddSingleLine(cursor1.GetString("ID")& "-" &cursor1.GetString("BLocation") & " - " & cursor1.GetString("Status"))
+lstBanquet.SingleLineLayout.ItemHeight = 26
+lstBanquet.SingleLineLayout.Label.TextSize = 12
+lstBanquet.SingleLineLayout.Label.TextColor = Colors.Black
+lstBanquet.SingleLineLayout.Label.Color = Colors.White
+Next
+End Sub
+
+Sub btnAddGuest_Click
+	If txtGuestName.Text = "" OR txtGender.Text = "" OR txtAddress.Text = "" OR txtContact.Text = "" OR txtValid.Text = ""  Then
+		Msgbox("You have to enter all fields","Missed data field")
+	Else
+		
+	sql1.BeginTransaction
+	Try
+		cursor1 = sql1.ExecQuery("SELECT ID FROM tblGuest")
+	If cursor1.RowCount > 0 Then
+		For i = 0 To cursor1.RowCount - 1	
+	cursor1.Position = i
+	Dim NewID As Int
+	Dim code, des, unit As String
+	NewID = cursor1.GetInt("ID")
+	NewID = NewID + 1 
+	Next
+	sql1.ExecNonQuery("INSERT INTO tblGuest VALUES('" & NewID & "','" & txtGuestName.Text & "','" & txtGender.Text & "','" & txtAddress.Text & "','" & txtContact.Text & "','" & txtValid.Text & "')")
+	Msgbox ("Successfully added!", "")
+	sql1.TransactionSuccessful
+	End If
+	Catch
+	Msgbox (LastException.Message,"")
+	End Try
+	sql1.EndTransaction
+	DBload
+	txtGuestName.Text = ""
+	'txtGender.Text =""
+	txtAddress.Text = ""
+	End If
+End Sub
+Sub btnEdit_Click
+	If txtGuestName.Text = "" OR txtGender.Text = "" OR txtAddress.Text = "" Then
+		Msgbox("You have to enter all fields","Missed data field")
+	Else
+	Dim NewID As Int
+	sql1.BeginTransaction
+	Try
+	NewID = cursor1.GetInt("ID")
+	sql1.ExecNonQuery("UPDATE tblGuest set Gname = '" & txtGuestName.text & "',Gender ='" & txtGender.text & "', Address='" & txtAddress.text & "' , Cnum='" & txtContact.text & "' , ValID='" & txtValid.text & "' WHERE ID = " & NewID)
+	Msgbox ("Successfully updated!", "")
+	sql1.TransactionSuccessful
+	Catch
+	Msgbox (LastException.Message,"")
+	End Try
+	sql1.EndTransaction
+	DBload
+	txtGuestName.Text = ""
+	'txtGender.Text =""
+	txtAddress.Text = ""
+	End If
+End Sub
+Sub btnSearch_Click
+	
+	RemoveView
+	Activity.LoadLayout("SearchGuest")
+	
+End Sub
+Sub btnDelete_Click
+	Dim NewID As Int
+	If txtGuestName.Text = "" OR txtGender.Text = "" OR txtAddress.Text = "" Then
+		Msgbox("Please select data to delete","Missed data field")
+   Else
+	sql1.BeginTransaction
+	Try
+	NewID = cursor1.GetInt("ID")
+	sql1.ExecNonQuery("DELETE FROM tblGuest where ID = '" & NewID & "' ")
+	Msgbox ("Record Deleted!", "")
+	sql1.TransactionSuccessful
+	Catch
+	Msgbox ("Please select data to delete","")
+	End Try
+	sql1.EndTransaction
+	DBload
+	txtGuestName.Text = ""
+	'txtGender.Text =""
+	txtAddress.Text = ""
+	End If
+End Sub
+Sub spnGender_ItemClick (Position As Int, Value As Object)
+	txtGender.Text= Value
+End Sub
+Sub ListView1_ItemClick (Position As Int, Value As Object)
+Dim idvalue As String
+Dim countIt As Int
+Dim ID As String
+idvalue = Value
+countIt = idvalue.IndexOf("-") 'find location of sperator
+idvalue = idvalue.SubString2(0,countIt) 'find first part of label text
+ID = idvalue
+cursor1 = sql1.ExecQuery("SELECT * FROM tblGuest where ID = '" & ID & "' ")
+For i = 0 To cursor1.RowCount - 1
+cursor1.Position = i
+	txtGuestName.text=cursor1.getString("Gname")
+	txtGender.text=cursor1.getString("Gender")
+	txtAddress.text=cursor1.getString("Address")
+	txtContact.text=cursor1.getString("Cnum")
+	txtValid.text=cursor1.getString("ValID")
+Next
+End Sub
+Sub btnGuest_Click
+	RemoveView
+	Activity.LoadLayout("guest")
+	DBload
+	'pgb1.Visible=False
+	txtGender.Initialize("txtGender")
+	txtGender.Text= "Male"
+	 myArray(0)="Male"
+ 	myArray(1)="Female"
+	spnGender.Prompt="Select Gender"
+	spnGender.AddAll(myArray)
+End Sub
+Sub btnBanquet_Click
+	RemoveView
+	Activity.LoadLayout("Banquet")
+	dbloadbanquet
+	'txtSearchBanquet.Initialize("txtSearchBanquet")
+	 myArray(0)="Available"
+ myArray(1)="Unavailable"
+spnStat.Prompt="Select Status"
+spnStat.AddAll(myArray)
+txtStatus.Text = "Available"
+End Sub
+Sub btnInquiry_Click
+	RemoveView
+	Activity.LoadLayout("frmInquiry")
+End Sub
+Sub btnReservation_Click
+   Dim dd As DateDialog
+	RemoveView
+	
+	Activity.LoadLayout("Reservation")
+	dbReservation
+	dd.Year = DateTime.GetYear(DateTime.Now)
+	dd.Month = DateTime.GetMonth(DateTime.Now)	
+	dd.DayOfMonth = DateTime.GetDayOfMonth(DateTime.Now)
+	txtDate.Text = dd.Month & "/" & dd.DayOfMonth & "/" & dd.Year
+	
+End Sub
+Sub btnExit_Click
+	Activity.Finish
+End Sub
+Sub view1( psearch As String)
+	'txtSearchGuest.Initialize("txtSearchGuest")
+	cursor1 = sql1.ExecQuery("Select * from tblGuest WHERE Gname like '" & psearch & "%'")
+	For i = 0 To cursor1.RowCount - 1
+	cursor1.Position = i
+	Dim nomi() As String
+	Dim str As Label
+	nomi = Array As String(cursor1.GetString("Gname"))
+	txtSearchGuest.SetItems(nomi)
+	Next
+End Sub
+
+Sub btnSearchGuest_Click
+	view1(txtSearchGuest.Text)
+	For i = 0 To cursor1.RowCount - 1
+	cursor1.Position = i
+	If txtSearchGuest.Text <> cursor1.GetString("Gname") Then
+		Msgbox("Record not found.","Note")
+	Else
+	'tts.Speaking(auto1.Text)
+	RemoveView
+	Activity.LoadLayout("guest")
+	 myArray(0)="Male"
+ 	myArray(1)="Female"
+	spnGender.Prompt="Select Gender"
+	spnGender.AddAll(myArray)
+
+	Listview1.AddSingleLine(cursor1.GetString("ID")& "-" &cursor1.GetString("Gname")& " - " & cursor1.GetString("Gender") & " - " & cursor1.GetString("Address"))
+	Listview1.SingleLineLayout.ItemHeight = 26
+	Listview1.SingleLineLayout.Label.TextSize = 12
+	Listview1.SingleLineLayout.Label.TextColor = Colors.Black
+	Listview1.SingleLineLayout.Label.Color = Colors.White
+	End If
+	Next
+End Sub
+Sub txtSearchGuest_TextChanged (Old As String, New As String)
+	view1(txtSearchGuest.Text)
+End Sub
+Sub btnBackGuest_Click
+	RemoveView
+	Activity.LoadLayout("Guest")
+	DBload
+	 myArray(0)="Male"
+ 	myArray(1)="Female"
+	spnGender.Prompt="Select Gender"
+	spnGender.AddAll(myArray)
+End Sub
+Sub lstBanquet_ItemClick (Position As Int, Value As Object)
+	Dim idvalue As String
+Dim countIt As Int
+Dim ID As String
+idvalue = Value
+countIt = idvalue.IndexOf("-") 'find location of sperator
+idvalue = idvalue.SubString2(0,countIt) 'find first part of label text
+ID = idvalue
+cursor1 = sql1.ExecQuery("SELECT * FROM tblBanquet where ID = '" & ID & "' ")
+For i = 0 To cursor1.RowCount - 1
+cursor1.Position = i
+	txtLocation.text=cursor1.getString("BLocation")
+	txtPersons.text=cursor1.getString("Persons")
+	txtStatus.text=cursor1.getString("Status")
+Next
+End Sub
+Sub txtSearchBanquet_TextChanged (Old As String, New As String)
+	viewBanquet(txtSearchBanquet.Text)
+End Sub
+Sub btnAddB_Click
+	If txtLocation.Text = "" OR txtPersons.Text = "" OR txtStatus.Text = "" Then
+		Msgbox("You have to enter all fields","Missed data field")
+	Else
+		
+	sql1.BeginTransaction
+	Try
+		cursor1 = sql1.ExecQuery("SELECT ID FROM tblBanquet")
+	If cursor1.RowCount > 0 Then
+		For i = 0 To cursor1.RowCount - 1	
+	cursor1.Position = i
+	Dim NewID As Int
+	Dim code, des, unit As String
+	NewID = cursor1.GetInt("ID")
+	NewID = NewID + 1 
+	Next
+	sql1.ExecNonQuery("INSERT INTO tblBanquet VALUES('" & NewID & "','" & txtLocation.Text & "','" & txtPersons.Text & "','" & txtStatus.Text & "')")
+	Msgbox ("Successfully added!", "")
+	sql1.TransactionSuccessful
+	End If
+	Catch
+	Msgbox (LastException.Message,"")
+	End Try
+	sql1.EndTransaction
+	dbloadbanquet
+	txtLocation.Text = ""
+	'txtGender.Text =""
+	txtStatus.Text = ""
+	End If
+End Sub
+Sub btnEditB_Click
+	If txtLocation.Text = "" OR txtPersons.Text = "" OR txtStatus.Text = "" Then
+		Msgbox("You have to enter all fields","Missed data field")
+	Else
+	Dim NewID As Int
+	sql1.BeginTransaction
+	Try
+	NewID = cursor1.GetInt("ID")
+	sql1.ExecNonQuery("UPDATE tblBanquet set BLocation = '" & txtLocation.text & "',Persons ='" & txtPersons.text & "', Status='" & txtStatus.text & "' WHERE ID = " & NewID)
+	Msgbox ("Successfully updated!", "")
+	sql1.TransactionSuccessful
+	Catch
+	Msgbox (LastException.Message,"")
+	End Try
+	sql1.EndTransaction
+	dbloadbanquet
+	txtLocation.Text = ""
+	'txtGender.Text =""
+	txtStatus.Text = ""
+	End If
+End Sub
+Sub btnBackB_Click
+	RemoveView
+	Activity.LoadLayout("main")
+End Sub
+Sub spnStat_ItemClick (Position As Int, Value As Object)
+	txtStatus.Text = Value
+End Sub
+
+Sub viewBanquet(psearch As String)
+	'txtSearchBanquet.Initialize("txtSearchBanquet")
+	cursor1 = sql1.ExecQuery("Select * from tblBanquet WHERE BLocation like '" & psearch & "%'")
+	For i = 0 To cursor1.RowCount - 1
+	cursor1.Position = i
+	Dim nomi() As String
+	Dim str As Label
+'	nomi = Array As String(cursor1.GetString("ID"))
+	nomi = Array As String(cursor1.GetString("BLocation"))
+	txtSearchBanquet.SetItems(nomi)
+	Next
+End Sub
+Sub btnDeleteB_Click
+	Dim NewID As Int
+	If txtLocation.Text = "" OR txtPersons.Text = "" OR txtStatus.Text = "" Then
+		Msgbox("Please select data to delete","Missed data field")
+   Else
+	sql1.BeginTransaction
+	Try
+	NewID = cursor1.GetInt("ID")
+	sql1.ExecNonQuery("DELETE FROM tblBanquet where ID = '" & NewID & "' ")
+	sql1.TransactionSuccessful
+	Catch
+	Msgbox ("Please select data to delete","")
+	End Try
+	sql1.EndTransaction
+	dbloadbanquet
+	txtLocation.Text = ""
+	'txtGender.Text =""
+	txtPersons.Text = ""
+	End If
+End Sub
+Sub btnSearchB_Click
+  
+	viewBanquet(txtSearchBanquet.Text)
+	For i = 0 To cursor1.RowCount - 1
+	cursor1.Position = i
+	If txtSearchBanquet.Text <> cursor1.GetString("BLocation") Then
+		Msgbox("Record not found.","Note")
+	Else
+	'RemoveView
+	dbloadbanquet
+	 'txtSearchBanquet.Initialize("txtSearchBanquet")
+'	lstBanquet.AddSingleLine(cursor1.GetString("ID")& "-" &cursor1.GetString("BLocation")& " - " & cursor1.GetString("Persons") & " - " & cursor1.GetString("Status"))
+
+	End If
+	Next
+End Sub
+Sub txtGnameR_ItemClick (Value As String)
+	viewguest(txtGnameR.Text)
+	txtGenderR.Text =cursor1.GetString("Gender")
+	txtAddressR.Text =cursor1.GetString("Address")
+End Sub
+Sub txtGnameR_TextChanged (Old As String, New As String)
+	viewguest(txtGnameR.Text)
+End Sub
+Sub viewguest( psearch As String)
+	'txtSearchGuest.Initialize("txtSearchGuest")
+	cursor1 = sql1.ExecQuery("Select * from tblGuest WHERE Gname like '" & psearch & "%'")
+	For i = 0 To cursor1.RowCount - 1
+	cursor1.Position = i
+	Dim nomi() As String
+	Dim str As Label
+	nomi = Array As String(cursor1.GetString("Gname"))
+	txtGnameR.SetItems(nomi)
+	Next
+	
+End Sub
+Sub viewB( psearch As String)
+	'txtSearchGuest.Initialize("txtSearchGuest")
+	cursor1 = sql1.ExecQuery("Select * from tblBanquet WHERE ID like '%" & psearch & "'")
+	For i = 0 To cursor1.RowCount - 1
+	cursor1.Position = i
+	Dim nomi() As String
+	Dim str As Label
+	nomi = Array As String(cursor1.GetInt("ID"))
+	txtBIDR.SetItems(nomi)
+	Next
+End Sub
+Sub btnGBack_Click
+	RemoveView
+	Activity.LoadLayout("main")
+End Sub
+Sub txtBIDR_TextChanged (Old As String, New As String)
+	viewB(txtBIDR.Text)
+End Sub
+Sub txtBIDR_ItemClick (Value As String)
+	viewB(txtBIDR.Text)
+	txtBLocationR.Text =cursor1.GetString("BLocation")
+	txtPersonsR.Text =cursor1.GetString("Status")
+End Sub
+Sub btnReserve_Click
+	If txtGnameR.Text = "" OR txtAddressR.Text = "" OR txtGenderR.Text = "" OR txtBLocationR.Text = "" OR txtPersonsR.Text = "" OR txtBLocationR.Text = ""  Then
+		Msgbox("You have to enter all fields","Missed data field")
+	Else
+
+	If txtPersonsR.Text = "Available" Then
+	
+	cursor1 = sql1.ExecQuery("SELECT ID FROM tblReservation")
+	If cursor1.RowCount > 0 Then
+		For i = 0 To cursor1.RowCount - 1	
+	cursor1.Position = i
+	
+	Dim NewID As Int
+	NewID = cursor1.GetInt("ID")
+	Next
+	
+	End If
+	NewID = NewID +1
+	'sql1.ExecNonQuery("INSERT INTO tblgrading VALUES('" & NewID & "','" & txtstudname.Text & "','" & txtstudsub & "','" & txtPrelim.Text & "','" & txtMidterm & "','" & txtPrefi.Text & "','" & txtFinal & "','" & gwa & "')")
+	sql1.ExecNonQuery("INSERT INTO tblReservation VALUES('" & NewID & "','" & txtGnameR.Text & "','" & txtGenderR.Text & "','" & txtBIDR.Text & "','" & txtDate.Text & "')")
+	
+
+	sql1.ExecNonQuery("UPDATE tblBanquet set Status = 'Unavailable', Persons = '" & txtDate.Text & "' WHERE ID = " & txtBIDR.Text)
+
+	'dbReservation
+
+	txtGnameR.Text = ""
+	txtBIDR.Text = ""
+	txtGenderR.Text = ""
+	txtBLocationR.Text = ""
+	txtPersonsR.Text = ""
+	txtBLocationR.Text = ""
+	txtAddressR.Text = ""
+	txtDate.Text = ""
+	Msgbox ("Successfully Reserved!","Success")
+	 dbReservation
+	End If
+	If txtPersonsR.Text = "Unavailable" Then
+	Msgbox("Room already reserved!","ERROR")
+	'NoPer = NoPer - 1
+	
+	
+
+	
+	End If
+	End If
+	
+End Sub
+Sub btnBackRR_Click
+	RemoveView
+	Activity.LoadLayout("main")
+End Sub
+Sub dbReservation
+lstReservation.Clear'need to clear the list
+cursor1 = sql1.ExecQuery("SELECT * FROM tblReservation")
+For i = 0 To cursor1.RowCount - 1
+cursor1.Position = i
+lstReservation.AddSingleLine(cursor1.GetString("ID") & "-" &cursor1.GetString("GuestName")& " - " & cursor1.GetString("GGender") & " - " & cursor1.GetString("BanquetID") & " - " & cursor1.GetString("BanquetLocation"))
+lstReservation.SingleLineLayout.ItemHeight = 26
+lstReservation.SingleLineLayout.Label.TextSize = 12
+lstReservation.SingleLineLayout.Label.TextColor = Colors.Black
+lstReservation.SingleLineLayout.Label.Color = Colors.White
+Next
+End Sub
+
+'Sub txtBIDR_TextChanged (Old As String, New As String)
+'	viewB(txtBIDR.Text)
+'End Sub
+'Sub txtBIDR_ItemClick (Value As String)
+'	viewB(txtBIDR.Text)
+'	txtBLocationR.Text =cursor1.GetString("BLocation")
+'	txtPersonsR.Text =cursor1.GetString("Persons")
+'End Sub
+
+Sub viewRIn( psearch As String)
+cursor1 = sql1.ExecQuery("Select * from tblReservation WHERE GuestName like '" & psearch & "%'")
+
+	For i = 0 To cursor1.RowCount - 1
+	cursor1.Position = i
+	Dim nomi() As String
+	Dim str As Label
+	nomi = Array As String(cursor1.GetString("GuestName"))
+	txtNameIn.SetItems(nomi)
+	Next
+
+End Sub
+
+
+Sub btnCancel_Click
+	cursor1 = sql1.ExecQuery("SELECT ID,Persons FROM tblbanquet where ID like '" & txtBIDIn.Text & "'")
+	If cursor1.RowCount > 0 Then
+		For i = 0 To cursor1.RowCount - 1
+	cursor1.Position = i
+	
+	Dim noper, noperplus As Int
+	noper = cursor1.GetInt("Persons")
+	Next
+	End If
+	noperplus = noper + 1
+	sql1.ExecNonQuery("UPDATE tblBanquet set Status = 'Available' WHERE ID = " & txtBIDIn.Text)
+	
+	sql1.ExecNonQuery("DELETE FROM tblReservation where ID = '" & txtIDIn.Text  & "' ")
+	Msgbox("CANCELLED!","Success")
+	txtBIDIn.Text = ""
+	txtNameIn.Text = ""
+	txtIDIn.text = ""
+End Sub
+Sub btnBack_Click
+	RemoveView
+	Activity.LoadLayout("main")
+End Sub
+Sub txtNameIn_TextChanged (Old As String, New As String)
+	viewRIn(txtNameIn.Text)
+End Sub
+Sub txtNameIn_ItemClick (Value As String)
+	viewRIn(txtNameIn.Text)
+	txtIDIn.Text =cursor1.GetInt("ID")
+	txtBIDIn.Text =cursor1.GetInt("BanquetID")
+End Sub
+Sub btnbackBM_Click
+		RemoveView
+	Activity.LoadLayout("main")
+End Sub
+
+Sub dbloadbanquet2( psearch As String)
+lvBM.Clear'need to clear the list
+cursor1 = sql1.ExecQuery("SELECT * FROM tblBanquet where Persons like '" & psearch & "%'")
+For i = 0 To cursor1.RowCount - 1
+cursor1.Position = i
+lvBM.AddSingleLine(cursor1.GetString("ID")& "-" &cursor1.GetString("BLocation")& " - " & cursor1.GetString("Persons") & " - " & cursor1.GetString("Status"))
+lvBM.SingleLineLayout.ItemHeight = 26
+lvBM.SingleLineLayout.Label.TextSize = 12
+lvBM.SingleLineLayout.Label.TextColor = Colors.Black
+lvBM.SingleLineLayout.Label.Color = Colors.White
+Next
+End Sub
+Sub btnMonitoring_Click
+Dim tt As DateDialog
+	RemoveView
+	Activity.LoadLayout("frmbm")
+	tt.Year = DateTime.GetYear(DateTime.Now)
+	tt.Month = DateTime.GetMonth(DateTime.Now)	
+	tt.DayOfMonth = DateTime.GetDayOfMonth(DateTime.Now)
+	txtFilterBM.Text = (tt.Month & "/" & tt.DayOfMonth  & "/" & tt.Year)
+	dbloadbanquet2("")
+	
+End Sub
+Sub btnwowowee_Click
+		sql1.BeginTransaction
+
+	sql1.ExecNonQuery("UPDATE tblBanquet set Status = 'Available' WHERE ID = 1")
+
+	sql1.TransactionSuccessful
+	sql1.EndTransaction
+
+	'sql1.ExecNonQuery("UPDATE tblBanquet set Persons = '" & NoPer & "', '" & Bstatus & "' WHERE ID = " & txtBIDR.Text)
+
+End Sub
+Sub btnLogin_Click
+	
+			If txtUser.text = "admin" AND txtPass.Text = "admin" Then
+	
+			RemoveView
+			Activity.LoadLayout("main")
+			Else
+			Msgbox("Incorrect username or password","Intruder")
+			txtUser.Text = ""
+			txtPass.Text = ""
+			txtUser.RequestFocus 
+			End If
+			
+	
+End Sub
+Sub txtFilterBM_TextChanged (Old As String, New As String)
+	dbloadbanquet2(txtFilterBM.Text)
+End Sub
+Sub btnExitLog_Click
+	Activity.Finish 
+End Sub
+Sub btnExit_Up
+	
+End Sub
+Sub btnDate_Click
+	Dim dt As DateDialog 
+	Dim ret As Object
+	dt.Year = DateTime.GetYear(DateTime.Now)
+	dt.Month = DateTime.GetMonth(DateTime.Now)	
+	dt.DayOfMonth = DateTime.GetDayOfMonth(DateTime.Now)
+	ret = dt.Show("Set the required date", "Date Dialog","","","",Null)
+	txtFilterBM.Text = (dt.Month & "/" & dt.DayOfMonth  & "/" & dt.Year)
+End Sub

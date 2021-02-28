@@ -1,0 +1,59 @@
+1. Which of the following is used to explore the Internet ?
+a. Browser	X
+b. Spreadsheet
+c. Clipboard
+d. Draw
+
+2. Which of the following is valid IP address ?
+a. 984.12.787.76
+b. 192.168.56.115	X
+c. 1.888.234.3456
+d. 192.168.321.10
+
+3. What is Internet Explorer ?
+a. An Icon
+b. A File Manager
+c. A Browser		X
+d. The Internet
+
+4. What do I need to get onto the Internet ?
+a. Computer
+b. Modem
+c. Browser
+d. All of them		X
+
+5. Which is not a domain name extension ?
+a. .int		X
+b. org
+c. mil
+d. .com
+
+6. Which of the following are commonly found on web pages ?
+a. nternet
+b. hyperlinks		X
+c. intranet
+d. all of them
+
+7. Which of the following is an attribute of <Table> tag ?
+a. SRC
+b. LINK
+c. CELLPADDING		X
+d. BOLD
+
+8. Which HTML tag would be used to display power in expression (A+B)2 ?
+a. <P>
+b. <SUB>
+c. <B>
+d. <SUP>	X
+
+9. Choose the correct HTML tag for the largest heading ?
+a. <H6>
+b. <H1>		X
+c. <H10>
+d. <HEAD>
+
+10. Output of XML document can be viewed in a ?
+a. Word Processor
+b. Notepad
+c. Web browser		X
+d. None of the above

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Strength Meter Example</title>
+    <link rel="stylesheet" media="screen" href="bootstrap3.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Password Strength Meter</h1>
+        <form method="form"">
+            <div class="row" id="pwd-container">
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label for="password">Type Your Desired Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+                </div>
+                <div class="col-sm-4 col-sm-offset-0" style="padding-top: 10px; clear:both;">
+                    <div class="pwstrength_viewport_progress"></div>
+                </div>
+            </div>
+			<button class="col-sm-1 btn btn-success">Submit</button>
+        </form>
+    </div>
+
+    <script src="jquery.min.js"></script>
+    <script type="text/javascript" src="pwstrength.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            "use strict";
+            var options = {};
+            options.ui = {
+                container: "#pwd-container",
+                showVerdictsInsideProgressBar: true,
+                viewports: {
+                    progress: ".pwstrength_viewport_progress"
+                }
+            };
+            $(':password').pwstrength(options);
+        });
+    </script>
+</body>
+</html>

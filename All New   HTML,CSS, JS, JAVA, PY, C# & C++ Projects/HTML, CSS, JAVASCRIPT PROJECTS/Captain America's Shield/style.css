@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+*{
+  box-sizing: border-box;
+}
+body {
+  background-color: #203165;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 30px;
+}
+.shield {
+  width: 340px;
+  height: 340px;
+  margin: 0 auto;
+  box-shadow: 0 0 50px RGBA(20, 20, 20, 0.7);
+}
+div {
+  border-radius: 100%;
+  -webkit-animation: animateShield 5s ease-in-out 3s; /* Chrome, Safari, Opera */
+    animation: animateShield 5s ease-in-out 3s;
+}
+.red, .white, .blue{
+  width: 100%;
+  height: 100%;
+}
+.red {
+  border: 23px solid #da1f26;
+}
+.white {
+  border: 25px solid #fff;
+}
+.blue {
+  background-color: #154c9c;
+  text-align: center;
+}
+h1 {
+  margin-top: 30px;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes animateShield {
+    0%   {-webkit-transform: rotate(40deg);transform: rotate(40deg)}
+    25%  {-webkit-transform:matrix(0.586,0.8,-0.8,0.586,30,0);transform:matrix(0.586,0.8,-0.8,0.586,30,0);box-shadow: 0 0 10px RGBA(20, 20, 20, 0.7);}
+    50%  {-webkit-transform: rotate(60deg);transform: rotate(60deg)}
+    75%  {-webkit-transform:matrix(0.550,0.5,-0.8,0.866,30,0);transform:matrix(0.550,0.5,-0.8,0.866,30,0);}
+    100% {top: 0px;}
+}
+/* Standard syntax */
+@keyframes animateShield {
+    0%   {-webkit-transform: rotate(40deg);transform: rotate(40deg)}
+    25%  {-webkit-transform:matrix(0.586,0.8,-0.8,0.586,30,0);transform:matrix(0.586,0.8,-0.8,0.586,30,0);box-shadow: 0 0 10px RGBA(20, 20, 20, 0.7);}
+    50%  {-webkit-transform: rotate(60deg);transform: rotate(60deg)}
+    75%  {-webkit-transform:matrix(0.550,0.5,-0.8,0.866,30,0);transform:matrix(0.550,0.5,-0.8,0.866,30,0);}
+    100% {top: 0px;}
+}

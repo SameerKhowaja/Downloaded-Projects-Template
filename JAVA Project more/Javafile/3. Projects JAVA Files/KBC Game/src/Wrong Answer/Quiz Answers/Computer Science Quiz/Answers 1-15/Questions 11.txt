@@ -1,0 +1,47 @@
+1. Data structure suitable for an application discussed in ?
+[A] data design		X
+[B] architectural design
+[C] procedural design
+[D] interface design
+
+2. Assertion and condition which are true at the point of execution ?
+[A] sometimes
+[B] always	X
+[C] many times
+[D] no times
+
+3. Quicken and TurboTax are both personal financial products developed by ?
+[A] Corel
+[B] Microsoft
+[C] Intuit	X
+[D] Adobe
+
+4. A good specification should be ?
+[A] unambiguous
+[B] distinctly specific
+[C] functional
+[D] all of these	X
+
+5. Design phase will usually be ?
+[A] top-down		X
+[B] bottom-up
+[C] random
+[D] center fingring
+
+6. The name for the way that computers manipulate data into information is called ?
+[A] programming
+[B] processing		X
+[C] organizing
+[D] storing
+
+7. The menu option to delete all the list present in the Recycle Bin is ?
+[A] Fill Delete
+[B] Restore
+[C] Empty Recycle Bin	X
+[D] Full Recycle Bin
+
+8. Which of the following is a tool in design phase ?
+[A] abstraction
+[B] refinement
+[C] information hiding
+[D] all of above	X

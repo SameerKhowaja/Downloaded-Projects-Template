@@ -1,0 +1,59 @@
+1. Decrement operator, –, decreases value of variable by what number ?
+[A] 1		X
+[B] 2
+[C] 3
+[D] 4
+
+2. Which operator is used to invert all the digits in binary representation of a number ?
+[A] <<<
+[B] ~		X
+[C] >>>
+[D] ^
+
+3. Which of these is not a bit-wise operator ?
+[A] &
+[B] &=
+[C] <=		X
+[D] |=
+
+4. Which of the following can be operands of arithmetic operators ?
+[A] Numeric
+[B] Boolean
+[C] Characters
+[D] Both A & C		X
+
+5. Which right shift operator preserves the sign of the value ?
+[A] >>		X
+[B] <<
+[C] <<=
+[D] >>=
+
+6. Which of these have highest precedence ?
+[A] ++
+[B] ()		X
+[C] *
+[D] >>
+
+7. Which of these function is used to allocate memory to array variable in Java ?
+[A] malloc
+[B] alloc
+[C] new		X
+[D] calloc
+
+8. Which of these is a standard for communicating multimedia content over email ?
+[A] http
+[B] https
+[C] httpd
+[D] Mime	X
+
+9. Arrays in Java are implemented as ?
+[A] class
+[B] object		X
+[C] variable
+[D] None of these
+
+10. Which of these methods is used to make raw MIME formatted string ?
+[A] getString()
+[B] toString()
+[C] parse()		X
+[D] parseString()

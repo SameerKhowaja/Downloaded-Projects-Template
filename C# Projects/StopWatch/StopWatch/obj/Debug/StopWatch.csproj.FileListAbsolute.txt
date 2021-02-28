@@ -1,0 +1,27 @@
+c:\users\shadab ali\documents\visual studio 2012\Projects\StopWatch\StopWatch\bin\Debug\StopWatch.exe.config
+c:\users\shadab ali\documents\visual studio 2012\Projects\StopWatch\StopWatch\bin\Debug\StopWatch.exe
+c:\users\shadab ali\documents\visual studio 2012\Projects\StopWatch\StopWatch\bin\Debug\StopWatch.pdb
+c:\users\shadab ali\documents\visual studio 2012\Projects\StopWatch\StopWatch\obj\Debug\StopWatch.csprojResolveAssemblyReference.cache
+c:\users\shadab ali\documents\visual studio 2012\Projects\StopWatch\StopWatch\obj\Debug\StopWatch.Form1.resources
+c:\users\shadab ali\documents\visual studio 2012\Projects\StopWatch\StopWatch\obj\Debug\StopWatch.Properties.Resources.resources
+c:\users\shadab ali\documents\visual studio 2012\Projects\StopWatch\StopWatch\obj\Debug\StopWatch.csproj.GenerateResource.Cache
+c:\users\shadab ali\documents\visual studio 2012\Projects\StopWatch\StopWatch\obj\Debug\StopWatch.exe
+c:\users\shadab ali\documents\visual studio 2012\Projects\StopWatch\StopWatch\obj\Debug\StopWatch.pdb
+D:\Assignment\C# Assignment\StopWatch\StopWatch\bin\Debug\StopWatch.exe.config
+D:\Assignment\C# Assignment\StopWatch\StopWatch\obj\Debug\StopWatch.exe
+D:\Assignment\C# Assignment\StopWatch\StopWatch\obj\Debug\StopWatch.pdb
+D:\Assignment\C# Assignment\StopWatch\StopWatch\bin\Debug\StopWatch.exe
+D:\Assignment\C# Assignment\StopWatch\StopWatch\bin\Debug\StopWatch.pdb
+D:\Assignment\C# Assignment\StopWatch\StopWatch\obj\Debug\StopWatch.csprojResolveAssemblyReference.cache
+D:\Assignment\C# Assignment\StopWatch\StopWatch\obj\Debug\StopWatch.Form1.resources
+D:\Assignment\C# Assignment\StopWatch\StopWatch\obj\Debug\StopWatch.Properties.Resources.resources
+D:\Assignment\C# Assignment\StopWatch\StopWatch\obj\Debug\StopWatch.csproj.GenerateResource.Cache
+E:\C# Projests\StopWatch\StopWatch\bin\Debug\StopWatch.exe.config
+E:\C# Projests\StopWatch\StopWatch\obj\Debug\StopWatch.exe
+E:\C# Projests\StopWatch\StopWatch\obj\Debug\StopWatch.pdb
+E:\C# Projests\StopWatch\StopWatch\bin\Debug\StopWatch.exe
+E:\C# Projests\StopWatch\StopWatch\bin\Debug\StopWatch.pdb
+E:\C# Projests\StopWatch\StopWatch\obj\Debug\StopWatch.csprojResolveAssemblyReference.cache
+E:\C# Projests\StopWatch\StopWatch\obj\Debug\StopWatch.Form1.resources
+E:\C# Projests\StopWatch\StopWatch\obj\Debug\StopWatch.Properties.Resources.resources
+E:\C# Projests\StopWatch\StopWatch\obj\Debug\StopWatch.csproj.GenerateResource.Cache

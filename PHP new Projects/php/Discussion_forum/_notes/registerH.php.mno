@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:user_id;datatype:int,name:country;datatype:string,name:state;datatype:string,name:address;datatype:string,name:user_type;datatype:string,name:username;datatype:string,name:fullname;datatype:string,name:password;datatype:string,name:user_acc_active;datatype:int,name:dob;datatype:date,name:e_mail;datatype:string,name:gender;datatype:string,name:isuser;datatype:int" />
+	<infoitem key="UD_Recordset2" value="name:user_id;datatype:int,name:country;datatype:string,name:state;datatype:string,name:address;datatype:string,name:user_type;datatype:string,name:username;datatype:string,name:fullname;datatype:string,name:password;datatype:string,name:user_acc_active;datatype:int,name:dob;datatype:date,name:e_mail;datatype:string,name:gender;datatype:string,name:isuser;datatype:int" />
+</info>

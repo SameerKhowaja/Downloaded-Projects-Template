@@ -1,0 +1,59 @@
+1. What is the result of the following operation Top (Push (S, X)) ?
+[A] X		X
+[B] null
+[C] s
+[D] none of these
+
+2. The number of possible ordered trees with three nodes A,B,C is ?
+[A] 16
+[B] 12		X 
+[C] 6
+[D] 10
+
+3. You can make telephone calls over the Internet using a technology called ?
+[A] Intertel
+[B] Telenet
+[C] VoIP	X
+[D] VoRP
+
+4. Which of the following is useful in traversing a given graph by breadth first search ?
+[A] Stack
+[B] Set
+[C] List
+[D] Queue	X
+
+5. Which of the following is useful in implementing quick sort ?
+[A] Stack	X
+[B] Set
+[C] List
+[D] Queue
+
+6. A vertex of degree one is called ?
+[A] isolated vertex
+[B] padent		X
+[C] null vertex
+[D] colored vertex
+
+7. All the following hidden surface algorithm employ image space approach except ?
+[A] Scan line algorithm
+[B] Depth buffer method
+[C] Back face method		X
+[D] Depth sort method
+
+8. NLMenu, a natural language interface for the TI Explorer, is similar to ?
+[A] Ethernet
+[B] Optical
+[C] PROLOG
+[D] NaturalLink		X
+
+9. KEE is product of ?
+[A] Teknowledge
+[B] IntelliCorpn	X
+[C] Texas Instruments
+[D] None of above
+
+10. Oblique projection with an angle of 45 degree to the horizontal plane is called ?
+[A] Cabinet projection
+[B] Isometric Projection
+[C] Cavalier projection		X
+[D] None of above

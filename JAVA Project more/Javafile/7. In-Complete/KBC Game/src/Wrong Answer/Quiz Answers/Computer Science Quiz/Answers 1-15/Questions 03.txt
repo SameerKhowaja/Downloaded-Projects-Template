@@ -1,0 +1,59 @@
+1. ____________ viruses are often transmitted by a floppy disk left in the floppy driver ?
+[A] Boot sector		X
+[B] Logic bomb
+[C] Script
+[D] Trojan horse
+
+2. The secondary storage device that following the sequentional mode of access is ?
+[A] Hard Disk
+[B] Magnetic Disk	X
+[C] Optical Disk
+[D] Floppy disk
+
+3. In LISP, the square root of X is referenced as ?
+[A] sqrt(x)
+[B] x/2
+[C] (sqrt x)	X
+[D] x/3
+
+4. Nils Nilsson headed a team at SRI that created a mobile robot named ?
+[A] Robitics
+[B] Dedalus
+[C] Vax
+[D] Shakey	X
+
+5. In LISP, the function evaluates both and is ?
+[A] set		X
+[B] setq
+[C] add
+[D] eva
+
+6. The field that investigates the mechanics of human intelligence is ?
+[A] history
+[B] cognitive science	X
+[C] psychology
+[D] sociology
+
+7. ________ is the first available high-level language developed by IBM in 1957 ?
+[A] PROLOG
+[B] ALGOL
+[C] FORTRAN	X
+[D] LEO
+
+8. The secondary storage device that following the sequentional mode of access is ?
+[A] Hard Disk
+[B] Floppy disk
+[C] Optical Disk
+[D] Magnetic Disk	X
+
+9. A sprit shape track formatting is present in ________ ?
+[A] Floppy Disk
+[B] Optical Disk	X
+[C] Magnetic Disk
+[D] Hard disk
+
+10. Hard Disk is a kind of ____________ ?
+[A] Optical Disk
+[B] Floppy Disk
+[C] Magnetic Disk	X
+[D] Temproary Memory

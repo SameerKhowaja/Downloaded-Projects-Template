@@ -1,0 +1,3 @@
+javac swipe.java 
+java swipe
+pause...

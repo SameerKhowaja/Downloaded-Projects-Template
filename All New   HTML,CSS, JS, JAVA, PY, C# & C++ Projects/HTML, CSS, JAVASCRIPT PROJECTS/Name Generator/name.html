@@ -1,0 +1,61 @@
+
+<!-- 
+    It's my little project for SoloLearn { code ninja } CHALLENGE ;) 
+    Sorry for my bad english, I'm from Poland, but I'm trying to explain some things im my code :) 
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Generate your Ninja name!</title>
+		
+		<!-- I'll use some jQuery which I get from Google servers -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		
+		<!-- Here we have a nice fonts from Google Fonts ;) -->
+		<link href='https://fonts.googleapis.com/css?family=Lobster|Amatic+SC:700&subset=latin,latin-ext,vietnamese,cyrillic' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+	
+	</head>
+	<body>
+		<div id="canvas">
+		    <!-- Div just for logo magic -->
+		    <div id="logo">
+		        <img class="bottom" id="logoIMG" />
+				<img class="top" src="http://i.imgur.com/iOunFhz.png" />
+		    </div>
+		    
+		    <!-- Div just for input and whole ninja name generating magic ;) -->
+		    <div id="magic">
+		            <p>Enter your name:</p>
+		            
+		            <!-- That's just text input field and "Generate!" button :) -->
+		            <input id="nameInput" type="text" name="name" placeholder="e.g Dmitrij" 
+		                    onfocus="this.placeholder = '' " onblur="this.placeholder='e.g Dimitrij'">
+		                    
+		            <input id="submitBtn" type="submit" value="Generate!">
+		            
+		            <p id="ninjaNameP">Your ninja name is:</p>
+		            
+		            <!-- Here we get generated ninja name! -->
+		            <div id="ninjaName"></div>
+		            
+		    </div>
+		</div>
+		
+		<!-- It's just footer with some text under first box ;) -->
+		<div id="footer">
+		    
+		    <p id="footerText">
+		        
+		        Designed and Created By <br />
+		        Sameer Khowaja
+		        
+		    </p>
+		    
+		</div>
+		
+	</body>
+</html>

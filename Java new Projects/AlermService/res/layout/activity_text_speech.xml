@@ -1,0 +1,161 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".TextSpeech" >
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="#25E8BB"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="40dp"
+                android:layout_height="fill_parent"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:src="@drawable/men" />
+
+            <ImageView
+                android:id="@+id/left_bt"
+                android:layout_width="40dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/contacts" />
+
+            <ImageView
+                android:id="@+id/msg"
+                android:layout_width="40dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/email" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hd"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+              android:background="@drawable/spinr_bg"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/sound"
+                     
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/date_setting"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/bt"
+                android:gravity="center"
+                android:onClick="dateSet"
+                android:text="Set date"
+                android:textColor="@android:color/white" />
+
+            <RadioGroup
+                android:id="@+id/type"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/daily"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Daily"
+                    android:textColor="@android:color/white" />
+
+                <RadioButton
+                    android:id="@+id/normal"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Once"
+                    android:textColor="@android:color/white" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/time_selecter"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/bt"
+                android:gravity="center"
+                android:onClick="timeSet"
+                android:text="Set Time"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/custome_text"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:hint=" Text Write Here for Speak !"
+                android:padding="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="4dp" >
+
+            <Button
+                android:id="@+id/save_alerm"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/bt"
+                android:gravity="center"
+                android:text="save"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/speech_text"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bt"
+                android:gravity="center"
+                android:text="Test Speak"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

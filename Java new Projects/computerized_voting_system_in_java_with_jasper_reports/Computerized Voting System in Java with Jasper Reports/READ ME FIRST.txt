@@ -1,0 +1,59 @@
+
+===========================
+GUI COMPUTERIZED VOTING SYSTEM IN JAVA WITH JASPER REPORTS
+
+This System composed of 4 modules
+
+
+1. SERVER
+
+2. CLIENT
+
+3. VERIFIER
+
+4. LIVE VIEW OF SCORE
+
+It uses individual computer for SERVER,
+VERIFIER,LIVE VIEW OF SCORE and 
+several computers for CLIENT..
+
+
+SERVER - all 3 modules are connected in this server
+         the client can be installed in several computers 
+         and once the students verified they can set
+         in the client computer and make their selection
+         of candidates, once finish they can send their vote
+         to the server and the server is the responsible for
+         saving the students vote into the database then it
+         will change the status of the students so that the
+         verifier know that the students is already voted.
+
+VERIFIER - this is used to verify the student status by sending
+         the student id to the server and wait for the server response
+         if the response show that the particular student is not voted
+         yet, then the student now can enter the room and make his/her 
+         selection of candidate thru the client module, otherwise,,  
+         student is not permitted to enter the room.
+ 
+CLIENT  - this module use to make the selection of candidates and send 
+         vote to
+         the server.. in this module the students can view the profile 
+         of all candidate so that they can make their best choice..
+
+LIVE VIEW OF SCORE - in this monitor, the audience and candidate can 
+         view all 
+         candidate score at real time, when the vote is sent to the 
+         server, the score for each candidate is updated automatically ....
+         
+                 
+===========================
+
+the client is not included in this package.
+
+if you want the full source code and the complete 4 modules, kindly email me at 
+
+norlejrJavascript@yahoo.com
+
+
+if you are interested just send me a message..
+

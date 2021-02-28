@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RegisterUser" value="name:UserID;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string,name:Email;datatype:string,name:UserName;datatype:string,name:Password;datatype:string" />
+	<infoitem key="UD_Register user" value="name:UserID;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string,name:Email;datatype:string,name:UserName;datatype:string,name:Password;datatype:string" />
+	<infoitem key="UD_Registeruser" value="name:UserID;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string,name:Email;datatype:string,name:UserName;datatype:string,name:Password;datatype:string" />
+</info>

@@ -1,0 +1,59 @@
+1. The default executable generation on UNIX for a C++ program is _____ ?
+A - a.out	X
+B - a
+C - a.exe
+D - out.a
+
+2. What is the full form of STL ?
+A - System template library
+B - Standard template library	X
+C - Standard topics library
+D - None of the above
+
+3. What is the built in library function to compare two strings ?
+A - string_cmp()
+B - equals()
+C - strcmp()		X
+D - str_compare()
+
+4. What is the size of ‘int’ ?
+A - 2
+B - 4
+C - 8
+D - None	X
+
+5. Which of the following is used in mode string to open the file in binary mode ?
+A - b		X
+B - a
+C - B
+D - bin
+
+6. Linker generates ________ file ?
+A - Object code
+B - Executable code	X
+C - Assembly code
+D - None of the above
+
+7. Which of the following preprocessor directive marks the end of a #region block in C# ?
+A - warning
+B - region
+C - endregion		X
+D - error
+
+8.  int x=~1; What is the value of 'x' ?
+A - 1
+B - -1
+C - 2
+D - -2		X
+
+9. ‘cin’ is an __________ ?
+A - Class
+B - Object		X
+C - Package
+D - Namespace
+
+10. Which of the following is not the keyword in C++ ? 
+A - volatile
+B - friend
+C - extends	X
+D - this

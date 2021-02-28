@@ -1,0 +1,3 @@
+javac FlappyBird.java
+java FlappyBird
+pause...

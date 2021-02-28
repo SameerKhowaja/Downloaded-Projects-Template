@@ -1,0 +1,59 @@
+1. Which of these class is used to make a thread ?
+[A] Thread	X
+[B] System
+[C] String
+[D] Runnable
+
+2. Which of these interface is implemented by Thread class ?
+[A] Connections
+[B] Runnable		X
+[C] Set
+[D] MapConnections
+
+3. Which of these packages contain all the Java’s built in exceptions ?
+[A] java.io
+[B] java.util
+[C] java.lang		X
+[D] java.net
+
+4. Thread priority in Java is ?
+[A] long
+[B] Float
+[C] double
+[D] Integer	X
+
+5. What is the name of the method used to start a thread execution ?
+[A] start();		X
+[B] init()
+[C] run();
+[D] resume();
+
+6. What is the return type of a method that does not returns any value ?
+[A] int
+[B] void	X
+[C] float
+[D] double
+
+7. Which of the following is a method having same name as that of it’s class ?
+[A] finalize
+[B] delete
+[C] constructor		X
+[D] class
+
+8. Which method can be defined only once in a program ?
+[A] private method
+[B] finalize method
+[C] static method
+[D] main method		X
+
+9. Which of these keywords can be used to prevent inheritance of a class ?
+[A] super
+[B] final	X
+[C] Class
+[D] constant
+
+10. Which of these method of Object class can clone an object ?
+[A] Objectcopy()
+[B] copy()
+[C] Object clone()	X
+[D] clone()

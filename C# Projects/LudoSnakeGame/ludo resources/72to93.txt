@@ -1,0 +1,13 @@
+for (int loop = 1; loop <= 107; loop++)
+             {
+
+
+
+
+                 picturePlayer1.Location = new Point(828-loop, 151-loop);
+                 picturePlayer1.Refresh();
+
+                 Thread.Sleep(4);
+
+
+             }

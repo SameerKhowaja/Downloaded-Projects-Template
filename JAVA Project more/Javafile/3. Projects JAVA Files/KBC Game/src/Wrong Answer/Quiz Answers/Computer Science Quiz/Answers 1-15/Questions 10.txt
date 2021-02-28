@@ -1,0 +1,59 @@
+1. What was originally called the "imitation game" by its creator ?
+[A] The Turing Test	X
+[B] LISP
+[C] The Logic Theorist
+[D] Cybernetics
+
+2. Seymour Papert of the MIT AI lab created a programming environment for children called ?
+[A] BASIC
+[B] LOGO	X
+[C] MYCIN
+[D] FORTRAN
+
+3. Decision support programs are designed to help managers make ?
+[A] budget projections
+[B] visual presentations
+[C] business decisions		X
+[D] vacation schedules
+
+4. Nils Nilsson headed a team at SRI that created a mobile robot named ?
+[A] Robitics
+[B] Dedalus
+[C] Vax
+[D] Shakey	X
+
+5. In data flow diagram, an originator or receiver of data is usually designated by ?
+[A] A square box	X
+[B] An arrow
+[C] A circle
+[D] Rectangle
+
+6. A channel for communicating across a boundary between two or more subsystems is called ?
+[A] Actigram
+[B] Interface		X
+[C] Walk through
+[D] Data Path
+
+7. The longest method of conversion is ?
+[A] Direct
+[B] Parallel
+[C] Phased	X
+[D] Pilot
+
+8. A feasible document should contain ?
+[A] Project name
+[B] Problem description
+[C] Feasible alternative
+[D] Data flow diagram		X
+
+9. Which of the following is minimum error code ?
+[A] Octal code
+[B] Grey code		X
+[C] Binary code
+[D] Excess 3 code
+
+10. For which of the following flip-flop the output clearly defined for all combinations of two inputs ?
+[A] Q type flip-flop
+[B] R S type flip-flop
+[C] J K flip-flop		X
+[D] T flip-flop

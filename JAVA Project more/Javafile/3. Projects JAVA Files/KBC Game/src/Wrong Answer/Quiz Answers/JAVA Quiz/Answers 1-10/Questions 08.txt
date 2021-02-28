@@ -1,0 +1,59 @@
+1. How many ports of TCP/IP are reserved for specific protocols ?
+[A] 1024	X
+[B] 100
+[C] 2048
+[D] 512
+
+2. Which of these is an instance variable of httpd that is a Hashtable ?
+[A] port
+[B] log		X
+[C] cache
+[D] stopFlag
+
+3. Which of these package contains classes and interfaces for networking ?
+[A] java.io
+[B] java.util
+[C] java.net		X
+[D] java.network
+
+4. Which of these is an instance variable of class httpd ?
+[A] port
+[B] cache
+[C] log
+[D] All of these	X
+
+5. How many bits are in a single IP address ?
+[A] 32		X
+[B] 16
+[C] 8
+[D] 128
+
+6. Which of the following class is not included in java.lang ?
+[A] Byte
+[B] Array	X
+[C] Integer
+[D] Class
+
+7. Which of these is a super class of wrappers Double & Integer ?
+[A] Long
+[B] Digits
+[C] Number	X
+[D] Float
+
+8. Which of these is wrapper for simple data type float ?
+[A] float
+[B] double
+[C] Double
+[D] Float	X
+
+9. Which of these operators can be used to concatenate two or more String objects ?
+[A] +=
+[B] +		X
+[C] &
+[D] ||
+
+10. Which of these method of class String is used to obtain length of String object ?
+[A] get()
+[B] Sizeof()
+[C] length()		X
+[D] lengthof()

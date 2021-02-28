@@ -1,0 +1,138 @@
+body 
+{
+    /* Background pattern from subtlepatterns.com */
+    background: url("http://i.imgur.com/vwk1t0a.png");
+    margin: 0;
+    padding: 0;
+}
+
+#canvas
+{
+    width: 500px;
+    height: 400px;
+    background-color: rgba(156,154,154,0.2);
+    border: 3px solid rgba(185,116,255,0.7);
+    border-radius: 20px;
+    margin: 20% auto 0;
+}
+
+#logo 
+{
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#logoIMG
+{
+    display: none;
+    content: url("http://i.imgur.com/j4odU3v.png");
+}
+
+#logo img
+{
+    position: absolute;
+}
+
+#logo img.top
+{
+    position: relative;
+    z-index: 10;
+}
+
+p
+{
+    text-align: center;
+    color: #fff;
+    font-size: 1.8em;
+    font-family: 'Lobster', cursive;
+    margin: 0 0 5px;
+    text-shadow: 2px 2px rgba(185,116,255,0.5);
+}
+
+#ninjaNameP
+{
+    font-size: 1.6em;
+    margin: 0;
+}
+
+#nameInput
+{
+    display: block;
+    text-align: center;
+    margin: 0 auto 15px;
+    width: 50%;
+    height: 35px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(185,116,255,0.2);
+    outline: none;
+    color: #fff;
+}
+
+/*Here I'm styling button look*/
+#submitBtn
+{
+    display: block;
+    margin: 0 auto 5px;
+    font-family: 'Lobster', cursive;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.3em;
+    outline: none;
+    text-shadow: 2px 2px rgba(185,116,255,0.5);
+}
+
+/*It's all for generated ninja name look */ 
+#ninjaName
+{
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+    height: 90px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 4em;
+    font-weight: 700;
+    background: -webkit-linear-gradient(top, #9900E6, #fff);
+	background: linear-gradient(top, #9900E6, #fff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	overflow: hidden;
+	word-break: keep-all;
+	
+	/*Here I'm using animation keyframes which are on the bottom of CSS code + some animation settings*/
+	animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+#footer
+{
+    width: 500px;
+    height: 60px;
+    background-color: rgba(156,154,154,0.2);
+    border: 3px solid rgba(185,116,255,0.7);
+    border-radius: 20px;
+    margin: 15px auto 0;
+}
+
+#footerText
+{
+    font-size: 1.4em;
+}
+
+
+/* This is for animating our generated ninja name ;)*/
+@keyframes bounce {
+    from {transform: rotate(2deg);}
+    to {transform: rotate(-2deg);}
+}
+
+
+
+

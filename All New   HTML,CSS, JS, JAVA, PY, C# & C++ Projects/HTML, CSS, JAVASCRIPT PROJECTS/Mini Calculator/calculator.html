@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mini Calculator</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+	</head> 
+	
+	<body>
+	    <center><h1>Mini Calculator</h1></center>
+		<!-- Html code -->
+		
+		<!-- Numbers buttons container -->
+		<div id="NumbersContainer">
+		
+			<ul>
+				<li>
+					<!-- 1 -->
+					<div>
+						<form>
+							<input class="numBtn" id="1" type="Button" onclick="b1()" value="1"/>
+						</form>
+					</div>
+				</li>
+				<li>
+					<!-- 2 -->
+					<div>
+						<form>
+							<input class="numBtn" id="2" type="Button" onclick="b2()" value="2"/>
+						</form>
+					</div>
+				</li>
+				<li>
+					<!-- 3 -->
+					<div>
+						<form>
+							<input class="numBtn" id="3" type="Button" onclick="b3()" value="3"/>
+						</form>
+					</div>
+				</li>
+			</ul>
+			
+				<ul>
+				<li>
+					<!-- 4 -->
+					<div>
+						<form>
+							<input class="numBtn" id="4" type="Button" onclick="b4()" value="4"/>
+						</form>
+					</div>
+				</li>
+				<li>
+					<!-- 5 -->
+					<div>
+						<form>
+							<input class="numBtn" id="5" type="Button" onclick="b5()" value="5"/>
+						</form>
+					</div>
+				</li>
+				<li>
+					<!-- 6 -->
+					<div>
+						<form>
+							<input class="numBtn" id="6" type="Button" onclick="b6()" value="6"/>
+						</form>
+					</div>
+				</li>
+			</ul>
+			
+			<ul>
+				<li>
+					<!-- 7 -->
+					<div>
+						<form>
+							<input class="numBtn" id="7" type="Button" onclick="b7()" value="7"/>
+						</form>
+					</div>
+				</li>
+				<li>
+					<!-- 8 -->
+					<div>
+						<form>
+							<input class="numBtn" id="8" type="Button" onclick="b8()" value="8"/>
+						</form>
+					</div>
+				</li>
+				<li>
+					<!-- 9 -->
+					<div>
+						<form>
+							<input class="numBtn" id="9" type="Button" onclick="b9()" value="9"/>
+						</form>
+					</div>
+				</li>
+			</ul>
+			
+			<ul>
+				<li>
+				<!-- Blank space for positioning the 0 key -->
+					<div>
+						<form>
+							<input class="numBtn" id="Blank" type="Button" value=" "/>
+						</form>
+					</div>
+				</li>
+				<li>
+					<!-- 0 -->
+					<div>
+						<form>
+							<input class="numBtn" id="0" type="Button" onclick="b0()" value="0"/>
+						</form>
+					</div>
+				</li>	
+			</ul>
+		</div>
+		
+		<!-- Action buttons -->
+		<div id="ActionButtonsContainer">
+			<ul>
+				<li>
+					<!-- Plus button -->
+					<div>
+						<form>
+							<input class="Button" onclick="add()" type="Button" value="+"/>
+						</form>
+					</div>
+				</li>
+			
+				<li>
+					<!-- Minus button -->
+					<div>
+						<form>
+							<input class="Button" onclick="sub()" type="Button" value="-"/>
+						</form>
+					</div>
+				</li>
+				
+				<li>
+					<!-- multiplication button -->
+					<div>
+						<form>
+							<input class="Button" onclick="mul()" type="Button" value="X"/>
+						</form>
+					</div>
+				</li>
+			
+				<li>
+					<!-- Division button -->
+					<div>
+						<form>
+							<input class="Button" onclick="div()" type="Button" value=":"/>
+						</form>
+					</div>
+				</li>
+				<br>
+				<li>
+					<!-- equals button -->
+					<div>
+						<form>
+							<input id="equals" class="Button" onclick="equ()" type="Button" value="="/>
+						</form>
+					</div>
+				</li>
+			
+				<li>
+					<!-- Clear button -->
+					<div>
+						<form>
+							<input id="clear" class="Button" onclick="Clear()" type="Button" value="C"/>
+						</form>
+					</div>
+				</li>
+			</ul>
+		</div>
+		
+		
+		<!-- Results textbox -->
+		<div id="ResultsBox">
+		
+			<!-- Secondary box -->
+			<p id="OperationBox"> </p>
+			
+			<!-- Primary box -->
+			<p id="ResultsText"> 0 </p>
+		</div>
+	</body>	
+</html>

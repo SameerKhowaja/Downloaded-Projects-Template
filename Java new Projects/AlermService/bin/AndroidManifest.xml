@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alermservice"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.alermservice.SettingMainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.example.alermservice.Myservice" >
+        </service>
+
+        <receiver android:name="com.example.alermservice.Broadcost" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.example.alermservice.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.example.alermservice.TextSpeech"
+            android:label="@string/title_activity_text_speech" >
+        </activity>
+        <activity
+            android:name="com.example.alermservice.ClockMainActivity"
+            android:label="@string/title_activity_clock_main" >
+        </activity>
+        <activity
+            android:name="com.example.alermservice.SettingAlermMainActivity"
+            android:label="@string/title_activity_setting_alerm_main" >
+        </activity>
+        <activity
+            android:name="com.example.alermservice.Thank"
+            android:label="@string/title_activity_thank" >
+        </activity>
+        <activity
+            android:name="com.example.alermservice.Speak"
+            android:label="@string/title_activity_speak" >
+        </activity>
+        <activity
+            android:name="com.example.alermservice.MessageSpeak"
+            android:label="@string/title_activity_message_speak" >
+        </activity>
+    </application>
+
+</manifest>

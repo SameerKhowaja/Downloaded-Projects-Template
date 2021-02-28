@@ -1,0 +1,59 @@
+1. A 6 digit Hex color (#FF9966) defines values of Red, Blue and Green in which order ?
+a) #RRGGBB	X
+b) #BBGGRR
+c) #BBRRGG
+c) #BBBBGG
+
+2. Which of the following attribute triggers event when an element is invalid ?
+A - onhaschange
+B - oninvalid		X
+C - oninput
+D - onvalidate
+
+3. Comments in XML document is given by ?
+a. <?– _ _–>
+b. <!_ _ _ _!>
+c. <!_ _ _ _>		X
+d. </_ _ _ _>
+
+4. Which of the following tag represents the header of a section in HTML5 ?
+A - section
+B - article
+C - aside
+D - header	X
+
+5. Which of the following attribute specifies a keyboard shortcut to access an element in HTML5 ?
+A - accesskey		X
+B - key
+C - contextmenu
+D - contextkey
+
+6. Which of the following attribute triggers event when a media resource element suddenly becomes empty ?
+A - ondrop
+B - onemptied		X
+C - ondurationchange
+D - onended
+
+7. Which of the following attribute triggers event at the end of a drag operation ?
+A - ondragleave
+B - ondrag
+C - ondragend		X
+D - ondragenter
+
+8. Which of the following attribute triggers event when the browser starts to load the media data ?
+A - onloadedmetadata
+B - onoffline
+C - onmessage
+D - onloadstart		X
+
+9. Which of the following tag provides a hint to the user of what can be entered in the field in HTML5 ?
+A - output
+B - placeholder		X
+C - autofocus
+D - required
+
+10. Which of the following attribute triggers events when a form changes ?
+A - onchange
+B - onedit
+C - onformchange	X
+D - onforminput

@@ -1,0 +1,3 @@
+javac Pacman.java
+java Pacman
+pause...

@@ -1,0 +1,14 @@
+c:\users\mercados\documents\visual studio 2012\Projects\AMPS\AMPS\bin\Debug\AMPS.exe.config
+C:\Users\Mercados\documents\visual studio 2012\Projects\AMPS\AMPS\bin\Debug\AMPS.exe
+C:\Users\Mercados\documents\visual studio 2012\Projects\AMPS\AMPS\bin\Debug\AMPS.pdb
+C:\Users\Mercados\documents\visual studio 2012\Projects\AMPS\AMPS\obj\Debug\AMPS.csprojResolveAssemblyReference.cache
+C:\Users\Mercados\documents\visual studio 2012\Projects\AMPS\AMPS\obj\Debug\AMPS.Properties.Resources.resources
+C:\Users\Mercados\documents\visual studio 2012\Projects\AMPS\AMPS\obj\Debug\AMPS.csproj.GenerateResource.Cache
+C:\Users\Mercados\documents\visual studio 2012\Projects\AMPS\AMPS\obj\Debug\AMPS.exe
+C:\Users\Mercados\documents\visual studio 2012\Projects\AMPS\AMPS\obj\Debug\AMPS.pdb
+C:\Users\Mercados\documents\visual studio 2012\Projects\AMPS\AMPS\obj\Debug\AMPS.Form1.resources
+C:\Users\Mercados\documents\visual studio 2012\Projects\AMPS\AMPS\obj\Debug\AMPS.forms.Department.resources
+C:\Users\Mercados\documents\visual studio 2012\Projects\AMPS\AMPS\obj\Debug\AMPS.forms.FormPositions.resources
+C:\Users\Mercados\documents\visual studio 2012\Projects\AMPS\AMPS\obj\Debug\AMPS.forms.FormSSS.resources
+C:\Users\Mercados\documents\visual studio 2012\Projects\AMPS\AMPS\obj\Debug\AMPS.forms.FormPagIbig.resources
+C:\Users\Mercados\documents\visual studio 2012\Projects\AMPS\AMPS\obj\Debug\AMPS.forms.FormPhilHealth.resources

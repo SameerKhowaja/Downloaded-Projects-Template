@@ -1,0 +1,31 @@
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+
+<div style="text-align:center;">
+  <h2>A Table</h2>
+  <h5>Click "New Row" to add a row to table</h5>
+  <table id="myTable">
+    <tr>
+      <th>Sl. No.</th>
+      <th>Input</th>
+    </tr>
+    <tr>
+      <td>1.</td>
+      <td>
+        <input type="text" />
+      </td>
+    </tr>
+  </table>
+  <br>
+  <input type="button" value="New Row" onclick="addRow()">
+  <template id="rowTemplate">
+    <tr>
+      <td></td>
+      <td>
+        <input type="text" />
+      </td>
+    </tr>
+  </template>
+</div>

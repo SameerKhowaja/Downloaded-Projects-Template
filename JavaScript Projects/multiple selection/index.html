@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Multiple Selection Dropdown list</title>
+    <link rel="stylesheet" type="text/css" href="css/chosen.css" />
+</head>
+<body>
+<form action="" method="post">
+    
+        <h3>Multiple Selection Dropdown list</h3>
+     
+       <select data-placeholder="Select your Library" name="program[]" class="chzn-select" multiple="multiple" tabindex="6" style="width:400px"> 
+            <option value="html">HTML</option>	
+            <option value="css">CSS</option>	
+           <option value="php">PHP</option>
+            <option value="javascript">Javascript</option>	
+            <option value="jquery">JQuery</option>	
+            <option value="ajax">AJAX</option>
+       </select>
+	   <br>
+	   <input type="submit" name="submit" style="padding:5px;" value="Submit">
+     </form>  
+   <script src="js/jquery-1.8.2.min.js"></script>
+   <script type="text/javascript" src="js/chosen.jquery.min.js"></script>
+   <script>$(".chzn-select").chosen(); $(".chzn-select-deselect").chosen({allow_single_deselect:true});</script>
+</body>
+</html>

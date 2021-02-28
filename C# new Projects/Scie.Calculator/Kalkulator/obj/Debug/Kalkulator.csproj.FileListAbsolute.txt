@@ -1,0 +1,88 @@
+c:\users\iric__000\documents\visual studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csprojResolveAssemblyReference.cache
+c:\users\iric__000\documents\visual studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Properties.Resources.resources
+c:\users\iric__000\documents\visual studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csproj.GenerateResource.Cache
+c:\users\iric__000\documents\visual studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Calculator.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.konv.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Distance.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.area.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.volume.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.mass.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.speed.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.time.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.force.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.preasure.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.energy.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.power.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.fuel.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.temperature.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.data.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.financ.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.formula.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.frmsareas.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.pythagora.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.distancef.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.trigonometry.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.basicfrms.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.SplashScreen1.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\bin\Debug\Antlr3.Runtime.dll
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\bin\Debug\NCalc.dll
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\bin\Debug\NCalc.pdb
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\bin\Debug\iCalculator.exe.config
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\bin\Debug\iCalculator.exe.manifest
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\bin\Debug\iCalculator.application
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\bin\Debug\iCalculator.exe
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\bin\Debug\iCalculator.pdb
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\iCalculator.exe.manifest
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\iCalculator.application
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\iCalculator.exe
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\iCalculator.pdb
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Vectors.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.AnalitycG.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.DiferentialC.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.IntegralC.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.DifEq.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Probability.resources
+C:\Users\iric__000\Documents\Visual Studio 2012\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Series.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\bin\Debug\iCalculator.exe.config
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\iCalculator.exe
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\iCalculator.pdb
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\bin\Debug\iCalculator.exe.manifest
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\bin\Debug\iCalculator.application
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\bin\Debug\iCalculator.exe
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\bin\Debug\iCalculator.pdb
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\bin\Debug\NCalc.pdb
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csprojResolveAssemblyReference.cache
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.AnalitycG.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.area.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.basicfrms.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.data.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.DifEq.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.DiferentialC.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Distance.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.distancef.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.energy.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.financ.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.force.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Calculator.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.formula.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.frmsareas.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.fuel.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.IntegralC.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.konv.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.mass.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.power.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.preasure.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Probability.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Properties.Resources.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.pythagora.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Series.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.speed.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.SplashScreen1.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.temperature.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.time.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.trigonometry.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Vectors.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.volume.resources
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csproj.GenerateResource.Cache
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\iCalculator.exe.manifest
+C:\Users\iric__000\Desktop\Kalkulator\Kalkulator\obj\Debug\iCalculator.application

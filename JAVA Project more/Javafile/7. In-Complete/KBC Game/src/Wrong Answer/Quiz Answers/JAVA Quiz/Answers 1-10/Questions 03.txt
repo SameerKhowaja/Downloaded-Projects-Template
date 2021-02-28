@@ -1,0 +1,59 @@
+1. String is an ________ ?
+[A] class	X
+[B] Variable
+[C] Array
+[D] Data type
+
+2. If s = "text", what is the value returned by s.length() ?
+[A] 5
+[B] 4		X
+[C] True
+[D] False
+
+3. Which of these method of String class is used to obtain character at specified index ?
+[A] char()
+[B] Charat()
+[C] charAt()		X
+[D] charat()
+
+4. Which of these method of String class can be used to test to strings for equality ?
+[A] isequal()
+[B] isequals()
+[C] equal()
+[D] equals()		X
+
+5. Which of these method of class String is used to obtain length of String object ?
+[A] length()		X
+[B] Sizeof()
+[C] lengthof()
+[D] get()
+
+6. Which of these class is used to read characters in a file ?
+[A] FileWriter
+[B] FileReader		X
+[C] FileInputStream
+[D] InputStreamReader
+
+7. Which of these is a method to clear all the data present in output buffers ?
+[A] clear()
+[B] fflush()
+[C] flush()		X
+[D] close()
+
+8. Which of these interface is not a member of java.io package ?
+[A] DataInput
+[B] ObjectInput
+[C] FileFilter
+[D] ObjectFilter	X
+
+9. Which of these is specified by a File object ?
+[A] a file in disk
+[B] directory in disk		X
+[C] directory path
+[D] None of these
+
+10. Which of these class is not a member class of java.io package ?
+[A] Writer
+[B] StringReader
+[C] String		X
+[D] File

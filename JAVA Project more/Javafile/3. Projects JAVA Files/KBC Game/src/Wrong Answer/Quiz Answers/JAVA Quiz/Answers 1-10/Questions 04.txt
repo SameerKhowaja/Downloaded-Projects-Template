@@ -1,0 +1,59 @@
+1. Which of these keywords is used to define interfaces in Java ?
+[A] interface		X
+[B] Interface
+[C] intf
+[D] Intf
+
+2. Which of these can be used to fully abstract a class from its implementation ?
+[A] Objects
+[B] Interfaces		X
+[C] Packages
+[D] None of these
+
+3. Which of these access specifiers can be used for an interface ?
+[A] private
+[B] Protected
+[C] Public		X
+[D] All of these
+
+4. Which of these keywords is used by a class to use an interface defined previously ?
+[A] Import
+[B] import
+[C] Implements
+[D] implements		X
+
+5. Which of the following package stores all the standard java classes ?
+[A] java	X
+[B] lang
+[C] util
+[D] java.packages
+
+6. Package of drawstring() method is ?
+[A] java.applet
+[B] java.awt		X
+[C] javax.swing
+[D] java.io
+
+7. Which class provides many methods for graphics programming ?
+[A] java.awt
+[B] java.Graphics
+[C] java.awt.Graphics		X
+[D] None of the above
+
+8. What is the meaning of JIT ?
+[A] java in time
+[B] junk in time
+[C] join in time
+[D] just in time	X
+
+9. Thread class is available in ?
+[A] java.io package
+[B] java.lang package		X
+[C] java.awt package
+[D] java.util package
+
+10. Interfaces helps in which type of inheritance ?
+[A] Multiple inheritance
+[B] Multilevel inheritance
+[C] Hierarchical inheritance		X
+[D] None of above

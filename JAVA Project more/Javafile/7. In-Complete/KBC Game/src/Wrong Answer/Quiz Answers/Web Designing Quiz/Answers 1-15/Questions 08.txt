@@ -1,0 +1,59 @@
+1. Which built-in method returns the length of the string ?
+A - length()		X
+B - size()
+C - index()
+D - None
+
+2. Which of the following function of Number object returns the number's value ?
+A - toString()
+B - valueOf()		X
+C - toLocaleString()
+D - toPrecision()
+
+3. Which built-in method sorts the elements of an array ?
+A - changeOrder(order)
+B - order()
+C - sort()		X
+D - None
+
+4. Which of the following function of Array object adds and/or removes elements from an array ?
+A - toSource()
+B - sort()
+C - unshift()
+D - splice()		X
+
+5. Which built-in method returns the characters in a string beginning at the specified location ?
+A - substr()		X
+B - getSubstring()
+C - slice()
+D - None of them
+
+6. Which of the following function of String object causes a string to be italic, as if it were in an <i> tag ?
+A - fixed()
+B - italics()		X
+C - fontsize()
+D - fontcolor()
+
+7. Which built-in method removes the last element from an array and returns that element ?
+A - last()
+B - get()
+C - pop()	X
+D - None
+
+8. Which of the following function of Number object forces a number to display in exponential notation ?
+A - toLocaleString()
+B - toFixed()
+C - toPrecision()
+D - toExponential()		X
+
+9. Which of the following function of Array object joins all elements of an array into a string ?
+A - concat()
+B - join()		X
+C - pop()
+D - map()
+
+10. Which of the following function of String object is used to match a regular expression against a string ?
+A - concat()
+B - search()
+C - match()		X
+D - replace()

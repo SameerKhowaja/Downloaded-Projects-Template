@@ -1,0 +1,10 @@
+C:\Users\don\Desktop\bg.o sa vb.net\Microphone\Microphone\CS\bin\Debug\Microphone.exe
+C:\Users\don\Desktop\bg.o sa vb.net\Microphone\Microphone\CS\bin\Debug\Microphone.pdb
+C:\Users\don\Desktop\bg.o sa vb.net\Microphone\Microphone\CS\bin\Debug\Microphone.xml
+C:\Users\don\Desktop\bg.o sa vb.net\Microphone\Microphone\CS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\don\Desktop\bg.o sa vb.net\Microphone\Microphone\CS\obj\Debug\Microphone.Form1.resources
+C:\Users\don\Desktop\bg.o sa vb.net\Microphone\Microphone\CS\obj\Debug\Microphone.Properties.Resources.resources
+C:\Users\don\Desktop\bg.o sa vb.net\Microphone\Microphone\CS\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\don\Desktop\bg.o sa vb.net\Microphone\Microphone\CS\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\don\Desktop\bg.o sa vb.net\Microphone\Microphone\CS\obj\Debug\Microphone.exe
+C:\Users\don\Desktop\bg.o sa vb.net\Microphone\Microphone\CS\obj\Debug\Microphone.pdb

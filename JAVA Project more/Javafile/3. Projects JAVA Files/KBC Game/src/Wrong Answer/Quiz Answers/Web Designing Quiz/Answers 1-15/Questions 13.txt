@@ -1,0 +1,47 @@
+1. _____________ Formats a local time or date according to locale settings ?
+[A] strftime		X
+[B] strgtime
+[C] strhtime
+[D] stritime
+
+2. Which of the following functions do not return a timestamp ?
+[A] time()
+[B] date()		X
+[C] strtotime()
+[D] localtime()
+
+3. The ________ function parses an English textual date or time into a Unix timestamp ?
+[A] strtodate()
+[B] stroftime()
+[C] strtotime()		X
+[D] str_to_time()
+
+4. _________ Checks a date for numeric validity ?
+[A] check_date
+[B] verifydate
+[C] Verify_date
+[D] checkdate		X
+
+5. How many Arithmetic Operators are in PHP ?
+[A] 7		X
+[B] 3
+[C] 5
+[D] 6
+
+6. _________ Returns the time of sunrise for a given day / location ?
+[A] datesunrise()
+[B] date_sunrise()		X
+[C] date-sunrise()
+[D] date.sunrise()
+
+7. The getdate() function returns ?
+[A] An integer
+[B] A Boolean
+[C] An array		X
+[D] A string
+
+8. How many operator groups in PHP ?
+[A] 6
+[B] 8
+[C] 10
+[D] 12		X

@@ -1,0 +1,59 @@
+1. Which of the following is not valid version of MS Office ?
+[A] Office Vista	X
+[B] Office XP
+[C] Office 2007
+[D] none
+
+2. What is the permanent memory built into your computer called ?
+[A] CD-ROM
+[B] ROM		X
+[C] RAM
+[D] CPU
+
+3. The pattern of printed lines on most products are called ?
+[A] prices
+[B] scanners
+[C] barcodes	X
+[D] OCR
+
+4. How many megabytes make a gigabyte ?
+[A] 512
+[B] 128
+[C] 256
+[D] 1024	X
+
+5. Which of the following is not an example of hardware ?
+[A] Interpreter		X
+[B] scanner
+[C] Monitor
+[D] Mouse
+
+6. ____________ is the process of carrying out commands ?
+[A] Fetching
+[B] Executing	X
+[C] sorting
+[D] Decoding
+
+7. What kind of scheme is the http protocol ?
+[A] get/put
+[B] store/forward
+[C] request/response	X
+[D] queuing
+
+8. A function inside another function is termed as ?
+[A] round function
+[B] sum function
+[C] test function
+[D] nested function		X
+
+9. Which of the followng is an example of optical disk ?
+[A] Magnetic disk
+[B] Blue-ray disk	X
+[C] Data bus disk
+[D] none of these
+
+10. THE concept of logarithm was developed by ___________ ?
+[A] Blaise Pascal
+[B] Howard Alken
+[C] John Napier		X
+[D] Joseph Marie

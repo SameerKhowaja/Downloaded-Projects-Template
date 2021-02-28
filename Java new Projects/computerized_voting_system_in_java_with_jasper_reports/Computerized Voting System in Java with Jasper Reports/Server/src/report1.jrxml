@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="fa49b4b0-7db9-42b2-8f26-1eba3a765f68">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     Score_Tbl.`position` AS Score_Tbl_position,
+     Score_Tbl.`candidate_name` AS Score_Tbl_candidate_name,
+     Score_Tbl.`score` AS Score_Tbl_score
+FROM
+     `Score_Tbl` Score_Tbl]]>
+	</queryString>
+	<field name="Score_Tbl_position" class="java.lang.String"/>
+	<field name="Score_Tbl_candidate_name" class="java.lang.String"/>
+	<field name="Score_Tbl_score" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="72" splitType="Stretch">
+			<image scaleImage="FillFrame">
+				<reportElement stretchType="RelativeToTallestObject" x="101" y="2" width="332" height="61" uuid="952072ca-28f1-4d7b-b009-5e9a2fd5a4bc"/>
+				<imageExpression><![CDATA["OC.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="30" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="2" width="555" height="20" backcolor="#666666" uuid="f6e90ac5-0ed9-4adf-938d-f16e23c34808"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="24" y="3" width="100" height="20" forecolor="#FFFFFF" uuid="1edbfc20-690f-40a0-81d4-4ed2569ed7b6"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[POSITION]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="148" y="3" width="270" height="20" forecolor="#FFFFFF" uuid="28f14c17-0bff-4c3c-9e91-07966caa96b1"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CANDIDATE NAME]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="433" y="3" width="100" height="20" forecolor="#FFFFFF" uuid="b73595ca-fb78-4b1c-8848-e3e75b6afa18"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[TALLY]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="24" width="555" height="1" forecolor="#999999" uuid="8a6d47aa-2c73-4995-83b9-8cc0cf0cbed7"/>
+				<graphicElement>
+					<pen lineWidth="2.0" lineStyle="Double"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="31" splitType="Stretch">
+			<textField isBlankWhenNull="true">
+				<reportElement x="24" y="5" width="100" height="20" uuid="30e88af2-25ed-4cc5-beb4-fccff3512f59"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Score_Tbl_position}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="150" y="5" width="283" height="20" uuid="8da1d53f-e450-451f-b98f-5a167d580c06"/>
+				<textFieldExpression><![CDATA[$F{Score_Tbl_candidate_name}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="448" y="6" width="85" height="20" uuid="0e42bd6b-1190-4a4d-b276-183d6daec70c"/>
+				<textFieldExpression><![CDATA[$F{Score_Tbl_score}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="51" splitType="Stretch">
+			<textField>
+				<reportElement x="433" y="22" width="80" height="20" uuid="29656c33-e8d4-4971-b18d-ed9e3c04886b"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="14" width="555" height="1" forecolor="#999999" uuid="77b1e0ad-8b0d-4fae-92ab-9346745a9727"/>
+				<graphicElement>
+					<pen lineWidth="2.0" lineStyle="Double"/>
+				</graphicElement>
+			</line>
+			<textField evaluationTime="Report">
+				<reportElement x="513" y="22" width="40" height="20" uuid="88fadd64-8d27-4ca6-a0f0-7879012a5ac3"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="24" y="22" width="100" height="20" uuid="4241fd96-9064-4bdd-82a7-fbdf3b715278"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="6" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

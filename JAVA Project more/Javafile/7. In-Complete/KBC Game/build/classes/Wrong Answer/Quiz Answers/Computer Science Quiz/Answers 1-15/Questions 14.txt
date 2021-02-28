@@ -1,0 +1,47 @@
+1. Which command is used to see the sub-directory structure of drive ?
+[A] Tree	X
+[B] List
+[C] Subtree
+[D] none
+
+2. Which data communication method is used to transmit the data over a serial communication link ?
+[A] Simplex
+[B] Full duplex
+[C] Half-duplex
+[D] All of above
+
+3. To protect system,there are how many security levels ?
+[A] 1
+[B] 2
+[C] 3		X
+[D] 4
+
+4. In communication satellite, multiple repeaters are known as ?
+[A] Detectors
+[B] Modulators
+[C] Stations
+[D] Transponders	X
+
+5. The topology with highest reliability is ?
+[A] Mesh Topology	X
+[B] Star topology
+[C] Ring Topology
+[D] Bus topology
+
+6. The data on a DVD is held in the form of __________ on the disc ?
+[A] small bits
+[B] small pits and bumps
+[C] small bytes
+[D] None of These
+
+7. Which protocol does Ping use ?
+[A] TCP
+[B] ARP
+[C] ICMP	X
+[D] BootP
+
+8. What PPP protocol provides dynamic addressing, authentication, and multilink ?
+[A] NCP
+[B] HDLC
+[C] X.25
+[D] LCP		X

@@ -1,0 +1,15 @@
+0- Extract "Hashing.zip"
+
+1- Open Eclipse/
+	
+2- click File/Import/
+
+3- General/Existing Project into WorkSpace/Next
+
+4- check "Select root directory" then click Browse
+
+5- select "Hashing" folder then OK
+
+6- check "Copy projects into workspace"/ Finish
+
+Enjoy !! :)

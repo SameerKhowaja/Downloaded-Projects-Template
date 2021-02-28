@@ -1,0 +1,29 @@
+1. 
+A - Compile error	X
+B - Derived
+C - Base
+D - None of the above
+
+2.
+A - 1
+B - 0		X
+C - 65535
+D - 32767
+
+3.
+A - 3 5
+B - 5 5
+C - 5 3		X
+D - Compile error
+
+4.
+A - 1 1 1
+B - 0 0 0
+C - 3 2 1
+D - 1 2 3	X
+
+5.
+A - Base	X
+B - Derived
+C - Compile error
+D - None of these

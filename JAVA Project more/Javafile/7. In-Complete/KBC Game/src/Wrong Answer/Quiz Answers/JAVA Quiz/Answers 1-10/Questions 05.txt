@@ -1,0 +1,59 @@
+1. The JDBC-ODBC bridge is ?
+[A] Multithreaded	X
+[B] Singlethreaded
+[C] Both of the above
+[D] none of the above
+
+2. Which type of driver provides JDBC access via one or more ODBC drivers ?
+[A] Type 2 driver
+[B] Type 1 driver	X
+[C] Type 4 driver
+[D] Type 3 driver
+
+3. How many JDBC driver types does Sun define ?
+[A] one
+[B] three
+[C] four	X
+[D] six
+
+4. Which of the following reference types cannot be generic ?
+[A] Collective class
+[B] Interface
+[C] Inner class
+[D] Anonymous inner class	X
+
+5. Which of these types cannot be used to initiate a generic type ?
+[A] Primitive Types	X
+[B] Float class
+[C] Integer class
+[D] Collections class
+
+6. Which of these instance cannot be created ?
+[A] Integer instance
+[B] Generic type instance	X
+[C] Generic class instance
+[D] Collection instances
+
+7. Which of these data type cannot be type parameterized ?
+[A] Map
+[B] List
+[C] Array	X
+[D] Set
+
+8. Which of these methods of httpd class is used to read data from the stream ?
+[A] getDta()
+[B] GetResponse()
+[C] getStream()
+[D] getRawRequest()		X
+
+9. Which of these class is used for operating on request from the client to the server ?
+[A] http
+[B] httpd		X
+[C] httpConnection
+[D] httpDecoder
+
+10. In IPV 4, the IP address 200.200.200.200 belongs to ?
+[A] Class A
+[B] Class B
+[C] Class C	X
+[D] Class D

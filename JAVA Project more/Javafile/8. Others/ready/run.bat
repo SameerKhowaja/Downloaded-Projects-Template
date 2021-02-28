@@ -1,0 +1,3 @@
+javac Name.java 
+java Name
+pause...

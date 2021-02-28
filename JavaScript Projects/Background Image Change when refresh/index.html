@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Background Image Change When Refresh</title> 
+ 
+	<script type="text/javascript"> 
+	var totalCount = 10;
+	
+	function ChangeIt() {
+	var num =  Math.ceil( Math.random() * totalCount );
+	document.body.background = 'images/'+num+'.png';
+	document.body.style.backgroundRepeat = "repeat";
+	}
+	</script>  
+	
+	<style>
+	a {
+	color:red;
+	}
+	</style>
+</head> 
+<body> 
+
+	<div style="background-color:#fff; border:2px solid #ccc; margin:auto; margin-top:280px; height:100px; width:600px; padding:5px; text-align:center; ">
+		<h2 style="color:blue;">
+				Refresh to Change the Background Image <br><a>Press F5</a> or <a href="index.html">Click Me!</a>
+		</h2>
+	</div>
+
+</body> 
+<script type="text/javascript"> 
+ChangeIt();
+</script> 
+
+</html> 

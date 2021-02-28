@@ -1,0 +1,59 @@
+1. Dragons have wings like a bird and scales like a lizard. In object oriented verabage, we would say this is an example of ?
+[A] Multiple inheritance	X
+[B] Polymorphism
+[C] Multilevel Inheritance
+[D] Aggregation
+
+2. The maximum combined length of the command-line arguments as well as the spaces between adjacent arguments is – a) 120 characters, b) 56 characters, c) Vary from one OS to another  ?
+A - a
+B - c		X
+C - a, b, c
+D - a, b
+
+3. First operating system developed using C programming language ?
+A - DOS
+B - Windows
+C - UNIX	X
+D - Mac
+
+4. The library function strrchr() finds the first occurrence of a substring in another string ?
+A - Yes
+B - strnset()
+C - strchr()
+D - Strstr()		X
+
+5. In the standard library of C programming language, which of the following header file is designed for basic mathematical operations ?
+A - math.h	X
+B - conio.h
+C - dos.h
+D - stdio.h
+
+6. The return keyword used to transfer control from a function back to the calling function ?
+A - Switch
+B - Yes		X
+C - go back
+D - goto
+
+7. Which of the following preprocessor directive lets you modify the compiler's line number and (optionally) the file name output for errors and warnings in C# ?
+A - elif
+B - endif
+C - line	X
+D - region
+
+8. Which of the following property of Array class in C# gets the rank (number of dimensions) of the Array ?
+A - Long
+B - LongLength
+C - Length
+D - Rank	X
+
+9. Class function which is called automatically as soon as the object is created is called as ________ ?
+A - Destructor
+B - Constructor		X
+C - Friend function
+D - Inline function.
+
+10. Which is the storage specifier used to modify the member variable even though the class object is a constant object ?
+A - auto
+B - register
+C - mutable	X
+D - static

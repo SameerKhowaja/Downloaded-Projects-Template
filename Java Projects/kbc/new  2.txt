@@ -1,0 +1,3 @@
+L1.setIcon(new ImageIcon("game.jpg"));
+		L1.setBounds(0, 0, 818, 538);
+		frm.add(L1);

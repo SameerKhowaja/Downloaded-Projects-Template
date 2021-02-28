@@ -1,0 +1,3 @@
+javac JPanelDrawing.java 
+java JPanelDrawing
+pause...

@@ -1,0 +1,3 @@
+javac ImageExample.java
+java ImageExample
+pause...

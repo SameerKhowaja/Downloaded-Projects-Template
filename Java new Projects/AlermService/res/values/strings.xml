@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AlermService</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_text_speech">TextSpeech</string>
+    <string name="title_activity_clock_main">ClockMainActivity</string>
+    <string name="title_activity_setting_alerm_main">SettingAlermMainActivity</string>
+    <string name="title_activity_thank">Thank</string>
+    <string name="title_activity_speak">Speak</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="title_activity_message_speak">MessageSpeak</string>
+</resources>

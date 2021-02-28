@@ -1,0 +1,3 @@
+javac ByteTest.java 
+java ByteTest
+pause...

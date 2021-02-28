@@ -1,0 +1,38 @@
+body,
+input[type="button"] {
+  font-family: bookman old style;
+  font-size: 12pt;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+th,
+input[type="button"],
+h2 {
+  color: indianred;
+}
+
+th,
+td {
+  border: 1px solid indianred;
+  padding: 6px;
+}
+
+input[type="text"] {
+  border: 1px dashed indianred;
+}
+
+input[type="button"] {
+  border: 2px solid indianred;
+  background: antiquewhite;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background: indianred;
+  color: antiquewhite;
+}
+}

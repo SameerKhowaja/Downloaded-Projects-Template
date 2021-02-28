@@ -1,0 +1,2 @@
+javac butttonMovingKey.java
+java butttonMovingKey

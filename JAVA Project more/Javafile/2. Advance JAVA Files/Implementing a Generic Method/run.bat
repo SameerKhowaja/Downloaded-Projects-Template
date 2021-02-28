@@ -1,0 +1,3 @@
+javac Sameer.java 
+java Sameer
+pause...

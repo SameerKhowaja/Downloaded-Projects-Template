@@ -1,0 +1,12 @@
+c:\users\shadab ali\documents\visual studio 2012\Projects\MethodCall\MethodCall\bin\Debug\MethodCall.exe.config
+c:\users\shadab ali\documents\visual studio 2012\Projects\MethodCall\MethodCall\bin\Debug\MethodCall.exe
+c:\users\shadab ali\documents\visual studio 2012\Projects\MethodCall\MethodCall\bin\Debug\MethodCall.pdb
+c:\users\shadab ali\documents\visual studio 2012\Projects\MethodCall\MethodCall\obj\Debug\MethodCall.csprojResolveAssemblyReference.cache
+c:\users\shadab ali\documents\visual studio 2012\Projects\MethodCall\MethodCall\obj\Debug\MethodCall.exe
+c:\users\shadab ali\documents\visual studio 2012\Projects\MethodCall\MethodCall\obj\Debug\MethodCall.pdb
+D:\Assignment\C# Assignment\MethodCall\MethodCall\bin\Debug\MethodCall.exe.config
+D:\Assignment\C# Assignment\MethodCall\MethodCall\obj\Debug\MethodCall.exe
+D:\Assignment\C# Assignment\MethodCall\MethodCall\obj\Debug\MethodCall.pdb
+D:\Assignment\C# Assignment\MethodCall\MethodCall\obj\Debug\MethodCall.csprojResolveAssemblyReference.cache
+D:\Assignment\C# Assignment\MethodCall\MethodCall\bin\Debug\MethodCall.exe
+D:\Assignment\C# Assignment\MethodCall\MethodCall\bin\Debug\MethodCall.pdb

@@ -1,0 +1,3 @@
+javac Simple3DTest2.java 
+java Simple3DTest2
+pause...

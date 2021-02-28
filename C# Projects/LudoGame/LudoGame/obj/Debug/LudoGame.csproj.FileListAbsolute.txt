@@ -1,0 +1,9 @@
+D:\Assignment\C# Assignment\LudoGame\LudoGame\bin\Debug\LudoGame.exe.config
+D:\Assignment\C# Assignment\LudoGame\LudoGame\bin\Debug\LudoGame.exe
+D:\Assignment\C# Assignment\LudoGame\LudoGame\bin\Debug\LudoGame.pdb
+D:\Assignment\C# Assignment\LudoGame\LudoGame\obj\Debug\LudoGame.csprojResolveAssemblyReference.cache
+D:\Assignment\C# Assignment\LudoGame\LudoGame\obj\Debug\LudoGame.ABOUT.resources
+D:\Assignment\C# Assignment\LudoGame\LudoGame\obj\Debug\LudoGame.Properties.Resources.resources
+D:\Assignment\C# Assignment\LudoGame\LudoGame\obj\Debug\LudoGame.csproj.GenerateResource.Cache
+D:\Assignment\C# Assignment\LudoGame\LudoGame\obj\Debug\LudoGame.exe
+D:\Assignment\C# Assignment\LudoGame\LudoGame\obj\Debug\LudoGame.pdb

@@ -1,0 +1,3 @@
+javac Lottery.java 
+java Lottery
+pause...

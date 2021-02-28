@@ -1,0 +1,59 @@
+1. The default parameter passing mechanism is ?
+[A] Call by value	X
+[B] Call by reference
+[C] Call by value result
+[D] None of above
+
+2. The order in which actual arguments are evaluated in function call ?
+[A] is from the left
+[B] is compiler dependent	X
+[C] is from the right
+[D] None of above
+
+3. Which of the following operator takes only integer operands ?
+[A] +
+[B] *
+[C] %		X
+[D] /
+
+4. Special symbol permitted with in the identifier name ?
+A - $
+B - @
+C - .
+D - _		X
+
+5. The operator used to access member function of a structure using its object ?
+A - .		X
+B - ->
+C - *
+D - None
+
+6. The programs machine instructions are store in ______ memory segment ?
+A - Data
+B - Code	X
+C - Heap
+D - Stack
+
+7. Choose the invalid identifier from the below ?
+A - Int
+B - DOUBLE
+C - bool	X
+D - Null
+
+8. Choose the Object oriented programming language from below ?
+A - C++
+B - Small talk
+C - Simula
+D - All the above	X
+
+9. Which of the following operator determines whether an object is of a certain type in C# ?
+A - ?:
+B - is		X
+C - as
+D - *
+
+10. Which of the following converts a type to a 16-bit integer in C# ?
+A - ToDecimal
+B - ToDouble
+C - ToInt16		X
+D - ToInt32

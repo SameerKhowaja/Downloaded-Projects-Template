@@ -1,0 +1,3 @@
+javac ReadFileMain.java 
+java ReadFileMain
+pause...

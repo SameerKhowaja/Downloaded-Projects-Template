@@ -1,0 +1,3 @@
+javac Snake.java
+java Snake
+pause...

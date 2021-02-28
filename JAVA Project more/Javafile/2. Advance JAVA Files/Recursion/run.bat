@@ -1,0 +1,3 @@
+javac Output.java
+java Output
+pause...

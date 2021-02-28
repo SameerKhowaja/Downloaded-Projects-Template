@@ -1,0 +1,62 @@
+
+.text{
+  float:right; 
+}
+h1{
+  font-family: 'Pacifico',Arial, sans-serif;
+  color:#ccffcc;
+}
+html{
+ background-image:radial-gradient( orange,yellow,green,orange);
+ 
+ 
+}
+button{
+ background-color:orange;
+ border-radius:80px;
+ height: 100px;
+ width:100px;
+ font-family: 'Pacifico',Arial, sans-serif;
+}
+button:hover{
+  color:yellow;
+  background-color:#ff8000;
+}
+textarea{
+  
+ background-image:linear-gradient(yellow,green 150%);
+  font-family: 'Pacifico',Arial, sans-serif;
+
+	      font-weight: 400;
+
+	      width: 100%;
+
+	      padding: 5px 0px;
+
+	      margin-bottom: 10px;
+
+	      resize: vertical;
+
+	      font-size: 180%;
+        
+	      line-height: 25px;
+
+	      border-bottom: 1px solid;
+
+	       -webkit-appearance: none;
+
+	      border-radius:8px;
+}
+
+.twitter-share-button{
+  margin:50px;
+}
+p{
+  font-size:10px;
+  color:yellow;
+}
+.par{
+   font-size:15px;
+   text-align:center;
+   color:black;
+}

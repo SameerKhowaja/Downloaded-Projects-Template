@@ -1,0 +1,31 @@
+@import url(http://fonts.googleapis.com/css?family=Open Sans:300,700,300italic);
+*, *:before, *:after { box-sizing: border-box; }
+html { font-size: 100%;  }
+body { 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #666;
+}
+.wrapper {
+  max-width: 50%;
+  margin: 1rem auto;
+}
+
+p {
+  margin: 0 0 1rem 0;
+  line-height: 1;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+  span { font-size: 4rem; display: block; }
+}
+
+textarea { 
+  width: 100%;
+  border-radius: 0.2rem;
+  border: 1px solid #666;
+  resize: none;
+  background: black;
+  color: #2cf800;
+  padding: .6rem;
+}ÿ(

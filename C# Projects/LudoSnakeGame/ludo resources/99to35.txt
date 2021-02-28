@@ -1,0 +1,216 @@
+for (int loop = 1; loop <= 40; loop++){
+
+
+
+
+                picturePlayer1.Location = new Point(181+loop, 44+loop);
+                 picturePlayer1.Refresh();
+                 
+                 Thread.Sleep(4);
+   
+
+             }
+
+            for (int loop = 1; loop <= 40; loop++)
+            {
+
+
+
+
+                picturePlayer1.Location = new Point(221 - loop, 84);
+                picturePlayer1.Refresh();
+
+                Thread.Sleep(4);
+
+
+            }
+
+            for (int loop = 1; loop <= 10; loop++)
+            {
+
+
+
+
+                picturePlayer1.Location = new Point(181 - loop, 84+loop);
+                picturePlayer1.Refresh();
+
+                Thread.Sleep(4);
+
+
+            }
+
+            for (int loop = 1; loop <= 100; loop++)
+            {
+
+
+
+
+                picturePlayer1.Location = new Point(171 + loop, 94 + loop);
+                picturePlayer1.Refresh();
+
+                Thread.Sleep(4);
+
+
+            }
+
+            for (int loop = 1; loop <= 20; loop++)
+            {
+
+
+
+
+                picturePlayer1.Location = new Point(271 + loop, 194+loop);
+                picturePlayer1.Refresh();
+
+                Thread.Sleep(4);
+
+
+            }
+            for (int loop = 1; loop <= 20; loop++)
+            {
+
+
+
+
+                picturePlayer1.Location = new Point(291 + loop, 214);
+                picturePlayer1.Refresh();
+
+                Thread.Sleep(4);
+
+
+            }
+            for (int loop = 1; loop <= 50; loop++)
+            {
+
+
+
+
+                picturePlayer1.Location = new Point(311 + loop, 214+loop);
+                picturePlayer1.Refresh();
+
+                Thread.Sleep(4);
+
+
+            } 
+            for (int loop = 1; loop <= 10; loop++)
+            {
+
+
+
+
+                picturePlayer1.Location = new Point(361 + loop, 264);
+                picturePlayer1.Refresh();
+
+                Thread.Sleep(4);
+
+
+            }
+
+            for (int loop = 1; loop <= 10; loop++)
+            {
+
+
+
+
+                picturePlayer1.Location = new Point(371 + loop, 264+loop);
+                picturePlayer1.Refresh();
+
+                Thread.Sleep(4);
+
+
+            }
+            for (int loop = 1; loop <= 30; loop++)
+            {
+
+
+
+
+                picturePlayer1.Location = new Point(381 + loop, 274);
+                picturePlayer1.Refresh();
+
+                Thread.Sleep(4);
+
+
+            }
+
+            for (int loop = 1; loop <= 30; loop++)
+            {
+
+
+
+
+                picturePlayer1.Location = new Point(411, 274 + loop);
+                picturePlayer1.Refresh();
+
+                Thread.Sleep(4);
+
+
+            }
+
+            for (int loop = 1; loop <= 20; loop++)
+            {
+
+
+
+
+                picturePlayer1.Location = new Point(411+loop, 304 + loop);
+                picturePlayer1.Refresh();
+
+                Thread.Sleep(4);
+
+
+            }
+            for (int loop = 1; loop <= 40; loop++)
+            {
+
+
+
+
+                picturePlayer1.Location = new Point(431 + loop, 324);
+                picturePlayer1.Refresh();
+
+                Thread.Sleep(4);
+
+
+            }
+            for (int loop = 1; loop <= 30; loop++)
+            {
+
+
+
+
+                picturePlayer1.Location = new Point(471, 324 + loop);
+                picturePlayer1.Refresh();
+
+                Thread.Sleep(4);
+
+
+            }
+
+            for (int loop = 1; loop <= 77; loop++)
+            {
+
+
+
+
+                picturePlayer1.Location = new Point(471 + loop, 354);
+                picturePlayer1.Refresh();
+
+                Thread.Sleep(4);
+
+
+            }
+
+            for (int loop = 1; loop <= 12; loop++)
+            {
+
+
+
+
+                picturePlayer1.Location = new Point(548, 354+loop);
+                picturePlayer1.Refresh();
+
+                Thread.Sleep(4);
+
+
+            }

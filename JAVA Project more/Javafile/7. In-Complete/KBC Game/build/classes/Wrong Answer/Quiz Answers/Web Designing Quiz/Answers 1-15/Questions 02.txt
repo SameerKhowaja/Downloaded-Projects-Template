@@ -1,0 +1,59 @@
+1. The way the browser displays the object can be modified by ________ ?
+a. attributes		X
+b. parameters
+c. modifiers
+d. None of above
+
+2. What tag is used to list individual items of an ordered list ?
+a. OL
+b. LI		X
+c. UL
+d. None
+
+3. Which of the following is not a valid alignment attribute ?
+a. Left
+b. Right
+c. Top		X
+d. All of above
+
+4. Which of the following is an attribute related to font tag ?
+a. size
+b. face
+c. color
+d. All of above		X
+
+5. Which attribute you’ll use with TD tag to merge two cells horizontally ?
+a. colspan=2		X
+b. rowspan=2
+c. merge=colspan2
+d. merge=row2
+
+6. Which attribute can be used with BODY tag to set background color green ?
+a. background=”green”
+b. bgcolor=”green”	X
+c. vlink=”green”
+d. None of above
+
+7. How can you make an e-mail link ?
+a. <a href=”xxx@yyy”>
+b. <mail href=”xxx@yyy”>
+c. <a href=”mailto:xxx@yyy”>		X
+d. <mail>xxx@yyy</mail>
+
+8. Which tag allows you to add a row in a table ?
+a. <td> and </td>
+b. <cr> and </cr>
+c. <th> and </th>
+d. <tr> and </tr>	X
+
+9. Choose the correct HTML tag to make a text italic ?
+a. <ii>
+b. <i>		X
+c. <italic>
+d. <italics>
+
+10. Choose the correct HTML tag for the smallest size heading ?
+a. <heading>
+b. <h1>
+c. <h6>		X
+d. <head>

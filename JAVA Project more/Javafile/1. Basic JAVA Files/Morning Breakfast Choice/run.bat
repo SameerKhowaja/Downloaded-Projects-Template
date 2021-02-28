@@ -1,0 +1,3 @@
+javac Choice.java 
+java Choice
+pause...

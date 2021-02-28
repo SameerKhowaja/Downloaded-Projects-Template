@@ -1,0 +1,53 @@
+<DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+#container{
+	width:170px;
+	height:170px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+}
+.pole{
+	position:absolute;
+	width:20px;
+	height:200px;
+	background:#666;
+	left:672px;
+	top:130px;
+}
+</style>
+<script>
+var looper;
+var degrees = 0;
+function imageRotate(el,speed){
+	var elem = document.getElementById(el);
+	if(navigator.userAgent.match("Chrome")){
+		elem.style.WebkitTransform = "rotate("+degrees+"deg)";
+	} else if(navigator.userAgent.match("Firefox")){
+		elem.style.MozTransform = "rotate("+degrees+"deg)";
+	} else if(navigator.userAgent.match("MSIE")){
+		elem.style.msTransform = "rotate("+degrees+"deg)";
+	} else if(navigator.userAgent.match("Opera")){
+		elem.style.OTransform = "rotate("+degrees+"deg)";
+	} else {
+		elem.style.transform = "rotate("+degrees+"deg)";
+	}
+	looper = setTimeout('imageRotate(\''+el+'\','+speed+')',speed);
+	degrees++;
+	if(degrees > 359){
+		degrees = 1;
+	}
+}
+</script>
+<title>Image Rotation</title>
+</head>
+<body>
+<div id="container">
+	<div class="pole"></div>
+	<img src="blade.png" id="blade">
+    <script>imageRotate("blade",30);</script>
+</div>
+</body>
+</html>

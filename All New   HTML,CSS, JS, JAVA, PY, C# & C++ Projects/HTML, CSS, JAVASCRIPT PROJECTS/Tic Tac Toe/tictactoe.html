@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tic Tac Toe</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<h1> Tic Tac Toe </h1>
+			<table id="scoreboard" align="center" style="border: #999999 2px solid;">
+				<tr id="scoretitle" style="border-bottom: #999999 2px solid;">
+					<td style="border-right: #999999 2px solid;"> You </td>
+					<td> Computer </td>
+				</tr>
+				<tr id ="mainscore">
+					<td id="player" style="border-right: #999999 2px solid;"> 0 </td>
+					<td id="computer"> 0 </td>
+				</tr>
+			</table>
+			<table align="center">
+				<tr id="tr1">
+					<td id="td1"><input type="button" id="box1" value=" " onclick="play(1), check()"></td>
+					<td id="td2"><input type="button" id="box2" value=" " onclick="play(2)"></td>
+					<td id="td3"><input type="button" id="box3" value=" " onclick="play(3)"></td>
+				</tr>
+				<tr id="tr2">
+					<td id="td4"><input type="button" id="box4" value=" " onclick="play(4)"></td>
+					<td id="td5"><input type="button" id="box5" value=" " onclick="play(5)"></td>
+					<td id="td6"><input type="button" id="box6" value=" " onclick="play(6)"></td>
+				</tr>
+				<tr id="tr3">
+					<td id="td7"><input type="button" id="box7" value=" " onclick="play(7)"></td>
+					<td id="td8"><input type="button" id="box8" value=" " onclick="play(8)"></td>
+					<td id="td9"><input type="button" id="box9" value=" " onclick="play(9)"></td>
+				</tr>
+			</table>
+			<p> Designed By <strong> Sameer Khowaja </strong> @ 2016 </p>
+		</div>
+	</body>
+</html>

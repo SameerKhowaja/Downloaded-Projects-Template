@@ -1,0 +1,59 @@
+1. Which of the following property of a anchor element signifies unvisited hyperlinks ?
+A - :link		X
+B - :visited
+C - :hover
+D - :active
+
+2. Which of the following property is used to set the opacity of an image ?
+A - border
+B - -moz-opacity	X
+C - width
+D - height
+
+3. Which built-in method returns the character at the specified index ?
+A - characterAt()
+B - getCharAt()
+C - charAt()		X
+D - None of them
+
+4. Which of the following is a component of CSS style rule ?
+A - Selector
+B - Property
+C - Value
+D - All of them		X
+
+5. Which built-in method returns the string representation of the number's value ?
+A - toString()		X
+B - toNumber()
+C - toValue()
+D - None of them
+
+6. Which of the following function of Number object returns the number's value ?
+A - toString()
+B - valueOf()		X
+C - toLocaleString()
+D - toPrecision()
+
+7. Which built-in method calls a function for each element in the array ?
+A - while()
+B - loop()
+C - forEach()		X
+D - None of them
+
+8. Which of the following function of Array object calls a function for each element in the array ?
+A - concat()
+B - every()
+C - filter()
+D - forEach()		X
+
+9. Which built-in method reverses the order of the elements of an array ?
+A - changeOrder(order)
+B - reverse()		X
+C - sort(order)
+D - None of them
+
+10. Which of the following is a valid type of function javascript supports ?
+A - named function
+B - anonymous function
+C - Both of the above		X
+D - None of them

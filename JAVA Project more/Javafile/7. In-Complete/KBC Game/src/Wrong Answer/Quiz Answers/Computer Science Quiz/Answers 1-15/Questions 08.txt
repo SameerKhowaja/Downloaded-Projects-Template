@@ -1,0 +1,59 @@
+1. What is the default left margin in Word 2003 document ?
+[A] 1.25	X
+[B] 1
+[C] 1.5
+[D] 2
+
+2. Which of the following is not a type of page margin ?
+[A] Right
+[B] Center	X
+[C] Left
+[D] Top
+
+3. What is a portion of a document in which you set certain page formatting options ?
+[A] Page Setup
+[B] Page
+[C] Section	X
+[D] Document
+
+4. Borders can be applied to ?
+[A] Cells
+[B] Text
+[C] Paragraph
+[D] All of above	X
+
+5. Which of the following is graphics solution for Word Processors ?
+[A] Clipart	X
+[B] WordArt
+[C] Drop Cap
+[D] All of above
+
+6. In Word, the mailing list is known as the __________ ?
+[A] Sheet
+[B] Data source		X
+[C] Data sheet
+[D] Source
+
+7. To get to the 'Symbol' dialog box, click on the ______ menu and choose 'Symbol' ?
+[A] Tools
+[B] Table
+[C] Insert	X
+[D] Format
+
+8. It is possible to _______ a data source before performing a merge ?
+[A] Modify
+[B] Sort
+[C] Create
+[D] all of them		X
+
+9. What is the default font size of a new Word document based on Normal template ?
+[A] 9 pt
+[B] 12 pt	X
+[C] 14 pt
+[D] None of above
+
+10. Which of the following line spacing is invalid ?
+[A] Multiple
+[B] Double
+[C] Triple	X
+[D] Single

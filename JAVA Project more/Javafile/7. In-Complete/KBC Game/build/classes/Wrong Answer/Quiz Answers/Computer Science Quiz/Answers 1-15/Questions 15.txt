@@ -1,0 +1,59 @@
+1. The level of data abstraction which describes how the data is actually stored is ?
+[A] Physical level	X
+[B] Conceptual level
+[C] Storage Level
+[D] File level
+
+2. Which one of the following is provided by a data dictionary ?
+[A] User data
+[B] Database structure data	X
+[C] Sorted data
+[D] Functional data
+
+3. A field or a combination of fields that has a unique value is called ?
+[A] Foreign key
+[B] Secondary key
+[C] Primary key		X
+[D] Alternate key
+
+4. Versatile report generator can provide ?
+[A] Columnar totals
+[B] Subtotal
+[C] Calculation
+[D] ALL		X
+
+5. The _________operator preserves unmatched rows of the relations being joined ?
+[A] Outer join
+[B] Inner join
+[C] union
+[D] Union join
+
+6. Related fields in a database are grouped to form ?
+[A] Data Field
+[B] Data Record		X
+[C] Menu
+[D] Bank
+
+7. In RDBMS, Data is presented as a collection of _________ ?
+[A] Attribute
+[B] Table
+[C] Relation	X
+[D] Entity
+
+8. The number of attributes in relation is called as its ______________ ?
+[A] Cardinality
+[B] Row
+[C] Tuple
+[D] Degree	X
+
+9. The fact that the same operation may apply to two or more classes is called what ?
+[A] Inheritance
+[B] Polymorphism	X
+[C] Encapsulation
+[D] Multiple classification
+
+10. How many copies of the database schema are typically used in the redesign process ?
+[A] One
+[B] Two
+[C] three	X
+[D] four

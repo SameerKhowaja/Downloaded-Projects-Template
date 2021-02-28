@@ -1,0 +1,59 @@
+﻿1. Where does a computer add and compare data ?
+[A] CPU chip		X
+[B] Floppy disk
+[C] Hard disk
+[D] Memory chip
+
+2. The word "Computer" usually refers to the Central processing unit plus ?
+[A] External memory
+[B] Internal memory	X
+[C] Input devices
+[D] Output devices
+
+3. Which generation of computers is converted by the period 1964-1977 ?
+[A] First
+[B] Second
+[C] Third	X
+[D] Forth
+
+4. Which of the following belongs to the first generation of computer ?
+[A] ENIAC
+[B] IBM 1401
+[C] IBM 8090
+[D] UNIVAC	X
+
+5. The part of machine level instruction, which tells the central processor what has to be done, is ?
+[A] Operation code	X
+[B] Address
+[C] Locator
+[D] Flip-Flop
+
+6. What hardware was used by first generation computer ?
+[A] Transistors
+[B] Values	X
+[C] VLSI
+[D] ICs
+
+7. Which can read data convert them to a form that computer can use ?
+[A] Logic
+[B] Storage
+[C] Input device	X
+[D] Control
+
+8. Which of the following is still useful for adding numbers ?
+[A] EDVAC
+[B] EDSAC
+[C] ENIAC
+[D] ABACUS	X
+
+9. Which transmission media is fastest ?
+[A] coaxial cable
+[B] fiber optics	X
+[C] Bluetooth
+[D] infrared rays
+
+10. Floppy disks, which are made from flexible plastic material, are also called ?
+[A] Hard disks
+[B] High-density disks
+[C] Diskettes		X
+[D] Templates

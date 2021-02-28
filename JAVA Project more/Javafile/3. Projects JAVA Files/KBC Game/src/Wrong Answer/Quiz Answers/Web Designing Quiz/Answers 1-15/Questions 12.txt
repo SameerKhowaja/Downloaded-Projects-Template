@@ -1,0 +1,47 @@
+1. Which symbol is used to declare variable in php ?
+[A] $		X
+[B] %
+[C] #
+[D] @
+
+2. Which of the following operator increases integer value by one ?
+A - .
+B - ++		X
+C - ..
+D - X
+
+3. Which of the following operator divides left hand operand by right hand operand and returns remainder ?
+A - *
+B - /
+C - %		X
+D - **
+
+4. How many php methods are available in DateTime Class ?
+[A] 5
+[B] 6
+[C] 3
+[D] 12		X
+
+5. Which syntax used to Declare complex string in php ?
+[A] Heredoc Syntax		X
+[B] Variable Syntax
+[C] Basic Syntax
+[D] None of the above
+
+6. Which one of the following format parameter is correct to get timezone in date() function ?
+[A] F
+[B] e		X
+[C] T
+[D] D
+
+7. How to declare a string variable in php ?
+[A] string str = “abc”;
+[B] var string = “abc”;
+[C] $str = “abc”;		X
+[D] None of the above
+
+8. Which one of the following format parameter can be used to get seconds with leading zero ?
+[A] S
+[B] d
+[C] Y
+[D] s		X

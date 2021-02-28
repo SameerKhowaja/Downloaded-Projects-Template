@@ -1,0 +1,29 @@
+1. 
+A - Compile error	X
+B - Derived
+C - Base
+D - None of these
+
+2.
+A - Hello
+B - Hi		X
+C - HelloHi
+D - Compile error
+
+3.
+A - 73 73
+B - 13 60
+C - 60 13	X
+D - 60 60
+
+4.
+A - 2.0
+B - 2.3
+C - Compile error
+D - 2.30	X
+
+5.
+A - 10		X
+B - Runtime error
+C - 5
+D - Compile error

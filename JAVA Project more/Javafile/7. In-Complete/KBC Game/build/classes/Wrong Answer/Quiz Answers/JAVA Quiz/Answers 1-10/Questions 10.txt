@@ -1,0 +1,59 @@
+1. What is the limit of data to be passed from HTML when doGet() method is used ?
+[A] 2K		X
+[B] 8K
+[C] 4K
+[D] 16K
+
+2. Which method is used to specify before any lines that uses the PrintWriter ?
+[A] setPageType()
+[B] setContentType()		X
+[C] setContextType()
+[D] setResponseType()
+
+3. Which method is called first by an applet ?
+[A] start()
+[B] run()
+[C] init()	X
+[D] paint()
+
+4. Which method can be used to draw a rectangle in the a Applet ?
+[A] drawRect()
+[B] drawPolygon()
+[C] drawLine()
+[D] all of these	X
+
+5. AppletViewer tool is available in which of the folder of JDK ?
+[A] bin		X
+[B] lib
+[C] source
+[D] class
+
+6. The Applet class is in __________ package ?
+[A] java.awt
+[B] java.applet		X
+[C] java.io
+[D] java.util
+
+7. Which of the following is an optional attribute of applet tag ?
+[A] Code
+[B] Width
+[C] Name	X
+[D] Height
+
+8. Which method can be used to draw a circle in the applet ?
+[A] drawCircle()
+[B] drawOval()
+[C] drawArc()
+[D] both b and c	X
+
+9. To run an applet __________ command is used ?
+[A] run
+[B] appletviewer	X
+[C] applet
+[D] java
+
+10. Which package contains color class ?
+[A] java.applet
+[B] java.graphics
+[C] java.awt		X
+[D] java.lang

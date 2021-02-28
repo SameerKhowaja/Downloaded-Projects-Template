@@ -1,0 +1,59 @@
+1. Which company is the biggest player in the microprocessor industry ?
+[A] Intel
+[B] IBM
+[C] Motorola
+[D] AMD
+
+2. Who is called the "grand father" of the computer ?
+[A] Blaise Pascal
+[B] Charles Babbage	X
+[C] Joseph Jacquard
+[D] Dr. Herman Hollerith
+
+3. Which device of computer operation dispenses with the use of the keyboard ?
+[A] Joystick
+[B] Light pen
+[C] Mouse	X
+[D] Touch
+
+4. Which one of the following is the first second-generation computer ?
+[A] IBM 650
+[B] IBM 801
+[C] IBM 7070
+[D] IBM 7090	X
+
+5. The minimum number of MOS transistors required to make a dynamic RAM cell is ?
+[A] 1	X
+[B] 2
+[C] 3
+[D] 4
+
+6. A medium for transferring data between two locations is called ?
+[A] Network
+[B] Communication channel	X
+[C] Modem
+[D] Bus
+
+7. The first mechanical calculating machine was made by ?
+[A] William Oughtred
+[B] Gottfried Leibnitz
+[C] Blaise Pascal	X
+[D] Charles Babbage
+
+8. A prewritten program that's sold to perform a common task is called an application ?
+[A] System software
+[B] Program
+[C] Utilities
+[D] Package	X
+
+9. Locations in the main memory of a computer are called ?
+[A] Alphabets
+[B] Words	X
+[C] Data
+[D] Characters
+
+10. An adder in which the bits of the operands are added one after another is
+[A] Half-adder
+[B] Full-adder
+[C] Serial adder	X
+[D] All of the above

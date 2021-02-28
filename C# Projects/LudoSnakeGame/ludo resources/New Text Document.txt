@@ -1,0 +1,3847 @@
+ public delegate void moveBd(PictureBox FirstPlayerPlayButton);
+        void moveButton(PictureBox FirstPlayerPlayButton)
+        {   
+
+            if (count1 == 1)
+            {
+                for (int first = firstrowcount; first <= 176; first++)
+                {
+                    picturePlayer1.Location = new Point(first, y);
+                    picturePlayer1.Refresh();
+                    firstrowcount = first;
+                    Thread.Sleep(4);
+                }
+            }
+            else if (count1 == 2)
+            {
+                for (int first = firstrowcount; first <= 176; first++)
+                {
+                    picturePlayer1.Location = new Point(first, y);
+                    picturePlayer1.Refresh();
+                    firstrowcount = first;
+                    Thread.Sleep(4);
+                }
+            }
+            else if (count1 == 3)
+            {
+                for (int first = firstrowcount; first <= 270; first++)
+                {
+                    picturePlayer1.Location = new Point(first, y);
+                    picturePlayer1.Refresh();
+                    firstrowcount = first;
+                    Thread.Sleep(4);
+                }
+            }
+            else if (count1 == 4)
+            {
+                for (int first = firstrowcount; first <= 364; first++)
+                {
+                    picturePlayer1.Location = new Point(first, y);
+                    picturePlayer1.Refresh();
+                    firstrowcount = first;
+                    Thread.Sleep(4);
+                }
+            }
+            else if (count1 == 5)
+            {
+                for (int first = firstrowcount; first <= 457; first++)
+                {
+                    picturePlayer1.Location = new Point(first, y);
+                    picturePlayer1.Refresh();
+                    firstrowcount = first;
+                    Thread.Sleep(4);
+                }
+            }
+            else if (count1 == 6)
+            {
+                for (int first = firstrowcount; first <= 553; first++)
+                {
+                    picturePlayer1.Location = new Point(first, y);
+                    picturePlayer1.Refresh();
+                    firstrowcount = first;
+                    Thread.Sleep(4);
+                }
+
+            }
+            else if (count1 == 7)
+            {
+                for (int first = firstrowcount; first <= 642; first++)
+                {
+                    picturePlayer1.Location = new Point(first, y);
+                    picturePlayer1.Refresh();
+                    firstrowcount = first;
+                    Thread.Sleep(4);
+                }
+            }
+            else if (count1 == 8)
+            {
+                for (int first = firstrowcount; first <= 736; first++)
+                {
+                    picturePlayer1.Location = new Point(first, y);
+                    picturePlayer1.Refresh();
+                    firstrowcount = first;
+                    Thread.Sleep(4);
+                }
+            }
+            else if (count1 == 9)
+            {
+                for (int first = firstrowcount; first <= 827; first++)
+                {
+                    picturePlayer1.Location = new Point(first, y);
+                    picturePlayer1.Refresh();
+                    firstrowcount = first;
+                    Thread.Sleep(4);
+                }
+
+            }
+            else if (count1 == 10)
+            {
+                for (int first = firstrowcount; first <= 920; first++)
+                {
+                    picturePlayer1.Location = new Point(first, y);
+                    picturePlayer1.Refresh();
+                    firstrowcount = first;
+                    Thread.Sleep(4);
+                }
+            }
+
+            else if (count1 == 11)
+            {
+                for (int first = firstrowcount; first <= 920; first++)
+                {
+                    picturePlayer1.Location = new Point(first, y);
+                    picturePlayer1.Refresh();
+                    firstrowcount = first;
+                    Thread.Sleep(4);
+                }
+
+                for (int first = 1; first <= 56; first++)
+                {
+                    picturePlayer1.Location = new Point(920, 530 - first);
+                    picturePlayer1.Refresh();
+                    firstrowcount = first;
+                    y = 474;
+                    Thread.Sleep(4);
+                }
+            }
+
+            else if (count1 == 12)
+            {
+                if (y == 474)
+                {
+                    for (int first = 1; first <= 94; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 530)
+                {
+                    for (int first = firstrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, y);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 56; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 530 - first);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        y = 474;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = secondrowcount; first <= 94; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+                }
+
+            }
+            ///////////////////////////1333333333333333
+            else if (count1 == 13)
+            {
+                if (y == 474)
+                {
+                    for (int first = secondrowcount; first <= 187; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 530)
+                {
+                    for (int first = firstrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, y);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 56; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 530 - first);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        y = 474;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = secondrowcount; first <= 187; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+                }
+
+            }
+            ////////////14444444444444444
+            else if (count1 == 14)
+            {
+                if (y == 474)
+                {
+                    for (int first = secondrowcount; first <= 280; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 530)
+                {
+                    for (int first = firstrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, y);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 56; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 530 - first);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        y = 474;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = secondrowcount; first <= 280; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+                }
+
+            }
+            /////////////1555555555555
+            else if (count1 == 15)
+            {
+                if (y == 474)
+                {
+                    for (int first = secondrowcount; first <= 372; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 530)
+                {
+                    for (int first = firstrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, y);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 56; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 530 - first);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        y = 474;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = secondrowcount; first <= 372; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+                }
+
+            }
+            ///////////////16666666666666666666
+            else if (count1 == 16)
+            {
+                if (y == 474)
+                {
+                    for (int first = secondrowcount; first <= 458; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 530)
+                {
+                    for (int first = firstrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, y);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 56; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 530 - first);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        y = 474;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = secondrowcount; first <= 458; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+                }
+
+            }
+            ///////////1777777777777777
+            else if (count1 == 17)
+            {
+                if (y == 474)
+                {
+                    for (int first = secondrowcount; first <= 559; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 530)
+                {
+                    for (int first = firstrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, y);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 56; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 530 - first);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        y = 474;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = secondrowcount; first <= 559; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+                }
+
+            }
+            ///////////18888888888
+            else if (count1 == 18)
+            {
+                if (y == 474)
+                {
+                    for (int first = secondrowcount; first <= 650; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 530)
+                {
+                    for (int first = firstrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, y);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 56; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 530 - first);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        y = 474;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = secondrowcount; first <= 650; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+                }
+
+            }
+            ///////////////199999999999999999
+            else if (count1 == 19)
+            {
+                if (y == 474)
+                {
+                    for (int first = secondrowcount; first <= 732; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 530)
+                {
+                    for (int first = firstrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, y);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 56; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 530 - first);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        y = 474;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = secondrowcount; first <= 732; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+                }
+
+            }
+            /////////////2000000000000
+            else if (count1 == 20)
+            {
+                if (y == 474)
+                {
+                    for (int first = secondrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 530)
+                {
+                    for (int first = firstrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, y);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 56; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 530 - first);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        y = 474;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = secondrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+                }
+
+            }
+
+            //21111111111111111111
+            else if (count1 == 21)
+            {
+                for (int first = secondrowcount; first <= 837; first++)
+                {
+                    picturePlayer1.Location = new Point(920 - first, 474);
+                    picturePlayer1.Refresh();
+                    secondrowcount = first;
+
+                    Thread.Sleep(4);
+                }
+
+                for (int first = 1; first <= 53; first++)
+                {
+                    picturePlayer1.Location = new Point(83, 474 - first);
+                    picturePlayer1.Refresh();
+                    firstrowcount = first;
+                    y = 421;
+                    Thread.Sleep(4);
+                }
+
+            }
+            ///////////////////22222222222222222
+            else if (count1 == 22)
+            {
+                if (y == 421)
+                {
+                    for (int first = thirdrowcount; first <= 179; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 421;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 474)
+                {
+                    for (int first = secondrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 474 - first);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        y = 421;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = thirdrowcount; first <= 179; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 421;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+
+            }
+
+            ////////////////2333333333333333333
+
+            else if (count1 == 23)
+            {
+                if (y == 421)
+                {
+                    for (int first = thirdrowcount; first <= 271; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 421;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 474)
+                {
+                    for (int first = secondrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 474 - first);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        y = 421;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = thirdrowcount; first <= 271; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 421;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+
+            }
+            ////////////////24444444444444444
+            else if (count1 == 24)
+            {
+                if (y == 421)
+                {
+                    for (int first = thirdrowcount; first <= 362; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 421;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 474)
+                {
+                    for (int first = secondrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 474 - first);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        y = 421;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = thirdrowcount; first <= 362; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 421;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+
+            }
+
+            ///////////////////2555555555555555
+            else if (count1 == 25)
+            {
+                if (y == 421)
+                {
+                    for (int first = thirdrowcount; first <= 456; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 421;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 474)
+                {
+                    for (int first = secondrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 474 - first);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        y = 421;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = thirdrowcount; first <= 456; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 421;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+
+            }
+            ////////////////26666666666666
+            else if (count1 == 26)
+            {
+                if (y == 421)
+                {
+                    for (int first = thirdrowcount; first <= 547; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 421;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 474)
+                {
+                    for (int first = secondrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 474 - first);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        y = 421;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = thirdrowcount; first <= 547; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 421;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+
+            }
+
+            ///////////////277777777777
+            else if (count1 == 27)
+            {
+                if (y == 421)
+                {
+                    for (int first = thirdrowcount; first <= 642; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 421;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 474)
+                {
+                    for (int first = secondrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 474 - first);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        y = 421;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = thirdrowcount; first <= 642; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 421;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+
+            }
+            ///////////////////////288888888888888888888888888888888
+            else if (count1 == 28)
+            {
+                if (y == 421)
+                {
+                    for (int first = thirdrowcount; first <= 734; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 421;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 474)
+                {
+                    for (int first = secondrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 474 - first);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        y = 421;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = thirdrowcount; first <= 734; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 421;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+
+            }
+            //////////////29999999999999999999999
+            else if (count1 == 29)
+            {
+                if (y == 421)
+                {
+                    for (int first = thirdrowcount; first <= 827; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 421;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 474)
+                {
+                    for (int first = secondrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 474);
+                        picturePlayer1.Refresh();
+                        secondrowcount = first;
+
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 474 - first);
+                        picturePlayer1.Refresh();
+                        firstrowcount = first;
+                        y = 421;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = thirdrowcount; first <= 827; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 421;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+
+            }
+            //////////////30000000000000000000
+            else if (count1 == 30)
+            {
+
+                for (int first = thirdrowcount; first <= 920; first++)
+                {
+                    picturePlayer1.Location = new Point(first, 421);
+                    picturePlayer1.Refresh();
+                    thirdrowcount = first;
+                    y = 421;
+                    Thread.Sleep(4);
+                }
+            }
+
+
+            //////////////////////////////31111111111111
+
+
+            else if (count1 == 31)
+            {
+
+                for (int first = thirdrowcount; first <= 920; first++)
+                {
+                    picturePlayer1.Location = new Point(first, 421);
+                    picturePlayer1.Refresh();
+                    thirdrowcount = first;
+                    y = 366;
+                    Thread.Sleep(4);
+                }
+                for (int first = 1; first <= 55; first++)
+                {
+                    picturePlayer1.Location = new Point(920, 421 - first);
+                    picturePlayer1.Refresh();
+                    y = 366;
+                    Thread.Sleep(4);
+                }
+            }
+
+             ////////////////////////32222222222222222222222222222222
+
+            else if (count1 == 32)
+            {
+                if (y == 366)
+                {
+
+                    for (int first = 1; first <= 92; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        fourrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+                else if (y == 421)
+                {
+                    for (int first = thirdrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 366;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = 1; first <= 55; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 421 - first);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 92; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        fourrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+
+            }
+            /////////////////////////////////33333333333333333333333333333333333333333333
+            else if (count1 == 33)
+            {
+                if (y == 366)
+                {
+
+                    for (int first = fourrowcount; first <= 185; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        fourrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+                else if (y == 421)
+                {
+                    for (int first = thirdrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 366;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = 1; first <= 55; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 421 - first);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = fourrowcount; first <= 185; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        fourrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+
+            }
+            //////////////////////344444444444444444444444
+            else if (count1 == 34)
+            {
+                if (y == 366)
+                {
+
+                    for (int first = fourrowcount; first <= 279; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        fourrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+                else if (y == 421)
+                {
+                    for (int first = thirdrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 366;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = 1; first <= 55; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 421 - first);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = fourrowcount; first <= 279; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        fourrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+
+            }
+            ///////////////////////355555555555555555
+            else if (count1 == 35)
+            {
+                if (y == 366)
+                {
+
+                    for (int first = fourrowcount; first <= 372; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        fourrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+                else if (y == 421)
+                {
+                    for (int first = thirdrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 366;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = 1; first <= 55; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 421 - first);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = fourrowcount; first <= 372; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        fourrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+
+            }
+            ///////////////////////////366666666666666
+            else if (count1 == 36)
+            {
+                if (y == 366)
+                {
+
+                    for (int first = fourrowcount; first <= 465; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        fourrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+                else if (y == 421)
+                {
+                    for (int first = thirdrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 366;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = 1; first <= 55; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 421 - first);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = fourrowcount; first <= 465; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        fourrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+
+            }
+            ///////////////////3777777777777
+
+            else if (count1 == 37)
+            {
+                if (y == 366)
+                {
+
+                    for (int first = fourrowcount; first <= 559; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        fourrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+                else if (y == 421)
+                {
+                    for (int first = thirdrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 366;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = 1; first <= 55; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 421 - first);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = fourrowcount; first <= 559; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        fourrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+
+            }
+            ///////////////3888888888888
+
+            else if (count1 == 38)
+            {
+                if (y == 366)
+                {
+
+                    for (int first = fourrowcount; first <= 651; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        fourrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+                else if (y == 421)
+                {
+                    for (int first = thirdrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 366;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = 1; first <= 55; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 421 - first);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = fourrowcount; first <= 651; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        fourrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+
+            }
+            /////////399999999
+            else if (count1 == 39)
+            {
+                if (y == 366)
+                {
+
+                    for (int first = fourrowcount; first <= 744; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        fourrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+                else if (y == 421)
+                {
+                    for (int first = thirdrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 366;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = 1; first <= 55; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 421 - first);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = fourrowcount; first <= 744; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        fourrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+
+            }
+
+             /////////////////40000000000000
+            else if (count1 == 40)
+            {
+                if (y == 366)
+                {
+
+                    for (int first = fourrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        fourrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+                else if (y == 421)
+                {
+                    for (int first = thirdrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 421);
+                        picturePlayer1.Refresh();
+                        thirdrowcount = first;
+                        y = 366;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = 1; first <= 55; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 421 - first);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = fourrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 366;
+                        fourrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+
+            }
+            /////////////////////////////////////411111111111111111111111111111111111111
+
+            else if (count1 == 41)
+            {
+
+                for (int first = fourrowcount; first <= 837; first++)
+                {
+                    picturePlayer1.Location = new Point(920 - first, 366);
+                    picturePlayer1.Refresh();
+                    y = 313;
+
+                    Thread.Sleep(4);
+                }
+
+                for (int first = 1; first <= 53; first++)
+                {
+                    picturePlayer1.Location = new Point(83, 366 - first);
+                    picturePlayer1.Refresh();
+                    y = 313;
+                    Thread.Sleep(4);
+                }
+
+            }
+
+             /////////////////////////////////////////422222222222222222222222
+
+            else if (count1 == 42)
+            {
+                if (y == 313)
+                {
+                    for (int first = fivthrowcount; first <= 177; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 313;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+                else if (y == 366)
+                {
+                    for (int first = fourrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 313;
+
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 366 - first);
+                        picturePlayer1.Refresh();
+                        y = 313;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = fivthrowcount; first <= 177; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 313;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+            }
+
+            //////////////////////////43333333333333333333333
+            else if (count1 == 43)
+            {
+                if (y == 313)
+                {
+                    for (int first = fivthrowcount; first <= 269; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 313;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+                else if (y == 366)
+                {
+                    for (int first = fourrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 313;
+
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 366 - first);
+                        picturePlayer1.Refresh();
+                        y = 313;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = fivthrowcount; first <= 269; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 313;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+            }
+            //////////////////////44444444
+
+            else if (count1 == 44)
+            {
+                if (y == 313)
+                {
+                    for (int first = fivthrowcount; first <= 363; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 313;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+                else if (y == 366)
+                {
+                    for (int first = fourrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 313;
+
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 366 - first);
+                        picturePlayer1.Refresh();
+                        y = 313;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = fivthrowcount; first <= 363; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 313;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+            }
+
+             ///////////////455555555555555
+            else if (count1 == 45)
+            {
+                if (y == 313)
+                {
+                    for (int first = fivthrowcount; first <= 456; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 313;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+                else if (y == 366)
+                {
+                    for (int first = fourrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 313;
+
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 366 - first);
+                        picturePlayer1.Refresh();
+                        y = 313;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = fivthrowcount; first <= 456; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 313;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+            }
+
+             ///////////46666666666666666
+            else if (count1 == 46)
+            {
+                if (y == 313)
+                {
+                    for (int first = fivthrowcount; first <= 548; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 313;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+                else if (y == 366)
+                {
+                    for (int first = fourrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 313;
+
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 366 - first);
+                        picturePlayer1.Refresh();
+                        y = 313;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = fivthrowcount; first <= 548; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 313;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+            }
+            ////////////////47777777777777
+            else if (count1 == 47)
+            {
+                if (y == 313)
+                {
+                    for (int first = fivthrowcount; first <= 642; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 313;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+                else if (y == 366)
+                {
+                    for (int first = fourrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 313;
+
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 366 - first);
+                        picturePlayer1.Refresh();
+                        y = 313;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = fivthrowcount; first <= 642; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 313;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+            }
+            /////////////////488888888888888
+            else if (count1 == 48)
+            {
+                if (y == 313)
+                {
+                    for (int first = fivthrowcount; first <= 735; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 313;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+                else if (y == 366)
+                {
+                    for (int first = fourrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 313;
+
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 366 - first);
+                        picturePlayer1.Refresh();
+                        y = 313;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = fivthrowcount; first <= 735; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 313;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+            }
+
+             /////////////////49999999999
+            else if (count1 == 49)
+            {
+                if (y == 313)
+                {
+                    for (int first = fivthrowcount; first <= 826; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 313;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+                else if (y == 366)
+                {
+                    for (int first = fourrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 366);
+                        picturePlayer1.Refresh();
+                        y = 313;
+
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 366 - first);
+                        picturePlayer1.Refresh();
+                        y = 313;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = fivthrowcount; first <= 826; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 313;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+
+            }
+
+             //////////////////////50000000000000000000
+            else if (count1 == 50)
+            {
+
+                for (int first = fivthrowcount; first <= 920; first++)
+                {
+                    picturePlayer1.Location = new Point(first, 313);
+                    picturePlayer1.Refresh();
+                    y = 313;
+                    fivthrowcount = first;
+                    Thread.Sleep(4);
+
+
+                }
+
+            }
+            //////////////////5111111111111111111111
+            else if (count1 == 51)
+            {
+                for (int first = fivthrowcount; first <= 920; first++)
+                {
+                    picturePlayer1.Location = new Point(first, 313);
+                    picturePlayer1.Refresh();
+                    y = 261;
+                    fivthrowcount = first;
+                    Thread.Sleep(4);
+
+
+                }
+                for (int first = 1; first <= 53; first++)
+                {
+                    picturePlayer1.Location = new Point(920, 313 - first);
+                    picturePlayer1.Refresh();
+                    y = 261;
+                    Thread.Sleep(4);
+                }
+
+            }
+            ////////////////////52222222222222222
+            else if (count1 == 52)
+            {
+                if (y == 261)
+                {
+                    for (int first = sixthrowcount; first <= 92; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        sixthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 313)
+                {
+                    for (int first = fivthrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+
+
+                    }
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 313 - first);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = sixthrowcount; first <= 92; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        sixthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+            }
+            ///////////////////53333333333333
+            else if (count1 == 53)
+            {
+                if (y == 261)
+                {
+                    for (int first = sixthrowcount; first <= 186; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        sixthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 313)
+                {
+                    for (int first = fivthrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+
+
+                    }
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 313 - first);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = sixthrowcount; first <= 186; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        sixthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+            }
+            ///////////////////////////////////544444444444
+            else if (count1 == 54)
+            {
+                if (y == 261)
+                {
+                    for (int first = sixthrowcount; first <= 274; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        sixthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 313)
+                {
+                    for (int first = fivthrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+
+
+                    }
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 313 - first);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = sixthrowcount; first <= 274; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        sixthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+            }
+            ///////////////////555555555555555555555555555555555555555555555555555
+            else if (count1 == 55)
+            {
+                if (y == 261)
+                {
+                    for (int first = sixthrowcount; first <= 372; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        sixthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 313)
+                {
+                    for (int first = fivthrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+
+
+                    }
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 313 - first);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = sixthrowcount; first <= 372; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        sixthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+            }
+
+             //////////////5666666666666666666666666
+            else if (count1 == 56)
+            {
+                if (y == 261)
+                {
+                    for (int first = sixthrowcount; first <= 464; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        sixthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 313)
+                {
+                    for (int first = fivthrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+
+
+                    }
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 313 - first);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = sixthrowcount; first <= 464; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        sixthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+            }
+            /////////////////577777777777
+            else if (count1 == 57)
+            {
+                if (y == 261)
+                {
+                    for (int first = sixthrowcount; first <= 555; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        sixthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 313)
+                {
+                    for (int first = fivthrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+
+
+                    }
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 313 - first);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = sixthrowcount; first <= 555; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        sixthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+            }
+            //////////////////////////58888888888888888
+            else if (count1 == 58)
+            {
+                if (y == 261)
+                {
+                    for (int first = sixthrowcount; first <= 651; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        sixthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 313)
+                {
+                    for (int first = fivthrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+
+
+                    }
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 313 - first);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = sixthrowcount; first <= 651; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        sixthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+            }
+
+             //////////////////59999999999999999999
+
+            else if (count1 == 59)
+            {
+                if (y == 261)
+                {
+                    for (int first = sixthrowcount; first <= 743; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        sixthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 313)
+                {
+                    for (int first = fivthrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+
+
+                    }
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 313 - first);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = sixthrowcount; first <= 743; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        sixthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+            }
+
+             ////////////////60000000000000000
+            else if (count1 == 60)
+            {
+                if (y == 261)
+                {
+                    for (int first = sixthrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        sixthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 313)
+                {
+                    for (int first = fivthrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 313);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        fivthrowcount = first;
+                        Thread.Sleep(4);
+
+
+                    }
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 313 - first);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        Thread.Sleep(4);
+                    }
+                    for (int first = sixthrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 261;
+                        sixthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+            }
+
+             ///////////////////////////61111111111111111
+            else if (count1 == 61)
+            {
+                for (int first = sixthrowcount; first <= 837; first++)
+                {
+                    picturePlayer1.Location = new Point(920 - first, 261);
+                    picturePlayer1.Refresh();
+                    y = 204;
+
+                    Thread.Sleep(4);
+
+
+                }
+                for (int first = 1; first <= 57; first++)
+                {
+                    picturePlayer1.Location = new Point(83, 261 - first);
+                    picturePlayer1.Refresh();
+                    y = 204;
+                    Thread.Sleep(4);
+                }
+            }
+            /////////////////////////////622222222222222222222222
+            else if (count1 == 62)
+            {
+                if (y == 204)
+                {
+                    for (int first = seventhrowcount; first <= 176; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 261)
+                {
+                    for (int first = sixthrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 204;
+
+                        Thread.Sleep(4);
+
+
+                    }
+                    for (int first = 1; first <= 57; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 261 - first);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = seventhrowcount; first <= 176; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+            }
+            ////////////////////////63333333333333333
+            else if (count1 == 63)
+            {
+                if (y == 204)
+                {
+                    for (int first = seventhrowcount; first <= 268; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 261)
+                {
+                    for (int first = sixthrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 204;
+
+                        Thread.Sleep(4);
+
+
+                    }
+                    for (int first = 1; first <= 57; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 261 - first);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = seventhrowcount; first <= 268; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+            }
+            //////////////////6444444444444
+            else if (count1 == 64)
+            {
+                if (y == 204)
+                {
+                    for (int first = seventhrowcount; first <= 363; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 261)
+                {
+                    for (int first = sixthrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 204;
+
+                        Thread.Sleep(4);
+
+
+                    }
+                    for (int first = 1; first <= 57; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 261 - first);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = seventhrowcount; first <= 363; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+            }
+            ///////////////////65555555
+            else if (count1 == 65)
+            {
+                if (y == 204)
+                {
+                    for (int first = seventhrowcount; first <= 455; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 261)
+                {
+                    for (int first = sixthrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 204;
+
+                        Thread.Sleep(4);
+
+
+                    }
+                    for (int first = 1; first <= 57; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 261 - first);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = seventhrowcount; first <= 455; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+            }
+            /////////666666666666
+
+            else if (count1 == 66)
+            {
+                if (y == 204)
+                {
+                    for (int first = seventhrowcount; first <= 550; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 261)
+                {
+                    for (int first = sixthrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 204;
+
+                        Thread.Sleep(4);
+
+
+                    }
+                    for (int first = 1; first <= 57; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 261 - first);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = seventhrowcount; first <= 550; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+            }
+            ////////////////67777777777777777
+            else if (count1 == 67)
+            {
+                if (y == 204)
+                {
+                    for (int first = seventhrowcount; first <= 639; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 261)
+                {
+                    for (int first = sixthrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 204;
+
+                        Thread.Sleep(4);
+
+
+                    }
+                    for (int first = 1; first <= 57; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 261 - first);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = seventhrowcount; first <= 639; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+            }
+            ///////////////////////////6888888888
+            else if (count1 == 68)
+            {
+                if (y == 204)
+                {
+                    for (int first = seventhrowcount; first <= 736; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 261)
+                {
+                    for (int first = sixthrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 204;
+
+                        Thread.Sleep(4);
+
+
+                    }
+                    for (int first = 1; first <= 57; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 261 - first);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = seventhrowcount; first <= 736; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+            }
+            ///////////699999999999
+            else if (count1 == 69)
+            {
+                if (y == 204)
+                {
+                    for (int first = seventhrowcount; first <= 827; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 261)
+                {
+                    for (int first = sixthrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 204;
+
+                        Thread.Sleep(4);
+
+
+                    }
+                    for (int first = 1; first <= 57; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 261 - first);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = seventhrowcount; first <= 827; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+            }
+            //////////////70000000000
+            else if (count1 == 70)
+            {
+                if (y == 204)
+                {
+                    for (int first = seventhrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+                else if (y == 261)
+                {
+                    for (int first = sixthrowcount; first <= 837; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 261);
+                        picturePlayer1.Refresh();
+                        y = 204;
+
+                        Thread.Sleep(4);
+
+
+                    }
+                    for (int first = 1; first <= 57; first++)
+                    {
+                        picturePlayer1.Location = new Point(83, 261 - first);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = seventhrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 204;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+                }
+            }
+            ////////////////711111111111111111111
+
+            else if (count1 == 71)
+            {
+                for (int first = seventhrowcount; first <= 920; first++)
+                {
+                    picturePlayer1.Location = new Point(first, 204);
+                    picturePlayer1.Refresh();
+                    y = 151;
+                    seventhrowcount = first;
+                    Thread.Sleep(4);
+                }
+
+                for (int first = 1; first <= 53; first++)
+                {
+                    picturePlayer1.Location = new Point(920, 204 - first);
+                    picturePlayer1.Refresh();
+                    y = 151;
+                    Thread.Sleep(4);
+                }
+
+            }
+            ////////////72222222222
+            else if (count1 == 72)
+            {
+                if (y == 151)
+                {
+                    for (int first = eigthrowcount; first <= 92; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 151);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        eigthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+                else if (y == 204)
+                {
+                    for (int first = seventhrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 204 - first);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = eigthrowcount; first <= 92; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 151);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        eigthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+            }
+            //////////////////////////733333333333333
+            else if (count1 == 73)
+            {
+                if (y == 151)
+                {
+                    for (int first = eigthrowcount; first <= 186; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 151);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        eigthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+                else if (y == 204)
+                {
+                    for (int first = seventhrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 204 - first);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = eigthrowcount; first <= 186; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 151);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        eigthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+            }
+            ///////////////7444444444
+            else if (count1 == 74)
+            {
+                if (y == 151)
+                {
+                    for (int first = eigthrowcount; first <= 274; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 151);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        eigthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+                else if (y == 204)
+                {
+                    for (int first = seventhrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 204 - first);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = eigthrowcount; first <= 274; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 151);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        eigthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+            }
+            ///////////7555555555555555
+            else if (count1 == 75)
+            {
+                if (y == 151)
+                {
+                    for (int first = eigthrowcount; first <= 370; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 151);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        eigthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+                else if (y == 204)
+                {
+                    for (int first = seventhrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 204 - first);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = eigthrowcount; first <= 370; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 151);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        eigthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+            }
+            ///////////76666666666666
+            else if (count1 == 76)
+            {
+                if (y == 151)
+                {
+                    for (int first = eigthrowcount; first <= 464; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 151);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        eigthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+                else if (y == 204)
+                {
+                    for (int first = seventhrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 204 - first);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = eigthrowcount; first <= 464; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 151);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        eigthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+            }
+            //////////77777777
+            else if (count1 == 77)
+            {
+                if (y == 151)
+                {
+                    for (int first = eigthrowcount; first <= 559; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 151);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        eigthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+                else if (y == 204)
+                {
+                    for (int first = seventhrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 204 - first);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = eigthrowcount; first <= 559; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 151);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        eigthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+            }
+            ////////7888888888
+            else if (count1 == 78)
+            {
+                if (y == 151)
+                {
+                    for (int first = eigthrowcount; first <= 651; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 151);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        eigthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+                else if (y == 204)
+                {
+                    for (int first = seventhrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 204 - first);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = eigthrowcount; first <= 651; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 151);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        eigthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+            }
+            /////////799999999
+            else if (count1 == 79)
+            {
+                if (y == 151)
+                {
+                    for (int first = eigthrowcount; first <= 745; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 151);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        eigthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+                else if (y == 204)
+                {
+                    for (int first = seventhrowcount; first <= 920; first++)
+                    {
+                        picturePlayer1.Location = new Point(first, 204);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        seventhrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = 1; first <= 53; first++)
+                    {
+                        picturePlayer1.Location = new Point(920, 204 - first);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        Thread.Sleep(4);
+                    }
+
+                    for (int first = eigthrowcount; first <= 745; first++)
+                    {
+                        picturePlayer1.Location = new Point(920 - first, 151);
+                        picturePlayer1.Refresh();
+                        y = 151;
+                        eigthrowcount = first;
+                        Thread.Sleep(4);
+                    }
+
+                }
+            }
+            //////////////////////800000000000
+
+            else if (count1 == 80)
+            {
+                for (int first = eigthrowcount; first <= 837; first++)
+                {
+                    picturePlayer1.Location = new Point(920 - first, 151);
+                    picturePlayer1.Refresh();
+                    y = 151;
+                    eigthrowcount = first;
+                    Thread.Sleep(4);
+                }
+
+            }
+            /////////////////////////////8111111
+
+            else if (count1 == 81)
+            {
+                for (int first = eigthrowcount; first <= 837; first++)
+                {
+                    picturePlayer1.Location = new Point(920 - first, 151);
+                    picturePlayer1.Refresh();
+                    y = 99;
+
+                    Thread.Sleep(4);
+                }
+
+                for (int first = 1; first <= 52; first++)
+                {
+                    picturePlayer1.Location = new Point(83, 151 - first);
+                    picturePlayer1.Refresh();
+                    y = 99;
+                    Thread.Sleep(4);
+                }
+
+            }
+
+            ///////////////////////////8222222222222222
+
+          else if (count1 == 82)
+           {
+               if(y==99){
+                   for (int first = ninethrowcount; first <= 179; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       ninethrowcount = first;
+
+                       Thread.Sleep(4);
+                   }
+               }
+               else if(y==151){
+               for (int first = eigthrowcount; first <= 837; first++)
+               {
+                   picturePlayer1.Location = new Point(920 - first, 151);
+                   picturePlayer1.Refresh();
+                   y = 99;
+                   eigthrowcount = first;
+                   Thread.Sleep(4);
+               }
+
+               for (int first = 1; first <= 53; first++)
+               {
+                   picturePlayer1.Location = new Point(83, 151 - first);
+                   picturePlayer1.Refresh();
+                   y = 99;
+                   Thread.Sleep(4);
+               }
+
+               for (int first = ninethrowcount; first <= 179; first++)
+               {
+                   picturePlayer1.Location = new Point(first, 99);
+                   picturePlayer1.Refresh();
+                   y = 99;
+                   ninethrowcount = first;
+                   
+                   Thread.Sleep(4);
+               }
+               }
+
+           }
+            ///////////833333333333333
+           else if (count1 == 83)
+           {
+               if (y == 99)
+               {
+                   for (int first = ninethrowcount; first <= 270; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       ninethrowcount = first;
+
+                       Thread.Sleep(4);
+                   }
+               }
+               else if (y == 151)
+               {
+                   for (int first = eigthrowcount; first <= 837; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 151);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       eigthrowcount = first;
+                       Thread.Sleep(4);
+                   }
+
+                   for (int first = 1; first <= 53; first++)
+                   {
+                       picturePlayer1.Location = new Point(83, 151 - first);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       Thread.Sleep(4);
+                   }
+
+                   for (int first = ninethrowcount; first <= 270; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       ninethrowcount = first;
+
+                       Thread.Sleep(4);
+                   }
+               }
+
+           }
+            ///////////844444444
+           else if (count1 == 84)
+           {
+               if (y == 99)
+               {
+                   for (int first = ninethrowcount; first <= 362; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       ninethrowcount = first;
+
+                       Thread.Sleep(4);
+                   }
+               }
+               else if (y == 151)
+               {
+                   for (int first = eigthrowcount; first <= 837; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 151);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       eigthrowcount = first;
+                       Thread.Sleep(4);
+                   }
+
+                   for (int first = 1; first <= 53; first++)
+                   {
+                       picturePlayer1.Location = new Point(83, 151 - first);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       Thread.Sleep(4);
+                   }
+
+                   for (int first = ninethrowcount; first <= 362; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       ninethrowcount = first;
+
+                       Thread.Sleep(4);
+                   }
+               }
+
+           }
+            /////////////////////855555
+           else if (count1 == 85)
+           {
+               if (y == 99)
+               {
+                   for (int first = ninethrowcount; first <= 456; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       ninethrowcount = first;
+
+                       Thread.Sleep(4);
+                   }
+               }
+               else if (y == 151)
+               {
+                   for (int first = eigthrowcount; first <= 837; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 151);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       eigthrowcount = first;
+                       Thread.Sleep(4);
+                   }
+
+                   for (int first = 1; first <= 53; first++)
+                   {
+                       picturePlayer1.Location = new Point(83, 151 - first);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       Thread.Sleep(4);
+                   }
+
+                   for (int first = ninethrowcount; first <= 456; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       ninethrowcount = first;
+
+                       Thread.Sleep(4);
+                   }
+               }
+
+           }
+            ////////////8666666666
+
+           else if (count1 == 86)
+           {
+               if (y == 99)
+               {
+                   for (int first = ninethrowcount; first <= 549; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       ninethrowcount = first;
+
+                       Thread.Sleep(4);
+                   }
+               }
+               else if (y == 151)
+               {
+                   for (int first = eigthrowcount; first <= 837; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 151);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       eigthrowcount = first;
+                       Thread.Sleep(4);
+                   }
+
+                   for (int first = 1; first <= 53; first++)
+                   {
+                       picturePlayer1.Location = new Point(83, 151 - first);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       Thread.Sleep(4);
+                   }
+
+                   for (int first = ninethrowcount; first <= 549; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       ninethrowcount = first;
+
+                       Thread.Sleep(4);
+                   }
+               }
+
+           }
+            ///////8777777777
+           else if (count1 == 87)
+           {
+               if (y == 99)
+               {
+                   for (int first = ninethrowcount; first <= 642; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       ninethrowcount = first;
+
+                       Thread.Sleep(4);
+                   }
+               }
+               else if (y == 151)
+               {
+                   for (int first = eigthrowcount; first <= 837; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 151);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       eigthrowcount = first;
+                       Thread.Sleep(4);
+                   }
+
+                   for (int first = 1; first <= 53; first++)
+                   {
+                       picturePlayer1.Location = new Point(83, 151 - first);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       Thread.Sleep(4);
+                   }
+
+                   for (int first = ninethrowcount; first <= 642; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       ninethrowcount = first;
+
+                       Thread.Sleep(4);
+                   }
+               }
+
+           }
+            ///////888888
+
+           else if (count1 == 88)
+           {
+               if (y == 99)
+               {
+                   for (int first = ninethrowcount; first <= 733; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       ninethrowcount = first;
+
+                       Thread.Sleep(4);
+                   }
+               }
+               else if (y == 151)
+               {
+                   for (int first = eigthrowcount; first <= 837; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 151);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       eigthrowcount = first;
+                       Thread.Sleep(4);
+                   }
+
+                   for (int first = 1; first <= 53; first++)
+                   {
+                       picturePlayer1.Location = new Point(83, 151 - first);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       Thread.Sleep(4);
+                   }
+
+                   for (int first = ninethrowcount; first <= 733; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       ninethrowcount = first;
+
+                       Thread.Sleep(4);
+                   }
+               }
+
+           }
+
+            ////////8999999999999999999
+           else if (count1 == 89)
+           {
+               if (y == 99)
+               {
+                   for (int first = ninethrowcount; first <= 827; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       ninethrowcount = first;
+
+                       Thread.Sleep(4);
+                   }
+               }
+               else if (y == 151)
+               {
+                   for (int first = eigthrowcount; first <= 837; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 151);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       eigthrowcount = first;
+                       Thread.Sleep(4);
+                   }
+
+                   for (int first = 1; first <= 53; first++)
+                   {
+                       picturePlayer1.Location = new Point(83, 151 - first);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       Thread.Sleep(4);
+                   }
+
+                   for (int first = ninethrowcount; first <= 827; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       ninethrowcount = first;
+
+                       Thread.Sleep(4);
+                   }
+               }
+
+           }
+            ////////////90000000000000
+           else if (count1 == 90)
+           {
+               if (y == 99)
+               {
+                   for (int first = ninethrowcount; first <= 920; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       ninethrowcount = first;
+
+                       Thread.Sleep(4);
+                   }
+               }
+               else if (y == 151)
+               {
+                   for (int first = eigthrowcount; first <= 837; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 151);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       eigthrowcount = first;
+                       Thread.Sleep(4);
+                   }
+
+                   for (int first = 1; first <= 53; first++)
+                   {
+                       picturePlayer1.Location = new Point(83, 151 - first);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       Thread.Sleep(4);
+                   }
+
+                   for (int first = ninethrowcount; first <= 920; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 99;
+                       ninethrowcount = first;
+
+                       Thread.Sleep(4);
+                   }
+               }
+
+           }
+            ////////9111111111
+
+           else if(count1==91){
+
+               for (int first = ninethrowcount; first <= 920; first++)
+               {
+                   picturePlayer1.Location = new Point(first, 99);
+                   picturePlayer1.Refresh();
+                   y = 44;
+                   ninethrowcount = first;
+
+                   Thread.Sleep(4);
+               }
+               for (int first = 1; first <= 55; first++)
+               {
+                   picturePlayer1.Location = new Point(920, 99 - first);
+                   picturePlayer1.Refresh();
+                   y = 44;
+                   Thread.Sleep(4);
+               }
+           }
+            //////////9222222222
+           else if (count1 == 92)
+           {
+               if(y==44){
+                   for (int first = tenthrowcount; first <= 93; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 44);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       tenthrowcount = first;
+                       Thread.Sleep(4);
+                   }
+               }
+               else if(y==99){
+               for (int first = ninethrowcount; first <= 920; first++)
+               {
+                   picturePlayer1.Location = new Point(first, 99);
+                   picturePlayer1.Refresh();
+                   y = 44;
+                  
+                   Thread.Sleep(4);
+               }
+               for (int first = 1; first <= 55; first++)
+               {
+                   picturePlayer1.Location = new Point(920, 99 - first);
+                   picturePlayer1.Refresh();
+                   y = 44;
+                   Thread.Sleep(4);
+               }
+
+               for (int first = tenthrowcount; first <= 93; first++)
+               {
+                   picturePlayer1.Location = new Point(920-first,44);
+                   picturePlayer1.Refresh();
+                   y = 44;
+                   tenthrowcount = first;
+                   Thread.Sleep(4);
+               }
+           }
+           }
+            ////////93333333333
+           else if (count1 == 93)
+           {
+               if (y == 44)
+               {
+                   for (int first = tenthrowcount; first <= 195; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 44);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       tenthrowcount = first;
+                       Thread.Sleep(4);
+                   }
+               }
+               else if (y == 99)
+               {
+                   for (int first = ninethrowcount; first <= 920; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 44;
+
+                       Thread.Sleep(4);
+                   }
+                   for (int first = 1; first <= 55; first++)
+                   {
+                       picturePlayer1.Location = new Point(920, 99 - first);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       Thread.Sleep(4);
+                   }
+
+                   for (int first = tenthrowcount; first <= 195; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 44);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       thirdrowcount = first;
+                       Thread.Sleep(4);
+                   }
+               }
+           }
+
+            ////////94444444
+           else if (count1 == 94)
+           {
+               if (y == 44)
+               {
+                   for (int first = tenthrowcount; first <= 279; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 44);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       tenthrowcount = first;
+                       Thread.Sleep(4);
+                   }
+               }
+               else if (y == 99)
+               {
+                   for (int first = ninethrowcount; first <= 920; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 44;
+
+                       Thread.Sleep(4);
+                   }
+                   for (int first = 1; first <= 55; first++)
+                   {
+                       picturePlayer1.Location = new Point(920, 99 - first);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       Thread.Sleep(4);
+                   }
+
+                   for (int first = tenthrowcount; first <= 279; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 44);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       thirdrowcount = first;
+                       Thread.Sleep(4);
+                   }
+               }
+           }
+            //////955555
+           else if (count1 == 95)
+           {
+               if (y == 44)
+               {
+                   for (int first = tenthrowcount; first <= 372; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 44);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       tenthrowcount = first;
+                       Thread.Sleep(4);
+                   }
+               }
+               else if (y == 99)
+               {
+                   for (int first = ninethrowcount; first <= 920; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 44;
+
+                       Thread.Sleep(4);
+                   }
+                   for (int first = 1; first <= 55; first++)
+                   {
+                       picturePlayer1.Location = new Point(920, 99 - first);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       Thread.Sleep(4);
+                   }
+
+                   for (int first = tenthrowcount; first <= 372; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 44);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       thirdrowcount = first;
+                       Thread.Sleep(4);
+                   }
+               }
+           }
+            ////////966666
+           else if (count1 == 96)
+           {
+               if (y == 44)
+               {
+                   for (int first = tenthrowcount; first <= 465; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 44);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       tenthrowcount = first;
+                       Thread.Sleep(4);
+                   }
+               }
+               else if (y == 99)
+               {
+                   for (int first = ninethrowcount; first <= 920; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 44;
+
+                       Thread.Sleep(4);
+                   }
+                   for (int first = 1; first <= 55; first++)
+                   {
+                       picturePlayer1.Location = new Point(920, 99 - first);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       Thread.Sleep(4);
+                   }
+
+                   for (int first = tenthrowcount; first <= 465; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 44);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       thirdrowcount = first;
+                       Thread.Sleep(4);
+                   }
+               }
+           }
+            /////////9777777777777777777
+
+           else if (count1 == 97)
+           {
+               if (y == 44)
+               {
+                   for (int first = tenthrowcount; first <= 557; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 44);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       tenthrowcount = first;
+                       Thread.Sleep(4);
+                   }
+               }
+               else if (y == 99)
+               {
+                   for (int first = ninethrowcount; first <= 920; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 44;
+
+                       Thread.Sleep(4);
+                   }
+                   for (int first = 1; first <= 55; first++)
+                   {
+                       picturePlayer1.Location = new Point(920, 99 - first);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       Thread.Sleep(4);
+                   }
+
+                   for (int first = tenthrowcount; first <= 557; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 44);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       thirdrowcount = first;
+                       Thread.Sleep(4);
+                   }
+               }
+           }
+            //////////98888888888
+           else if (count1 == 98)
+           {
+               if (y == 44)
+               {
+                   for (int first = tenthrowcount; first <= 651; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 44);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       tenthrowcount = first;
+                       Thread.Sleep(4);
+                   }
+               }
+               else if (y == 99)
+               {
+                   for (int first = ninethrowcount; first <= 920; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 44;
+
+                       Thread.Sleep(4);
+                   }
+                   for (int first = 1; first <= 55; first++)
+                   {
+                       picturePlayer1.Location = new Point(920, 99 - first);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       Thread.Sleep(4);
+                   }
+
+                   for (int first = tenthrowcount; first <= 651; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 44);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       thirdrowcount = first;
+                       Thread.Sleep(4);
+                   }
+               }
+           }
+
+            /////99999999999
+           else if (count1 == 99)
+           {
+               if (y == 44)
+               {
+                   for (int first = tenthrowcount; first <= 744; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 44);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       tenthrowcount = first;
+                       Thread.Sleep(4);
+                   }
+               }
+               else if (y == 99)
+               {
+                   for (int first = ninethrowcount; first <= 920; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 44;
+
+                       Thread.Sleep(4);
+                   }
+                   for (int first = 1; first <= 55; first++)
+                   {
+                       picturePlayer1.Location = new Point(920, 99 - first);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       Thread.Sleep(4);
+                   }
+
+                   for (int first = tenthrowcount; first <= 744; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 44);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       thirdrowcount = first;
+                       Thread.Sleep(4);
+                   }
+               }
+           }
+            ////100
+           else if (count1 == 100)
+           {
+               if (y == 44)
+               {
+                   for (int first = tenthrowcount; first <= 837; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 44);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       tenthrowcount = first;
+                       Thread.Sleep(4);
+                   }
+               }
+               else if (y == 99)
+               {
+                   for (int first = ninethrowcount; first <= 920; first++)
+                   {
+                       picturePlayer1.Location = new Point(first, 99);
+                       picturePlayer1.Refresh();
+                       y = 44;
+
+                       Thread.Sleep(4);
+                   }
+                   for (int first = 1; first <= 55; first++)
+                   {
+                       picturePlayer1.Location = new Point(920, 99 - first);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       Thread.Sleep(4);
+                   }
+
+                   for (int first = tenthrowcount; first <= 837; first++)
+                   {
+                       picturePlayer1.Location = new Point(920 - first, 44);
+                       picturePlayer1.Refresh();
+                       y = 44;
+                       thirdrowcount = first;
+                       Thread.Sleep(4);
+                   }
+               }
+           }
+        }

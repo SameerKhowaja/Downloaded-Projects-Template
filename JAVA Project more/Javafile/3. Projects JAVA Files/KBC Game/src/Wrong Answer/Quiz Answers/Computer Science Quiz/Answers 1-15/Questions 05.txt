@@ -1,0 +1,59 @@
+1. Which kind of storage device can be carried around ?
+[A] Floppy disk		X
+[B] Hard disk
+[C] System cabinet
+[D] Hard disk drive
+
+2. In MS-Access press CTRL+O to ?
+[A] Open a new database
+[B] Open an existing database	X
+[C] Exit MS-Access
+[D] None of these
+
+3. In MS-Access to open an existing database press ?
+[A] CTRL+N
+[B] ALT+F4
+[C] CTRL+O	X
+[D] None of these
+
+4. Which of the following is used for manufacturing chips ?
+[A] Control bus
+[B] Control unit
+[C] Parity unit
+[D] Semiconductor	X
+
+5. One nibble is equal to ?
+[A] 4 bits	X
+[B] 8 bits
+[C] 6 bits
+[D] 16 bits
+
+6. Which symbol must all formula begin with ?
+[A] @
+[B] =		X
+[C] +
+[D] %
+
+7. To merge the cells which tab do you use from the format, cells menu ?
+[A] Merge tab
+[B] Number tab
+[C] Alignment tab	X
+[D] Font tab
+
+8. How many save as option in MS Access 2007 ?
+[A] 5
+[B] 4
+[C] 2
+[D] 3		X
+
+9. How do you rearrange the date in ascending or descending order ?
+[A] Data, table
+[B] Data, sort		X
+[C] Data, form
+[D] Data, subtotals
+
+10. Which of the following is not a data base application ?
+[A] Access
+[B] dBase
+[C] edit	X
+[D] FoxPro

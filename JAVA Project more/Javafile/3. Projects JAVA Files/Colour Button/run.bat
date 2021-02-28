@@ -1,0 +1,3 @@
+javac color.java 
+java color
+pause...

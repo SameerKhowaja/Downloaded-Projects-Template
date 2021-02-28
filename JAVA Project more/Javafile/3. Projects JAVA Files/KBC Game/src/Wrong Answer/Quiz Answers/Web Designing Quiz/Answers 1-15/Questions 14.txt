@@ -1,0 +1,47 @@
+1. Which operator is used for compare two values ?
+[A] Comparison Operators	X
+[B] Bitwise Operator
+[C] Arithmetic Operators
+[D] Assignment Operator
+
+2. Which symbol is used for the “UNION” in array operator ?
+[A] ++
+[B] +		X
+[C] +=
+[D] ADD
+
+3. Which of the following PHP Operator can control Errors ?
+[A] $$
+[B] %%
+[C] @		X
+[D] #
+
+4. Which is the Assignment operator in PHP ?
+[A] +=
+[B] =
+[C] *=
+[D] All of them		X
+
+5. Which of the following function is used to redirect a page ?
+A - header()		X
+B - redirect()
+C - reflect()
+D - None of them
+
+6. Which of the following type of variables are floating-point numbers, like 3.14159 or 49.1 ?
+A - Integers
+B - Doubles		X
+C - Booleans
+D - Strings
+
+7. Which operator is used for class instance php ?
+[A] Logical Operator
+[B] Array Operator
+[C] Type Operator		X
+[D] None of the above
+
+8. Which sign is used in PHP for the bitwise operator ?
+[A] <<
+[B] ^
+[C] >>
+[D] All of them		X

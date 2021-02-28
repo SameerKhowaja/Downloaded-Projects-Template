@@ -1,0 +1,59 @@
+﻿1. <b> tag makes the enclosed text bold. What is other tag to make text bold ?
+a. <strong>	X
+b. <dar>
+c. <black>
+d. <emp>
+
+2. What should be the first tag in any HTML document ?
+a. <head>
+b. <html>	X
+c. <title>
+d. <document>
+
+3. A webpage displays a picture. What tag was used to display that picture ?
+a. picture
+b. image
+c. img		X
+d. src
+
+4. How can you make a bulleted list ?
+a. <list>
+b. <nl>
+c. <ol>
+d. <ul>		X
+
+5. Choose the correct HTML tag to make a text bold ?
+a. <b>		X
+b. <bold>
+c. <bb>
+d. <bld>
+
+6. What is the correct HTML tag for inserting a line break ?
+a. <lb>
+b. <br>		X
+c. <break>
+d. <newline>
+
+7. HTML documents are saved in ?
+a. Special binary format
+b. Machine language codes
+c. ASCII text		X
+d. None of above
+
+8. Which of the following is not a pair tag ?
+a. <p>
+b. <u>
+c. <i>
+d. <img>	X
+
+9. Some tags enclose the text. Those tags are known as ?
+a. Couple tags
+b. Pair tags		X
+c. Double tags
+d. Single tags
+
+10. The _____ character tells browsers to stop tagging the text ?
+a. ?
+b. ;
+c. /		X
+d. %

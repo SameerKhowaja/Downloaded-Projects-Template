@@ -1,0 +1,3 @@
+javac KBC.java 
+java KBC
+pause...

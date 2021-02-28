@@ -1,0 +1,60 @@
+1. Which of the following addresses is used to deliver a message to the correct application program running on a host ?
+[A] Port	X
+[B] IP
+[C] Logical
+[D] Physical
+
+2. In the elements of Hibernate architecture is a factory of session and client of ConnectionProvider,It holds second level cache (optional) of data ?
+[A] Session
+[B] SessionFactory	X
+[C] Transaction
+[D] ConnectionProvider
+
+3. Which layer of OSI reference model is responsible for decomposition of messages and generation of sequence numbers to ensure correct re-composition from end to end of the network ?
+[A] Physical
+[B] Data-link
+[C] Transport		X
+[D] Application
+
+4. Which collection class allows you to grow or shrink its size and provides indexed access to its elements, but whose methods are not synchronized ?
+[A] java.util.HashSet
+[B] java.util.LinkedHashSet
+[C] java.util.List
+[D] java.util.ArrayList		X
+
+5. Which of these is a protocol for breaking and sending packets to an address across a network ?
+[A] TCIP/IP		X
+[B] DNS
+[C] Socket
+[D] Proxy Server
+
+6. This hibernate tutorial provides in-depth concepts of Hibernate Framework it was started in which year by Gavin King as an alternative to EJB2 style entity bean ?
+[A] 2000
+[B] 2001	X
+[C] 2002
+[D] 2003
+
+7. Which of the following tags in struts-config.xml file defines the availability of necessary Struts JSP custom tag libraries ?
+[A] < jsp-lib>
+[B] < struts-taglib>
+[C] < taglib>		X
+[D] < jsp-taglib>
+
+8. In Session tracking which method is used in a bit of information that is sent by a web server to a browser and which can later be read back from that browser ?
+A) HttpSession
+B) URL rewriting
+C) Hidden form fields
+D) Cookies		X
+
+9. The following specifies the advantages of It is lightweight. It supports pluggable look and feel. It follows MVC (Model View Controller) architecture ?
+[A] AWT
+[B] Swing		X
+[C] Both A & B
+[D] None of these
+
+10. In which driver Network connection is indirect that a JDBC client makes to a middleware process that acts as a bridge to the DBMS server ?
+A) Native API as basis
+B) JDBC-ODBC bridge
+C) JDBC-Net		X
+D) Native protocol basis
+

@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".SettingAlermMainActivity" >
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="#25E8BB"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:src="@drawable/men" />
+
+        <ImageView
+            android:id="@+id/normal_cbk"
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/contacts" />
+
+        <ImageView
+            android:id="@+id/msg"
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/email" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp"
+        
+        
+        android:gravity="center"
+        android:orientation="vertical"
+        
+         >
+
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:background="@drawable/spinr_bg">
+        <Spinner
+            android:id="@+id/sound"
+            android:layout_marginBottom="10dp"
+            
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+           
+             
+            android:gravity="center"
+             />
+        </LinearLayout>
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_marginTop="20dp"
+    
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    >
+
+    <Button
+        android:id="@+id/dt"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/bt"
+        android:textColor="@android:color/white"
+        android:onClick="dt_set"
+        android:text="Set Date" />
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/type1"
+        android:orientation="vertical"
+        >
+
+        <RadioButton
+            android:id="@+id/daily_alerm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="Daily" />
+    
+        <RadioButton
+            android:id="@+id/manual_alerm"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Once" />
+       
+    </RadioGroup>
+     <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    </LinearLayout>
+     <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/tm"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bt"
+            android:textColor="@android:color/white"
+            android:onClick="tm_set"
+            android:text="Time" />
+        
+    </LinearLayout>
+</LinearLayout>
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp">
+
+<Button
+    android:id="@+id/sv"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/white"
+    android:background="@drawable/bt"
+    android:text="Set Alerm" />
+
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>

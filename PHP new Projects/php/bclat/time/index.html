@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+<head>
+    <meta charset="UTF-8" /> 
+    <title>
+        TIME LOG
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+body,td,th {
+	font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #F00;
+}
+
+.blink_text {
+-webkit-animation-name: blinker;
+-webkit-animation-duration: 1s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+
+-moz-animation-name: blinker;
+-moz-animation-duration: 1s;
+-moz-animation-timing-function: linear;
+-moz-animation-iteration-count: infinite;
+
+ animation-name: blinker;
+ animation-duration: 1s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+
+ color:#F00;
+ font-size:16px;
+}
+
+@-moz-keyframes blinker {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+ }
+
+@-webkit-keyframes blinker {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+ }
+
+@keyframes blinker {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+ }
+
+</style>
+</head>
+<body>
+
+<div id="wrapper">
+
+	<form name="login-form" class="login-form" action="" method="post">
+	
+		<div class="header">
+		<h1>TIME LOG</h1>
+		
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<div id="time"></div>
+
+<script type="text/javascript">
+$(document).ready(function()
+{
+var d = new Date();
+var month = d.getMonth(); //Removed +1
+var day = d.getDate();
+var year = d.getFullYear();
+var months = ['January','February','March','April','May','June','July','August','Septempber','October','November','December'];
+var minutes = d.getMinutes().toString().length == 1 ? '0'+d.getMinutes() : d.getMinutes();
+var hours = d.getHours().toString().length == 1 ? '0'+d.getHours() : d.getHours();
+var ampm = d.getHours() >= 12 ? '<sup>PM<sup>' : '<sup>AM<sup>';
+document.getElementById("time").innerHTML = d.getDate() + ' ' + months[month]+' '+d.getFullYear()+' '+hours +':'+minutes + ' ' + ampm;
+});
+
+</script>
+            
+        
+        
+        
+		<p>&nbsp;</p>
+        <span class="blink_text">PLEASE ENTER YOUR ID</span>
+		
+        
+      </div>
+	
+		<div class="content">
+        <input name="userid" type="text" class="input username" value="" placeholder="User ID" autofocus required>
+		<div class="user-icon"></div>
+				
+  </div>
+
+		<div class="footer">
+		<input type="submit" name="submit" value="ENTER" class="button" />
+		</div>
+	
+	</form>
+
+</div>
+<div class="gradient"></div>
+
+
+</body>
+</html>

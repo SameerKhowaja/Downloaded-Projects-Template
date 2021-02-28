@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="dcf3cac4-e2dd-47d5-a98c-8e77afdfb9c4">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     Vote_History_Tbl.`studid` AS Vote_History_Tbl_studid,
+     Vote_History_Tbl.`studname` AS Vote_History_Tbl_studname,
+     Vote_History_Tbl.`candidatename` AS Vote_History_Tbl_candidatename
+FROM
+     `Vote_History_Tbl` Vote_History_Tbl]]>
+	</queryString>
+	<field name="Vote_History_Tbl_studid" class="java.lang.String"/>
+	<field name="Vote_History_Tbl_studname" class="java.lang.String"/>
+	<field name="Vote_History_Tbl_candidatename" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="78" splitType="Stretch">
+			<image scaleImage="FillFrame">
+				<reportElement x="128" y="5" width="337" height="54" uuid="7c2ed3c0-b4c1-4b38-8a8d-42b2a7011d7b"/>
+				<imageExpression><![CDATA["OC.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="5" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="26" splitType="Stretch">
+			<rectangle>
+				<reportElement x="2" y="1" width="570" height="20" backcolor="#999999" uuid="3bec568f-ecb6-4edd-a2b2-3c80a93bac70"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="31" y="2" width="79" height="20" forecolor="#FFFFFF" uuid="badddfcc-69a7-4a03-b565-001fcd89ffbd"/>
+				<textElement textAlignment="Right">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[STUDENT ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="132" y="2" width="148" height="20" forecolor="#FFFFFF" uuid="17324881-29b9-4894-b58b-76b1ff723045"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[STUDENT NAME]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="290" y="3" width="218" height="20" forecolor="#FFFFFF" uuid="a7a3c3e4-34a6-4d76-ba54-dabcfc5aef26"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[CANDIDATE VOTED ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="2" y="23" width="570" height="1" uuid="36a5da2b-a60b-4417-adb9-c6800167cbb3"/>
+				<graphicElement>
+					<pen lineWidth="2.0" lineStyle="Double" lineColor="#CCCCCC"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="24" splitType="Stretch">
+			<textField isBlankWhenNull="true">
+				<reportElement x="31" y="3" width="79" height="20" uuid="3e4e0b4d-3d7c-463f-bd8c-7f6a608ed0fd"/>
+				<textElement textAlignment="Right" verticalAlignment="Top"/>
+				<textFieldExpression><![CDATA[$F{Vote_History_Tbl_studid}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="132" y="3" width="148" height="20" uuid="007cc1eb-34f9-4efd-87a5-27eb796e540f"/>
+				<textFieldExpression><![CDATA[$F{Vote_History_Tbl_studname}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="290" y="3" width="218" height="20" uuid="d6c0ae76-a7ed-4909-9ebb-610a8c27ee23"/>
+				<textFieldExpression><![CDATA[$F{Vote_History_Tbl_candidatename}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="29" splitType="Stretch">
+			<line>
+				<reportElement x="0" y="4" width="570" height="1" uuid="a9a74bb7-396c-461c-8768-1a0728e0698c"/>
+				<graphicElement>
+					<pen lineWidth="2.0" lineStyle="Double" lineColor="#CCCCCC"/>
+				</graphicElement>
+			</line>
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="2" y="7" width="100" height="20" uuid="230220e6-1c4a-4147-8089-35ce597e7b04"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="451" y="7" width="81" height="20" uuid="6814de3a-7e03-4214-8351-9b331389e717"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="531" y="7" width="39" height="20" uuid="27bd9146-81ef-48ca-8844-880a0895a5f1"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="2" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="1" splitType="Stretch"/>
+	</summary>
+</jasperReport>

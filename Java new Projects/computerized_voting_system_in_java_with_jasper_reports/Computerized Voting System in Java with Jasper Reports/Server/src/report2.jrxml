@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="ef79cc2f-3bb6-43db-a98f-c714dc164d4d">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     Winner_Tbl.`Position` AS Winner_Tbl_Position,
+     Winner_Tbl.`Candidate_name` AS Winner_Tbl_Candidate_name,
+     Winner_Tbl.`Score` AS Winner_Tbl_Score
+FROM
+     `Winner_Tbl` Winner_Tbl]]>
+	</queryString>
+	<field name="Winner_Tbl_Position" class="java.lang.String"/>
+	<field name="Winner_Tbl_Candidate_name" class="java.lang.String"/>
+	<field name="Winner_Tbl_Score" class="java.lang.Integer"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="83" splitType="Stretch">
+			<image scaleImage="FillFrame">
+				<reportElement x="97" y="15" width="387" height="62" uuid="53044e22-857b-4691-be88-f9e5d8089707"/>
+				<imageExpression><![CDATA["OC.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="24" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="31" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="2" width="572" height="20" backcolor="#999999" uuid="671baa42-5c73-4860-aac3-35165af0e42e"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="33" y="4" width="136" height="20" forecolor="#FFFFFF" uuid="4c93b9e2-ad20-4474-be97-98486e13cf01"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[POSITION]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="169" y="4" width="249" height="19" forecolor="#FFFFFF" uuid="9418b634-919e-46b4-a91f-6b5d988cc055"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[CANDIDATE NAME]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="438" y="4" width="100" height="20" forecolor="#FFFFFF" uuid="10097610-f364-40e3-8372-6a290cfd2123"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[TALLY]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="24" width="572" height="1" uuid="a1a2910d-f891-4257-9409-5df58519cf1d"/>
+				<graphicElement>
+					<pen lineWidth="2.0" lineStyle="Double" lineColor="#CCCCCC"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="25" splitType="Stretch">
+			<textField isBlankWhenNull="true">
+				<reportElement x="33" y="3" width="136" height="20" uuid="96fc9770-8afd-4495-98b4-af745cc81597"/>
+				<textFieldExpression><![CDATA[$F{Winner_Tbl_Position}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="169" y="3" width="249" height="20" uuid="20d45ecc-37bd-4647-ac91-c2b80024d925"/>
+				<textFieldExpression><![CDATA[$F{Winner_Tbl_Candidate_name}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Opaque" x="455" y="3" width="80" height="20" uuid="3f4b656a-7765-48a2-a09a-bd87ac0a86d2"/>
+				<textFieldExpression><![CDATA[$F{Winner_Tbl_Score}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="32" splitType="Stretch">
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="33" y="7" width="100" height="20" uuid="7bd143bf-dc8d-408e-8831-5ad0f2654533"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="452" y="7" width="80" height="20" uuid="d7bc75c0-55f6-4f05-98a3-b22147e841e2"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="532" y="7" width="40" height="20" uuid="29750764-57d1-46a1-9ca7-84282af3d01e"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="2" splitType="Stretch">
+			<line>
+				<reportElement x="0" y="-30" width="572" height="1" uuid="1e29d978-8b69-4c57-a332-f99ce3a2e740"/>
+				<graphicElement>
+					<pen lineWidth="2.0" lineStyle="Double" lineColor="#CCCCCC"/>
+				</graphicElement>
+			</line>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="1" splitType="Stretch"/>
+	</summary>
+</jasperReport>

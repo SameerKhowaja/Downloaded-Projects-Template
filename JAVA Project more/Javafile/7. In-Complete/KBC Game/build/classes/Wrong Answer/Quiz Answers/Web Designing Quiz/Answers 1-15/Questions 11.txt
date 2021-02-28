@@ -1,0 +1,47 @@
+1. What is the default scope of perl variables ?
+A - global		X
+B - private
+C - protected
+D - friend
+
+2. Which of the following special variable represents current file name ?
+A - FILE
+B - _FILE_		X
+C - file
+D - None of them
+
+3. Which of the following function returns epoch time ?
+A - localtime
+B - gmtime
+C - time		X
+D - strftime
+
+4. Which of the following variable context doesn't care what the return value is ?
+A - Scalar
+B - List
+C - Boolean
+D - Void	X
+
+5. Which of the following data types are preceded by a dollar sign ($) in Perl ?
+A - Scalar		X
+B - Array
+C - Hashes
+D - All of them
+
+6. Which of the following function deletes a file ?
+A - delete
+B - unlink		X
+C - seek
+D - None of the
+
+7. Which of the following operator decreases integer value by one ?
+A - ..
+B - ->
+C - --		X
+D - ++
+
+8. Which of the following operator concatenates two strings ?
+A - ++
+B - x
+C - ..
+D - .		X

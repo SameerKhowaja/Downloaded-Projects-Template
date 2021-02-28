@@ -1,0 +1,59 @@
+﻿1. C constants can be divided into ___ categories ?
+[A] 2		X
+[B] 3
+[C] 6
+[D] 8
+
+2. Who invented the C - Programming ?
+[A] James Gosling
+[B] Dennis Ritche	X
+[C] Bjarne Stroustrup's
+[D] Tim Berners-Lee
+
+3. C is _______ language ?
+[A] Low level
+[B] Machine Level
+[C] Middle Level	X
+[D] All Of Above
+
+4. How many types of expression in c++ ?
+[A] 5
+[B] 6
+[C] 8
+[D] 7		X
+
+5. Do-while is an __________ loop ?
+[A] Exit control	X
+[B] Entry control
+[C] Entry enrolled
+[D] None of these
+
+6. C++ was originally developed by ?
+[A] Colcksin and Mellish
+[B] Bajarne Stoustrup		X
+[C] Sir Richard Handlee
+[D] Donald E.Knuth
+
+7. Which of the following converts a type to a small floating point number in C# ?
+A - ToInt64
+B - ToSbyte
+C - ToSingle		X
+D - ToInt32
+
+8. Which of the following operator creates a pointer to a variable in C# ?
+A - sizeof
+B - typeof
+C - &
+D - *		X
+
+9. Which of the following method helps in returning more than one value ?
+A - Value parameters
+B - Output parameters		X
+C - Reference parameters
+D - None of the above.
+
+10. Which of the following property of Array class in C# checks whether the Array has a fixed size ?
+A - Length
+B - IsStatic
+C - IsFixedSize		X
+D - None of these

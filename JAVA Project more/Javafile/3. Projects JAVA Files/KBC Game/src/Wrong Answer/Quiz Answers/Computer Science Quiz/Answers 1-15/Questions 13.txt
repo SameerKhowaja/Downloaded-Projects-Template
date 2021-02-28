@@ -1,0 +1,49 @@
+1. An assembler is used to translate a program written in ?
+[A] Assembly Language		X
+[B] A high Language
+[C] Middle Language
+[D] A Low Language
+
+2. Which is not the state of the process ?
+[A] Ready
+[B] Privileged		X
+[C] Running
+[D] Blocked
+
+3. The number of processes completed per unit time is known as __________ ?
+[A] output
+[B] Efficiency
+[C] throughput		X
+[D] Capacity
+
+4. Telnet is a service that runs
+[A] Cable TV network
+[B] Television on net
+[C] Telnet
+[D] Remote Program	X
+
+5. A computer system that permits multiple users to run programs at same time ?
+[A] Multi tasking system	X
+[B] Real time system
+[C] Time Sharing
+[D] Multi processing
+
+6. ______ is a high level abstraction over Semaphore ?
+[A] Shared memory
+[B] Monitor		X
+[C] Mutual Exclusion
+[D] None
+
+7. A device that forwards data packet from one network to another is called a ?
+[A] Bridge
+[B] Hub
+[C] Switch	X
+[D] Gateway
+
+8. Resolution of externally defined symbols is performed by ?
+[A] Assembler
+[B] Loader
+[C] Compiler
+[D] Linker	X
+
+8.

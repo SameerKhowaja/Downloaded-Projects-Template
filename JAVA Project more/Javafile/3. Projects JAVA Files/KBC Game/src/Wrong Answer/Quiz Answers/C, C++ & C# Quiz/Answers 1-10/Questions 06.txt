@@ -1,0 +1,59 @@
+1. When we mention the prototype of a function ?
+[A] Declaring		X
+[B] Defining
+[C] Prototyping
+[D] Calling
+
+2. In a for loop, if the condition is missing, then infinite looping can not be avoided by a ?
+[A] goto statement
+[B] Continue statement		X
+[C] return statement
+[D] break statement
+
+3. Break statement can be simulated by using ?
+[A] exit
+[B] return
+[C] goto	X
+[D] none of them
+
+4. Identify the type(s) if data type ?
+[A] Scalar
+[B] Drived
+[C] Pointer
+[D] All Of Above	X
+
+5. Which symbol is used to create multiple inheritance ?
+[A] Comma	X
+[B] Dot
+[C] Dollar
+[D] None of them
+
+6. Which design patterns benefit from the multiple inheritance ?
+[A] Code pattern
+[B] Adapter and observer pattern	X
+[C] Glue pattern
+[D] None of the mentioned
+
+7. Which of the following converts a type to a signed byte type in C# ?
+A - ToInt64
+B - ToSingle
+C - ToSbyte		X
+D - ToInt32
+
+8. Which of the following converts a type (integer or string type) to date-time structures in C# ?
+A - ToString
+B - ToSingle
+C - ToChar
+D - ToDateTime		X
+
+9. Which of the following converts a type to a single Unicode character, where possible in C# ?
+A - ToSingle
+B - ToChar		X
+C - ToByte
+D - ToDateTime
+
+10. Which of the following operator casts without raising an exception if the cast fails in C# ?
+A - ?:
+B - is
+C - as		X
+D - *

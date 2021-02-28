@@ -1,0 +1,59 @@
+1. Where does C language get invented ?
+[A] AT & T Bell Labs		X
+[B] Ritche's Lab
+[C] Under Oak Tree
+[D] Fringe Labs
+
+2. Which symbol terminates a C statement ?
+[A] .
+[B] ;		X
+[C] ,
+[D] }
+
+3. Which is not a character of C ?
+[A] ^
+[B] !
+[C] $		X
+[D] ~
+
+4. Polymorphism is implemented through which mechanism in C++ ?
+[A] Late Interpretation
+[B] Late Binding
+[C] Overloading
+[D] Early Binding	X
+
+5. Which of the following is not an extension associated during the creation of a C++ program ?
+[A] .jpg	X
+[B] .exe
+[C] .cpp
+[D] .bak
+
+6. Which of the following is not a C++ Compiler ?
+[A] C front
+[B] C++ compiler	X
+[C] Borland C++
+[D] Turbo C++
+
+7. Which of the following preprocessor directive marks the end of a #region block in C# ?
+A - warning
+B - region
+C - endregion		X
+D - error
+
+8. Which of the following converts a type to a single Unicode character, where possible in C# ?
+A - ToSingle
+B - ToByte
+C - ToDateTime
+D - ToChar		X
+
+9. Which of the following converts a type to a 16-bit integer in C# ?
+A - ToDecimal
+B - ToInt16	X
+C - ToDouble
+D - ToInt32
+
+10. Which of the following operator represents a conditional operation in C# ?
+A - as
+B - is
+C - ?:		X
+D - *
